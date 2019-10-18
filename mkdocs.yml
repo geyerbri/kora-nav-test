@@ -1,5 +1,5 @@
 site_name: Test Docs Site
-repo_url: 'https://github.com/geyerbri/omeka-docs-test'
+repo_url: 'https://github.com/chi-initiative/omeka-docs-test'
 extra_css:
     - css/extra.css
 
