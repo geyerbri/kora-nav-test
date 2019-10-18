@@ -1,5 +1,5 @@
 site_name: Test Docs Site
-repo_url: 'https://github.com/chi-initiative/omeka-docs-test'
+repo_url: 'https://github.com/chi-initiative/kora-documentation'
 extra_css:
     - css/extra.css
 
@@ -12,46 +12,16 @@ theme:
 
 nav:
     - 'Home': 'index.md'
-    - 'Accessibility Statement': 'accessibility.md'
-    - 'Installing': 'install.md'
-    - 'Admin Dashboard': 'admin-dashboard.md'
-    - 'Glossary': 'glossary.md'
     - 'Searching': 'search.md'
-    - 'Front Page': 'frontpage.md'
-    - 'Sites': 
-        - 'Sites Management': 'sites/index.md'
-        - 'Pages Management': 'sites/site_pages.md'
-        - 'Navigation': 'sites/site_navigation.md'
-        - 'Resources': 'sites/site_resources.md'
-        - 'Theme Selection': 'sites/site_theme.md'
-        - 'Site Settings': 'sites/site_settings.md'
-    - 'Resources':
-        - 'Items': 'content/items.md'
-        - 'Item Sets': 'content/item-sets.md'
-        - 'Media': 'content/media.md'
-        - 'Vocabularies': 'content/vocabularies.md'
-        - 'Resource Templates': 'content/resource-template.md'
-    - 'Admin':
-        - 'Users': 'admin/users.md'
-        - 'Jobs': 'admin/jobs.md'
-        - 'Manage Settings': 'admin/settings.md'
-    - 'Modules':
-        - 'Modules Management': 'modules/index.md'
-        - 'Collecting': 'modules/collecting.md'
-        - 'CSS Editor': 'modules/csseditor.md'
-        - 'CSV Import': 'modules/csvimport.md'
-        - 'Custom Vocab': 'modules/customvocab.md'
-        - 'DSpace Connector': 'modules/dspaceconnector.md'
-        - 'Extract Text' : 'modules/extracttext.md'
-        - 'Fedora Connector': 'modules/fedoraconnector.md'
-        - 'File Sideload': 'modules/filesideload.md'
-        - 'Mapping': 'modules/mapping.md'
-        - 'Metadata Browse': 'modules/metadatabrowse.md'
-        - 'Numeric Data Types': 'modules/numericdatatypes.md'
-        - 'Omeka2 Importer': 'modules/omeka2importer.md'
-        - 'Sharing': 'modules/sharing.md'
-        - 'ValueSuggest': 'modules/valuesuggest.md'
-        - 'Zotero Import': 'modules/zoteroimport.md'
-    - 'Error Logging': 'errorLogging.md'
-    - 'Translate Omeka S': 'translateOmekaS.md'
-    - 'Configuration Options': 'configuration.md'
+    - 'Getting Started': 
+        - 'Understanding Core Concepts': 'getting-started/core-concepts.md'
+    - 'Projects':
+        - 'Creating a Project': 'projects/create-project.md'
+    - 'Forms':
+        - 'Creating a Form': 'forms/create-form.md'
+    - 'Records':
+        - 'Creating a Record': 'records/create-record.md'
+    - 'User & Account Management':
+        - 'Adding Users to Projects': 'user-accounts/add-user.md'
+    - 'Managing a Kora Installation':
+        - 'Updating a Kora 3 Installation': 'management/update-kora.md'
