@@ -9,6 +9,7 @@ Before you finish creating your new form, you have the option to add additional 
 Adding additional people will allow  non-project adminstrator individuals to be able to modify this form. 
 
 1. Click on the dropdown menu option: **Select Additional Form Admins**. The dropdown menu will list everyone who has a Kora account. ![open current project](/forms-img/additional_form_administrators_1_annotated.png "Step 1")
+
 2. Either scroll and choose the users you would like to add as form administrators, or you can type name(s)in to search the list. 
 3. Once your additional form admins are selected, press the **Create Form** button at the bottom of the page. ![open current project](/forms-img/additional_form_administrators_2_annotated.png "Step 3")
 
