@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Creating fields - Kora 3 Documentation</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../../css/extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Creating fields";
+    var mkdocs_page_input_path = "forms/creating_fields.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/django.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Kora 3 Documentation</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../search/">Searching</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Getting Started</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../getting-started/core-concepts/">Understanding Core Concepts</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Projects</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../projects/create-project/">Creating a Project</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Forms</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../create-form/">Creating a Form</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Records</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../records/create-record/">Creating a Record</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">User & Account Management</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../user-accounts/add-user/">Adding Users to Projects</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Managing a Kora Installation</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../management/update-kora/">Updating a Kora 3 Installation</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Kora 3 Documentation</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Creating fields</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/chi-initiative/kora-documentation/edit/master/docs/forms/creating_fields.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="creating-fields">Creating Fields</h1>
+<p>Fields are the metadata items that can be documented in a record. These can include catalog numbers, site names, item descriptions, images, archival documents, etc. Once you have created your form, you have the ability to add and organize your fields.</p>
+<ol>
+<li>
+<p>After you have created your form, it will bring you to that form's page. Below the title, you will see <em>(Your Form Name) Default Page</em>. Click the <strong>Create New Field Here</strong> button. <img alt="open current project" src="/forms-img/creating_fields_1_annotated.png" title="Step 1" /></p>
+</li>
+<li>
+<p>This will bring you to a <em>New Field</em> form. Here you will need to add your <strong>Field Name</strong> and the <strong>Description</strong> of the field. <img alt="open current project" src="/forms-img/creating_fields_2_annotated.png" title="Step 2" /></p>
+</li>
+<li>
+<p>Then select your field type by clicking on the <strong>dropdown icon</strong> located on the right side of the box. Options include text, number, list, date, file, and specialty fields. To learn more about individual field types, visit the <a href="/forms/understanding_field_types.md">Understanding Field Types Guide</a>. <img alt="open current project" src="/forms-img/creating_fields_3_annotated.png" title="Step 3" /></p>
+</li>
+<li>
+<p>The second half of the <em>New Field</em> form lists seven questions related to the  searchability, viewability, and requirement of the field. If you would like to select one of the following options, click the <strong>circle</strong> on the left of the button. This will highlight the outline of the button in blue and show a checkmark in the circle. </p>
+<ul>
+<li><strong>Required?</strong> Choose whether this field will be required when entering a record. This means that every record entered in this form will need to have this field type recorded. </li>
+<li><strong>Searchable?</strong> Data in this field will be able to be analayzed in searches inside of Kora. </li>
+<li><strong>Advance Searchable?</strong> Data in this field will be able to be analyzed in advanced searches inside of Kora. </li>
+<li><strong>Externally Searchable?</strong> Data in this field will be analyzed in searches from outside of Kora. </li>
+<li><strong>Viewable?</strong> Data in this field will be shown in all records belonging to this form. </li>
+<li><strong>Viewable in Results?</strong> Data in this field will be shown in all search results within Kora. </li>
+<li><strong>Externally Viewable</strong> Data in this field will be shown in all searches, outside of Kora, containing records belonging to this form. <img alt="open current project" src="/forms-img/creating_fields_4_annotated.png" title="Step 4" /></li>
+</ul>
+</li>
+<li>
+<p>Once you have completed your field form, click the blue <strong>Create Field</strong> button on the bottom of the page. <img alt="open current project" src="/forms-img/creating_fields_5_annotated.png" title="Step 5" /></p>
+</li>
+</ol>
+<p>You can continue adding new fields to your form from the form page. If you would like to re-organize your fields, visit the <a href="/forms/creating_a_multipage_form.md">Creating a Multipage Form Guide</a>. This guide will show you how to rearrange your fields within a page or move them to additional pages. </p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/chi-initiative/kora-documentation/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>

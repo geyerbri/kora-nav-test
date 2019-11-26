@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Additional form administrators - Kora 3 Documentation</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../../css/extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Additional form administrators";
+    var mkdocs_page_input_path = "forms/additional_form_administrators.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/django.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Kora 3 Documentation</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../search/">Searching</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Getting Started</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../getting-started/core-concepts/">Understanding Core Concepts</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Projects</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../projects/create-project/">Creating a Project</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Forms</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../create-form/">Creating a Form</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Records</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../records/create-record/">Creating a Record</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">User & Account Management</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../user-accounts/add-user/">Adding Users to Projects</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Managing a Kora Installation</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../management/update-kora/">Updating a Kora 3 Installation</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Kora 3 Documentation</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Additional form administrators</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/chi-initiative/kora-documentation/edit/master/docs/forms/additional_form_administrators.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="additional-form-administrators">Additional Form Administrators</h1>
+<p>Form administrators are individuals that are able to modify a form, including the ability to create, edit, and delete forms and records.  </p>
+<h2 id="adding-form-administrators-when-creating-a-new-form">Adding Form Administrators when Creating a New Form</h2>
+<p>Before you finish creating your new form, you have the option to add additional form administorators. Administrators that are already a part of your project are automatically added (including yourself). </p>
+<p>Adding additional people will allow  non-project adminstrator individuals to be able to modify this form. </p>
+<ol>
+<li>
+<p>Click on the dropdown menu option: <strong>Select Additional Form Admins</strong>. The dropdown menu will list everyone who has a Kora account. <img alt="open current project" src="/forms-img/additional_form_administrators_1_annotated.png" title="Step 1" /></p>
+</li>
+<li>
+<p>Either scroll and choose the users you would like to add as form administrators, or you can type name(s)in to search the list. </p>
+</li>
+<li>Once your additional form admins are selected, press the <strong>Create Form</strong> button at the bottom of the page. <img alt="open current project" src="/forms-img/additional_form_administrators_2_annotated.png" title="Step 3" /></li>
+</ol>
+<h2 id="adding-form-administrators-to-an-existing-form">Adding Form Administrators to an Existing Form</h2>
+<p>It is possible to add additional form administrators to an existing form. Adding adminstrators to an existing form will give them the ability</p>
+<ol>
+<li>Go to your project and find the form you are going to add additional administrators to, and click the button <strong>Edit Form Info</strong>.<img alt="open current project" src="/forms-img/additional_form_administrators_3_annotated.png" title="Step 1" /></li>
+<li>Scroll down on the <strong>Edit Form</strong> page until you see <em>Need to Edit Form Permissions?</em> and click the button to the right: <strong>Go to Form Permissions Page</strong>.<img alt="open current project" src="/forms-img/additional_form_administrators_4_annotated.png" title="Step 2" /></li>
+<li>At the top of the Form permissions page, you will see a box that lists the <em>Admin Group</em>, this is where you can add user(s) as additonal form admins, giving them full access to create, edit, and delete fields and records. Click the <strong>Add User(s) to Group</strong> button. <img alt="open current project" src="/forms-img/additional_form_administrators_5_annotated.png" title="Step 3" /></li>
+<li>A pop-up window will appear that will allow you to add user(s) to the administrator group. Click on the dropdown menu option: <strong>Select User(s) to Add to Permissions Group</strong>. The dropdown menu will list everyone who has a Kora account. You can add as many additional administrators as you need during this step. <img alt="open current project" src="/forms-img/additional_form_administrators_6_annotated.png" title="Step 4" /> </li>
+<li>Either scroll and choose the users you would like to add as form administrators, or you can type name(s) in to search the list. When you are finished, click the <strong>Add User(s) to Group</strong> button. <img alt="open current project" src="/forms-img/additional_form_administrators_7_annotated.png" title="Step 5" /></li>
+</ol>
+<p>A pop-up window will appear on the top right of the screen notifying you that your user(s) were successfully added. 
+<img alt="open current project" src="/forms-img/additional_form_administrators_8_annotated.png" title="Notification of successfully adding users" /></p>
+<h2 id="removing-form-administrators-on-an-existing-form">Removing Form Administrators on an Existing Form</h2>
+<p>It is possible to remove form adminstrators on an existing form. This will remove that user's ability to interact with a form.</p>
+<ol>
+<li>
+<p>Go to your project and find the form you are going to add additional administrators to, and click the button <strong>Edit Form Info</strong>. <img alt="open current project" src="/forms-img/additional_form_administrators_9_annotated.png" title="Step 1" /></p>
+</li>
+<li>
+<p>Scroll down on the <strong>Edit Form</strong> page until you see "<em>Need to Edit Form Permissions?</em>" and click the button to the right: <strong>Go to Form Permissions Page</strong>. <img alt="open current project" src="/forms-img/additional_form_administrators_10_annotated.png" title="Step 2" /></p>
+</li>
+<li>
+<p>At the top of the Form permissions page, you will see a box that lists the <em>Admin Group</em>. Within this box it will list names that have access to create, edit, and delete fields and records within this form. To remove a user, press the '<strong>X</strong>' next the the name you wish to remove. <img alt="open current project" src="/forms-img/additional_form_administrators_11_annotated.png" title="Step 3" /></p>
+</li>
+<li>
+<p>A pop-up window will appear asking to confirm removing the user from this group. Click the red <strong>Remove User From Group</strong> button. <img alt="open current project" src="/forms-img/additional_form_administrators_12_annotated.png" title="Step 4" /></p>
+</li>
+</ol>
+<p>A pop-up will appear on the top right corner of your screen notifying you that the user was successfully removed. <img alt="open current project" src="/forms-img/additional_form_administrators_13_annotated.png" title="Notification of successfully removing user" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/chi-initiative/kora-documentation/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>
