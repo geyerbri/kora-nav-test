@@ -13,12 +13,18 @@ theme:
 nav:
     - 'Home': 'index.md'
     - 'Searching': 'search.md'
-    - 'Getting Started': 
+    - 'Getting Started':
         - 'Understanding Core Concepts': 'getting-started/core-concepts.md'
     - 'Projects':
         - 'Creating a Project': 'projects/create-project.md'
     - 'Forms':
-        - 'Creating a Form': 'forms/create-form.md'
+        - 'Creating a Form': 'forms/creating_a_form.md'
+        - 'Adding Additional Form Administrators': 'forms/additional_form_administrators.md'
+        - 'Creating a Multipage Form': 'forms/creating_a_multipage_form.md'
+        - 'Creating Fields': 'forms/creating_fields.md'
+        - 'Editing a Form': 'forms/editing_a_form.md'
+        - 'Exporting a Form': 'forms/exporting_a_form.md'
+        - 'Navigating to a Form': 'forms/navigating_to_a_form.md'
     - 'Records':
         - 'Creating a Record': 'records/create-record.md'
     - 'User & Account Management':
