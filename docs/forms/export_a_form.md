@@ -4,12 +4,16 @@ Exporting a form allows you to save the form as a .kForm file onto your computer
 
 Follow the steps below to export a form. 
 
-1. Open the form you would like to export. Click the **form name** in the blue menu bar to open a dropdown menu. ![open current project](/forms-img/creating_a_form_2_annotated.png "Step 1")
+1. Open the form you would like to export. Click the **form name** in the blue menu bar to open a dropdown menu. 
 
-2. At the bottom of this dropdown menu, click the **Export Form** option. ![open current project](/forms-img/creating_a_form_2_annotated.png "Step 2")
+<p align="center"> <img src="../forms-img/creating_a_form_2_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
+
+2. At the bottom of this dropdown menu, click the **Export Form** option. 
+
+<p align="center"> <img src="../forms-img/creating_a_form_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p>
 
 This will automatically download the form onto your computer as a .kForm file type. 
 
-*Note*: If you wish to import this form into a different Kora project, visit the [Importing a Form Guide](/forms/importing_a_form.md).
+*Note*: If you wish to import this form into a different Kora project, visit the [Importing a Form Guide](../forms/importing_a_form.md).
 
 
