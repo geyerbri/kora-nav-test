@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Understanding Field Types - Kora 3 Documentation</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../../css/extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Understanding Field Types";
+    var mkdocs_page_input_path = "forms/understanding _field_types.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/django.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Kora 3 Documentation</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../search/">Searching</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Getting Started</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../getting-started/core-concepts/">Understanding Core Concepts</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Projects</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../projects/create-project/">Creating a Project</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Forms</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../creating_a_form/">Creating a Form</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../additional_form_administrators/">Adding Additional Form Administrators</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../creating_a_multipage_form/">Creating a Multipage Form</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../creating_fields/">Creating Fields</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../editing_a_form/">Editing a Form</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../exporting_a_form.md">Exporting a Form</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../navigating_to_a_form/">Navigating to a Form</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../importing_a_form/">Importing a Form</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Records</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../records/create-record/">Creating a Record</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">User & Account Management</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../user-accounts/add-user/">Adding Users to Projects</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Managing a Kora Installation</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../management/update-kora/">Updating a Kora 3 Installation</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Kora 3 Documentation</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Understanding Field Types</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/chi-initiative/kora-documentation/edit/master/docs/forms/understanding _field_types.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="creating-a-multipage-form">Creating a Multipage Form</h1>
+<p>A <a href="content/creating_a_form.md">form</a> allows you to determine how data is entered into <a href="content/understanding_core_concepts.md">KORA</a> as a record. In some instances you may want to split your data entry into multiple sections. For instance, you may want information about the dimensions of an object entered in one section and cultural information associated with that object in another. Separating <a href="content/creating_fields.md">fields</a> into multiple pages allows you to organize your form with these concepts in mind.</p>
+<p>Here we will talk about the particular options associated with creating each field. There are some options associated with the creation of every field, however. If you want to </p>
+<h2 id="creating-multiple-pages">Creating multiple pages</h2>
+<p>In order to create multiple pages in a form you will need to <a href="content/create_form.md">create a form</a>. This will initially provide you with a single page labeled "[form name] default page".</p>
+<p><img alt="default page in a new form" src="files/creating_a_multipage_form_1_annotated.png" /></p>
+<p>The default page will initially contain no <a href="content/creating_fields.md">fields</a>, but you may soon find yourself overwhelmed in an attempt to get the most amount of data possible. In many cases, it may be better for the readability of your form to separate these fields into multiple pages.</p>
+<p>Follow these steps to create and organize new pages:
+1. Below the default page, press the <strong>Create New Form Page Here</strong> button
+<img alt="click the create new form page button" src="files/creating_a_multipage_form_2_annotated.png" />
+2. The first new page will appear below the default page, but you can add as many pages as you need for your data entry, including in between existing pages. A new Page will appear wherever you click to add a new page
+<img alt="add new pages wherever you want!" src="files/creating_a_multipage_form_3_annotated.png" />
+3. You may also reorganize where your pages appear by clicking on the <strong>navigation arrow</strong> in the top left corner of each page. Clicking on the top arrow will switch that page with the page above it, and the bottom arrow it will likewise switch the selected page with the page below it.
+<img alt="reorganize pages by pressing up or down on the arrows" src="files/creating_a_multipage_form_4_annotated.png" />
+4. You can rename pages by clicking on the <strong>title</strong> located at the top-center of the page, and typing in the new title.
+<img alt="edit the page title by clicking on the title" src="files/creating_a_multipage_form_5_annotated.png" /></p>
+<h2 id="moving-fields-between-pages">Moving Fields Between Pages</h2>
+<p>You may create new <a href="content/creating_fields.md">fields</a> within each page, or move a field from one page to another. You move fields between pages by clicking on the field and dragging it to the desired page:
+1. Click on the field you want to move.
+<img alt="click on the field you want to move" src="files/creating_a_multipage_form_6_annotated.png" />
+2. Drag the field with your mouse.
+<img alt="drag the field" src="files/creating_a_multipage_form_7_annotated.png" />
+3. Place the field in the desired page.
+<img alt="place the field in the desired page" src="files/creating_a_multipage_form_8_annotated.png" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/chi-initiative/kora-documentation/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>
