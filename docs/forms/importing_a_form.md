@@ -29,6 +29,6 @@ This will automatically upload the form into your project.
 
 
 
-*Note*: If you wish to learn how to export a form, visit the [Exporting a Form Guide](../forms/exporting_a_form.md).
+*Note*: If you wish to learn how to export a form, visit the [Exporting a Form Guide](../forms/export_a_form.md).
 
 
