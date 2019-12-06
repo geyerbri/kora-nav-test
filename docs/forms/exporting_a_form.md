@@ -1,4 +1,4 @@
-#Export a Form
+#Exporting a Form
 
 Exporting a form allows you to save the form as a .kForm file onto your computer. Another benefit of exporting a form is that it allows you to import that form into another Kora project, instead of having to recreate the form and its fields. 
 
