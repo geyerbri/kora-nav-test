@@ -6,7 +6,7 @@ Follow the steps below to import a form.
 
 1. Open the project you would like to import your form into. Click the project name in the blue menu bar to open the dropdown options. Click the **Import Form Setup** option. 
 
-<p align="center"> <img src="../forms-img/importing_a_form_1_annotated.png" width="450" style="align:center" title="Step 1"> </p>
+<p align="center"> <img src="../forms-img/importing_a_form_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
      
 2. In **Import Form Setup**, either drag and drop your form file from you computer into the box or choose the **Select the Form File here** option to choose it through a file browser. 
 
