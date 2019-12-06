@@ -25,6 +25,7 @@ nav:
         - 'Editing a Form': 'forms/editing_a_form.md'
         - 'Exporting a Form': 'forms/exporting_a_form.md'
         - 'Navigating to a Form': 'forms/navigating_to_a_form.md'
+        - 'Importing a Form': 'forms/importing_a_form.md'
     - 'Records':
         - 'Creating a Record': 'records/create-record.md'
     - 'User & Account Management':
