@@ -1,31 +1,45 @@
 ---
-title: Creating a Multipage Form
+title: Batch Assigning Field Values
 ---
-# Creating a Multipage Form
-A [form](content/creating_a_form.md) allows you to determine how data is entered into [KORA](content/understanding_core_concepts.md) as a record. In some instances you may want to split your data entry into multiple sections. For instance, you may want information about the dimensions of an object entered in one section and cultural information associated with that object in another. Separating [fields](content/creating_fields.md) into multiple pages allows you to organize your form with these concepts in mind.
+# Batch Assigning Field Values
 
-## Creating multiple pages
-In order to create multiple pages in a form you will need to [create a form](content/create_form.md). This will initially provide you with a single page labeled "[form name] default page".
+When entering [records](content/creating_a_record.md) into a [form](content/creating_a_form.md), there may be times where you want to assign a value to a [field](content/creating_fields.md) across multiple records. For instance, you may know the name of a site for multiple artifacts within that site. You can enter the site name for each record individually, or you can save time by batch assigning field values to all the records contained within that site. This will fill in the designated field with the desired record across all records or selected records.
 
-![default page in a new form](files/creating_a_multipage_form_1_annotated.png)
+## Batch Assigning Field Values Within A Form
+For steps on batch assigning fields to specific records, go to the next section. If you want to batch assign fields to all records within a form then follow these steps:
 
-The default page will initially contain no [fields](content/creating_fields.md), but you may soon find yourself overwhelmed in an attempt to get the most amount of data possible. In many cases, it may be better for the readability of your form to separate these fields into multiple pages.
+1. Navigate to the [form](content/navigating_to_a_form.md) that you want to batch assign field values and select either the menu for your form, or side navigation bar.
+![navigate to the desired form](../forms-img/batch_assigning_fields_1_annotated.png)
+2. Select the **Batch Assign Field Values** options from either navigation menu.
+![batch assign field values](../forms-img/batch_assigning_fields_2_annotated.png)
+3. This will bring you to the Batch Assign Field Options page. Here you will select the **Search and Select a Field to Batch Assign** bar to search and select your desired field
+![batch assign field options page](../forms-img/batch_assigning_fields_3_annotated.png)
+4. A drop down menu will appear for you to select your desired field.
+![select your field](../forms-img/batch_assigning_fields_4_annotated.png)
+5. Once you select a field to batch assign, an interface will appear for you to enter your desired value. For this example, a [text field](content/understanding_field_types.md) was selected.
+![enter your desired value](../forms-img/batch_assigning_fields_5_annotated.png)
+6. After entering your desired value, you have the option to select whether or not this value overwrites values already written into records. Select the **Inputted values will be overwritten** option if you want previously entered values to be deleted and replaced.
+ ![select if you want to overwrite previous values](../forms-img/batch_assigning_fields_6_annotated.png)
+ 7. After selecting all the desired options for the batch assignment, select the **Batch Assigned Field Values** button at the bottom of the page to carry out the batch assignment.
+ ![select Batch Assigned Field Values](../forms-img/batch_assigning_fields_7_annotated.png)
+ 8. This will bring you to the [Form Record & Search](content/searching_and_browsing_records.md) page where a notification will confirm that you have been successful at batch assigning field records to all records within your form. From this page you may also batch assign to only selection of records (start at step 3 of the next section)
+ ![form record & search page](../forms-img/batch_assigning_fields_8_annotated.png)
 
-Follow these steps to create and organize new pages:
-1. Below the default page, press the **Create New Form Page Here** button
-![click the create new form page button](files/creating_a_multipage_form_2_annotated.png)
-2. The first new page will appear below the default page, but you can add as many pages as you need for your data entry, including in between existing pages. A new Page will appear wherever you click to add a new page
-![add new pages wherever you want!](files/creating_a_multipage_form_3_annotated.png)
-3. You may also reorganize where your pages appear by clicking on the **navigation arrow** in the top left corner of each page. Clicking on the top arrow will switch that page with the page above it, and the bottom arrow it will likewise switch the selected page with the page below it.
-![reorganize pages by pressing up or down on the arrows](files/creating_a_multipage_form_4_annotated.png)
-4. You can rename pages by clicking on the **title** located at the top-center of the page, and typing in the new title.
-![edit the page title by clicking on the title](files/creating_a_multipage_form_5_annotated.png)
 
-## Moving Fields Between Pages
-You may create new [fields](content/creating_fields.md) within each page, or move a field from one page to another. You move fields between pages by clicking on the field and dragging it to the desired page:
-1. Click on the field you want to move.
-![click on the field you want to move](files/creating_a_multipage_form_6_annotated.png)
-2. Drag the field with your mouse.
-![drag the field](files/creating_a_multipage_form_7_annotated.png)
-3. Place the field in the desired page.
-![place the field in the desired page](files/creating_a_multipage_form_8_annotated.png)
+## Selecting Specific Records for Batch Assigning
+Sometimes you will want to batch assign only a selection of records rather than all the records within that form. Follow these steps to do so:
+
+1.  Navigate to the [form](content/navigating_to_a_form.md) that you want to batch assign field values and select either the menu for your form, or side navigation bar.
+![navigate to the desired form](../forms-img/batch_assigning_fields_9_annotated.png)
+2.  Select the **Form Records & Search** option from either navigation menu to go to that page. Additionally, you may also get to the Form Records & Search page by clicking the **Form Records and Search ()** button at the form home.
+![form record & search page](../forms-img/batch_assigning_fields_10_annotated.png)
+3. From the **Form Records & Search** page, you will be able to [browse and search through records](content/searching_and_browsing_records.md) that you have already entered. You may browse through all records or search for a particular subset of records that you want to work with. You may select your chosen records by using the circle option to the left of each record.
+![chose your records](../forms-img/batch_assigning_fields_11_annotated.png)
+4. Once you've selected the records that you want to batch assign field values to, click on the **batch assign ()** button at the bottom of the page.
+![batch assign () button](files/creating_a_multipage_form_12_annotated.png)
+5. You have now selected a subset of all your record to batch assign fields to and will be brought to the batch assign field option page.
+![batch assign () button](files/creating_a_multipage_form_12_annotated.png)
+6. From the batch assign field options page you will follow the steps to batch assign field values as outlined in the previous section (start at step 3).
+![batch assign field options page](files/creating_a_multipage_form_13_annotated.png)
+7. Note that you will not have the option to overwrite previous values, because all field values in the selected record will be batch assigned your given value.
+![all selected records will be overwritten](files/creating_a_multipage_form_14_annotated.png)
