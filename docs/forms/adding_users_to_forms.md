@@ -2,16 +2,16 @@
 title: Adding Users to Forms
 ---
 # Adding Users to Forms
- Adding a user to a [form](content/creating_a_form.md) gives certain form permission to [users already in your KORA organization](content/managing_users_in_a_kora_installation.md). Form permissions allow users to create, edit, and delete fields as well as records, depending on the permissions given to them. Limiting the amount of form permissions granted to a user is useful when you only want to allow that user to enter data and create records and not alter the fields that data is entered into.
+ Adding a user to a [form](content/creating_a_form.md) gives certain form permissions to [users already in your KORA organization](content/managing_users_in_a_kora_installation.md). Form permissions allow users to create, edit, and delete fields as well as records, depending on the permissions given to them. Limiting the amount of form permissions granted to a user is useful when you only want to allow that user to enter data and create records and not alter the fields that data is entered into.
 
 ## Adding Users to Forms
-Before adding users to a form, you will have to [navigate to your desired form](content/navigating_to_a_form.md) and select the **edit form info** button.
+Before adding users to a form, you will have to [navigate to the project home page](content/navigating_to_a_form.md) and select the **edit form info** button.
 
 ![edit form info button](files/adding_users_to_forms_1_annotated.png)
 
-The **edit form info** button will take you to the [Edit Form](content/navigating_to_a_form.md) page where you can press **Go to Form Permissions Page** to add additional users.
+The **edit form info** button will take you to the [Edit Form](content/navigating_to_a_form.md) page where you can press **Go to Form Permissions Page** to add additional users and adjust their permissions.
 
-![edit form info button](files/adding_users_to_forms_1_annotated.png)
+![go to form permissions page](files/adding_users_to_forms_2_annotated.png)
 
 Follow these steps to create and organize new pages:
 1. Below the default page, press the **Create New Form Page Here** button
