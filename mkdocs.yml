@@ -27,7 +27,7 @@ nav:
         - 'Navigating to a Form': 'forms/navigating_to_a_form.md'
         - 'Importing a Form': 'forms/importing_a_form.md'
     - 'Records':
-        - 'Creating a Record': 'records/create-record.md'
+        - 'Creating a Record': 'records/creating_a_record.md'
         - 'Viewing and Managing Record Revisions': 'records/viewing_and_managing_record_revisions.md'
     - 'User & Account Management':
         - 'Adding Users to Projects': 'user-accounts/add-user.md'
