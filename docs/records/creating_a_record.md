@@ -9,41 +9,44 @@ First, open your current project (You can find the list of your projects by clic
 
 <p align="center"> <img src="../records-img/creating_a_record_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
 
+<p align="center"> <img src="../records-img/creating_a_record_2_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
+
 2. This will open a *New Record* page. 
 
-<p align="center"> <img src="../records-img/creating_a_record_3_annotated.png width="100%" style="align:center" title="Step 2"> </p>
+
+<p align="center"> <img src="../records-img/creating_a_record_3_annotated.png" width="100%" style="align:center" title="Step 2"> </p>
 
 3. Now you can fill out the fields within the form with your data. You will need to fill out all the fields with green dot next to it, as they are a *required field*. 
 
-<p align="center"> <img src="../records-img/creating_a_record_4_annotated.png width="100%" style="align:center" title="Step 3 required field"> </p>
+<p align="center"> <img src="../records-img/creating_a_record_4_annotated.png" width="100%" style="align:center" title="Step 3 required field"> </p>
 
 If your form has multiple pages, you can toggle between them using the buttons *Previous Page* and *Next Page* at the bottom of the screen. 
 
-<p align="center"> <img src="../records-img/creating_a_record_5_annotated.png width="100%" style="align:center" title="Step 3"> </p>
+<p align="center"> <img src="../records-img/creating_a_record_5_annotated.png" width="100%" style="align:center" title="Step 3"> </p>
 
 
 3. When you are finished entering the information for the record, click *Create New Record*. 
 
-<p align="center"> <img src="../records-img/creating_a_record_6_annotated.png width="100%" style="align:center" title="Step 4"> </p>
+<p align="center"> <img src="../records-img/creating_a_record_6_annotated.png" width="100%" style="align:center" title="Step 4"> </p>
 
 ##Additional Information
 
 ###Using a Record Preset 
 If you would like to use a record preset, click the circle to the left of the *Use a Record Preset* option. This will provide a new dropdown option to select your record preset option. Record presets are useful to use when you have similar records in a form. You are able to edit the record after the preset is selected. 
 
-<p align="center"> <img src="../records-img/creating_a_record_7_annotated.png width="100%" style="align:center" title="Record Preset"> </p>
+<p align="center"> <img src="../records-img/creating_a_record_7_annotated.png" width="100%" style="align:center" title="Record Preset"> </p>
 
 ###Duplicate Record
 
 If you chose to duplicate your record, an identical copy of the record will be created. You can set the number of duplicates after selecting the option. 
 
-<p align="center"> <img src="../records-img/creating_a_record_8_annotated.png width="100%" style="align:center" title="Duplicate Record"> </p>
+<p align="center"> <img src="../records-img/creating_a_record_8_annotated.png" width="100%" style="align:center" title="Duplicate Record"> </p>
 
 If you need to duplicate a record after it has been created, view your form records. Choose the record you would like to duplicate and choose the **Duplicate Records** option. This will bring you to the *Duplicate Record* page, select the duplication amount (max 1000), then click the **Dupliciate Record** buttom at the bottom of the page. 
 
-<p align="center"> <img src="../records-img/creating_a_record_9_annotated.png width="100%" style="align:center" title="Duplicate Record"> </p>
+<p align="center"> <img src="../records-img/creating_a_record_9_annotated.png" width="100%" style="align:center" title="Duplicate Record"> </p>
 
-<p align="center"> <img src="../records-img/creating_a_record_10_annotated.png width="100%" style="align:center" title="Duplicate Record"> </p>
+<p align="center"> <img src="../records-img/creating_a_record_10_annotated.png" width="100%" style="align:center" title="Duplicate Record"> </p>
 
 If you need assistence on how to edit your duplicate record, visit the [Editing a Record](/forms/editing_a_form.md) guide.
 
@@ -51,4 +54,4 @@ If you need assistence on how to edit your duplicate record, visit the [Editing 
 
 If you wish to use this record as a preset option for future records, click **Create New Record Preset from this Record** option. You will be asked to name your new record preset. 
 
-<p align="center"> <img src="../records-img/creating_a_record_11_annotated.png width="100%" style="align:center" title="New Record Preset"> </p>
+<p align="center"> <img src="../records-img/creating_a_record_11_annotated.png" width="100%" style="align:center" title="New Record Preset"> </p>
