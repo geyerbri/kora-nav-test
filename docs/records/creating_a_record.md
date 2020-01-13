@@ -18,7 +18,7 @@ First, open your current project (You can find the list of your projects by clic
 
 3. Now you can fill out the fields within the form with your data. You will need to fill out all the fields with green dot next to it, as they are a *required field*. 
 
-<p align="center"> <img src="../records-img/creating_a_record_4_annotated.png" width="100%" style="align:center" title="Step 3 required field"> </p>
+<p align="center"> <img src="../records-img/creating_a_record_4_annotated.png" width="50%" style="align:center" title="Step 3 required field"> </p>
 
 If your form has multiple pages, you can toggle between them using the buttons *Previous Page* and *Next Page* at the bottom of the screen. 
 
