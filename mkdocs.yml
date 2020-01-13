@@ -29,6 +29,7 @@ nav:
     - 'Records':
         - 'Creating a Record': 'records/creating_a_record.md'
         - 'Viewing and Managing Record Revisions': 'records/viewing_and_managing_record_revisions.md'
+        - 'Importing a Record': 'records/importing_a_record.md'
     - 'User & Account Management':
         - 'Adding Users to Projects': 'user-accounts/add-user.md'
     - 'Managing a Kora Installation':
