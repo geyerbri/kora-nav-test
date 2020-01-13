@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Importing a record - Kora 3 Documentation</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../../css/extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Importing a record";
+    var mkdocs_page_input_path = "records/importing_a_record.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/django.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Kora 3 Documentation</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../search/">Searching</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Getting Started</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../getting-started/core-concepts/">Understanding Core Concepts</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Projects</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../projects/create-project/">Creating a Project</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Forms</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../forms/creating_a_form/">Creating a Form</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../forms/additional_form_administrators/">Adding Additional Form Administrators</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../forms/creating_a_multipage_form/">Creating a Multipage Form</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../forms/creating_fields/">Creating Fields</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../forms/editing_a_form/">Editing a Form</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../forms/exporting_a_form/">Exporting a Form</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../forms/navigating_to_a_form/">Navigating to a Form</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../forms/importing_a_form/">Importing a Form</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Records</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../creating_a_record/">Creating a Record</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../viewing_and_managing_record_revisions/">Viewing and Managing Record Revisions</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">User & Account Management</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../user-accounts/add-user/">Adding Users to Projects</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Managing a Kora Installation</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../management/update-kora/">Updating a Kora 3 Installation</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Kora 3 Documentation</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Importing a record</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/chi-initiative/kora-documentation/edit/master/docs/records/importing_a_record.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="importing-a-record">Importing a Record</h1>
+<p>A <strong>record</strong> is the metadata element. You can import a record(s) via a CSV, JSON, or XML file. </p>
+<p>Follow the steps below to import a record(s):</p>
+<ol>
+<li>First, open your current project (You can find the list of your projects by clicking on the <em>Projects</em> button on the top menu). Choose the form you would like to import a record(s) for by clicking on the <em>form name</em>. This will open the form page. </li>
+</ol>
+<p align="center"> <img src="../records-img/importing_a_record_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
+
+<ol>
+<li>Click on the form name in the menu bar at the top of the page, this will open a dropdown menu. Choose the <strong>Import Records</strong> option in the dropdown menu. This will open the <em>Import Records</em> page.</li>
+</ol>
+<p align="center"> <img src="../records-img/importing_a_record_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p>
+
+<ol>
+<li>On the <em>Import Records</em> page, under the <em>Upload Record Files</em> tab, you can either drag and drop or select the XML/JSON/CSV file you would like to import in first (top) box. If you have files in a zipped format that correlate to the XML/JSON/CSV file  first (top) box, you can either drag and drop or select the zipped files in the second (bottom) box. </li>
+</ol>
+<p align="center"> <img src="../records-img/importing_a_record_3_annotated.png" width="100%" style="align:center" title="Step 3"> </p>
+
+<ol>
+<li>After you finish selecting your record file, click the <strong>Upload Record Import File</strong> button at the bottom of the page. </li>
+</ol>
+<p align="center"> <img src="../records-img/importing_a_record_4_annotated.png" width="100%" style="align:center" title="Step 4"> </p>
+
+<ol>
+<li>
+<p>This will bring you to the <em>Field Matching</em> tab on the <em>Import Records</em> page. This page allows you to associate the field names between the records you are uploading to the form you are importing the records to. Select fields if applicable on the right column of the page. You will want to associate or match fields based on type. If you need information about field types, visit the <a href="/forms/understanding_field_types.md">Understanding Field Types</a> guide. </p>
+<p><strong>Note</strong>: If a field is <em>required</em> in the form you are importing records into, you must associate an incoming field to one that is being imported. </p>
+</li>
+</ol>
+<p align="center"> <img src="../records-img/importing_a_record_5_annotated.png" width="100%" style="align:center" title="Step 5"> </p>
+
+<ol>
+<li>Click the <strong>Upload Records</strong> button at the bottom of the screen.</li>
+</ol>
+<p align="center"> <img src="../records-img/importing_a_record_6_annotated.png" width="100%" style="align:center" title="Step 6"> </p>
+
+<ol>
+<li>A loading page will open informing you that your import has begun. Depending on the number of records you are importing, it may take several minutes to complete. Do not close the page or browser until completion. When the import is complete, you will be automatically brought to the <em>Import Records Complete</em> page. </li>
+</ol>
+<p align="center"> <img src="../records-img/importing_a_record_7_annotated.png" width="100%" style="align:center" title="Step 7"> </p>
+
+<ol>
+<li>On this page you can view how many records were successfully imported and have the option to view the imported records by clicking on the <em>View Imported Records</em> button. </li>
+</ol>
+<p align="center"> <img src="../records-img/importing_a_record_7_annotated.png" width="100%" style="align:center" title="Step 8"> </p>
+
+<h2 id="failed-record-import">Failed Record Import</h2>
+<p>There are several reasons a record import will fail. If a required field was not assoicated with an uploaded field (matched), you will be informed how many records out of the total were successfuly imported on the <em>Import Records Complete</em> page (example: 0 of 1 Records Successfully Imported). </p>
+<p>Your record(s) will not import if you associate different field types. </p>
+<h3 id="failed-records-report">Failed Records Report</h3>
+<p align="center"> <img src="../records-img/importing_a_record_7_annotated.png" width="100%" style="align:center" title="Failed Records"> </p>
+
+<p>You can download the failed records and their report to identify the problem with the import. The <strong>Failed Records Report</strong> will state which fields are required. If you did not match your field types correctly, the <em>Failed Records Report</em> may give you an error: {"18":"Unable to determine error. This is usually caused by a structure issue in your CSV\/XML\/JSON, or an unexpected bug in kora."}. If this occurs, we recommend trying to import your record(s) again after checking how the fields should be matched.</p>
+<p>You can then try importing the record(s) again or view the successfuly imported records using the buttons on the page. </p>
+<h2 id="file-type-definitions">File Type Definitions:</h2>
+<p><strong>CSV</strong> is a simple file format that is used to store tabular data, such as a database or spreadsheet. CSV stands for "comma-separated values." Files in CSV format can be imported and exported from programs that store data in tables such as Microsoft Excel, Apple Numbers, or Google Sheets. </p>
+<p><strong>JSON</strong> is a file type that stores data in JavaScript Object Notation format, a standard data interchange format. It is commonly used to transmit data between a web application and a server. It serves as an alternative to XML, as it easy for humans to read and write, as well as machine-readable. </p>
+<p><strong>XML</strong> is a file extension for an Extensible Markup Language (XML) file format. It stores data in a structure that is readable by machines and humans, as it stores data in plain text format. XML is similar to HTML. </p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/chi-initiative/kora-documentation/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>
