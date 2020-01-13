@@ -5,29 +5,14 @@ Follow the steps below to create a record.
 
 First, open your current project (You can find the list of your projects by clicking on the *Projects* button on the top menu). Choose the form you would like to enter a record for by clicking on the *form name*.
 
-1. To create a record, you can either click the **Create New Record** button or you can click the form name in the menu bar to open the dropdown and choose the **Create New Record** option.
+1. To create a record, you can either click the **Create New Record** button or you can click the form name in the menu bar to open the dropdown and choose the **Create New Record** option.<p align="center"> <img src="../records-img/creating_a_record_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p> <p align="center"> <img src="../records-img/creating_a_record_2_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
 
-<p align="center"> <img src="../records-img/creating_a_record_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
+2. This will open a *New Record* page. <p align="center"> <img src="../records-img/creating_a_record_3_annotated.png" width="100%" style="align:center" title="Step 2"> </p>
 
-<p align="center"> <img src="../records-img/creating_a_record_2_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
-
-2. This will open a *New Record* page. 
+3. Now you can fill out the fields within the form with your data. You will need to fill out all the fields with green dot next to it, as they are a *required field*. <p align="center"> <img src="../records-img/creating_a_record_4_annotated.png" width="50%" style="align:center" title="Step 3 required field"> </p> If your form has multiple pages, you can toggle between them using the buttons *Previous Page* and *Next Page* at the bottom of the screen. <p align="center"> <img src="../records-img/creating_a_record_5_annotated.png" width="100%" style="align:center" title="Step 3"> </p>
 
 
-<p align="center"> <img src="../records-img/creating_a_record_3_annotated.png" width="100%" style="align:center" title="Step 2"> </p>
-
-3. Now you can fill out the fields within the form with your data. You will need to fill out all the fields with green dot next to it, as they are a *required field*. 
-
-<p align="center"> <img src="../records-img/creating_a_record_4_annotated.png" width="50%" style="align:center" title="Step 3 required field"> </p>
-
-If your form has multiple pages, you can toggle between them using the buttons *Previous Page* and *Next Page* at the bottom of the screen. 
-
-<p align="center"> <img src="../records-img/creating_a_record_5_annotated.png" width="100%" style="align:center" title="Step 3"> </p>
-
-
-3. When you are finished entering the information for the record, click *Create New Record*. 
-
-<p align="center"> <img src="../records-img/creating_a_record_6_annotated.png" width="100%" style="align:center" title="Step 4"> </p>
+4. When you are finished entering the information for the record, click *Create New Record*. <p align="center"> <img src="../records-img/creating_a_record_6_annotated.png" width="100%" style="align:center" title="Step 4"> </p>
 
 ##Additional Information
 

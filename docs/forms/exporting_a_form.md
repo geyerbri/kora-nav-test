@@ -4,13 +4,9 @@ Exporting a form allows you to save the form as a .kForm file onto your computer
 
 Follow the steps below to export a form. 
 
-1. Open the form you would like to export. Click the **form name** in the blue menu bar to open a dropdown menu. 
+1. Open the form you would like to export. Click the **form name** in the blue menu bar to open a dropdown menu. <p align="center"> <img src="../forms-img/creating_a_form_2_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
 
-<p align="center"> <img src="../forms-img/creating_a_form_2_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
-
-2. At the bottom of this dropdown menu, click the **Export Form** option. 
-
-<p align="center"> <img src="../forms-img/creating_a_form_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p>
+2. At the bottom of this dropdown menu, click the **Export Form** option. <p align="center"> <img src="../forms-img/creating_a_form_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p>
 
 This will automatically download the form onto your computer as a .kForm file type. 
 
