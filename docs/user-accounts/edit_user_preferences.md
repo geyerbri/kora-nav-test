@@ -9,10 +9,10 @@ Follow the steps below to edit your user preferences.
 2. This will open a dropdown menu. Choose the **My Preferences** option. <p align="center"> <img src="../user-accounts-img/edit_user_preferences_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p>
 
 3. On the **My Preferences** page, you are able to modify your kora preferences. There are four different preferences you can modify. 
- * Use Dashboard
- * Kora Home Target
- * Projects Tab Selection
- * Single Project Tab Selection
+	* Use Dashboard
+	* Kora Home Target
+	* Projects Tab Selection
+	* Single Project Tab Selection
  
 	You can view more information about each of these preferences below. <p align="center"> <img src="../user-accounts-img/edit_user_preferences_3_annotated.png" width="100%" style="align:center" title="Step 3"> </p>
  
