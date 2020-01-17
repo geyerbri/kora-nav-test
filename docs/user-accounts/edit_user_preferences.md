@@ -9,17 +9,17 @@ Follow the steps below to edit your user preferences.
 2. This will open a dropdown menu. Choose the **My Preferences** option. <p align="center"> <img src="../user-accounts-img/edit_user_preferences_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p>
 
 3. On the **My Preferences** page, you are able to modify your kora preferences. There are four different preferences you can modify. 
- - Use Dashboard
- - Kora Home Target
- - Projects Tab Selection
- - Single Project Tab Selection
+ * Use Dashboard
+ * Kora Home Target
+ * Projects Tab Selection
+ * Single Project Tab Selection
  
 	You can view more information about each of these preferences below. <p align="center"> <img src="../user-accounts-img/edit_user_preferences_3_annotated.png" width="100%" style="align:center" title="Step 3"> </p>
  
 4. You also have the option to reply the *Kora Introduction*, by pressing the **Replay Kora Introduction* option at the bottom of the page. <p align="center"> <img src="../user-accounts-img/edit_user_preferences_4_annotated.png" width="100%" style="align:center" title="Step 4"> </p>
 
 
-5. When you have finished making changes to your kora user preferences, click the **Update Preferences* blue button at the bottom of the page to save the changes. <p align="center"> <img src="../user-accounts-img/edit_user_permissions_5_annotated.png" width="100%" style="align:center" title="Step 5"> </p>
+5. When you have finished making changes to your kora user preferences, click the **Update Preferences* blue button at the bottom of the page to save the changes. <p align="center"> <img src="../user-accounts-img/https://chi-initiative.github.io/kora-documentation/_5_annotated.png" width="100%" style="align:center" title="Step 5"> </p>
 
 
 
