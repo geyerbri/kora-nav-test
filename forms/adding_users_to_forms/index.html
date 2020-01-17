@@ -93,6 +93,18 @@
                 </li>
                 <li class="">
                     
+    <a class="" href="../batch_assigning_field_values/">Batch Assigning Field Values</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../understanding_field_types.md">Understanding Field Types</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../adding_users_to_a_form.md">Adding Users to a Form</a>
+                </li>
+                <li class="">
+                    
     <a class="" href="../additional_form_administrators/">Adding Additional Form Administrators</a>
                 </li>
                 <li class="">
@@ -207,18 +219,49 @@
             <div class="section">
               
                 <h1 id="adding-users-to-forms">Adding Users to Forms</h1>
-<p>Adding a user to a <a href="content/creating_a_form.md">form</a> gives certain form permissions to <a href="content/managing_users_in_a_kora_installation.md">users already in your KORA organization</a>. Form permissions allow users to create, edit, and delete fields as well as records, depending on the permissions given to them. Limiting the amount of form permissions granted to a user is useful when you only want to allow that user to enter data and create records and not alter the fields that data is entered into.</p>
+<p>Adding a user to a <a href="content/creating_a_form.md">form</a> gives certain form permissions to <a href="content/managing_users_in_a_kora_installation.md">users already in your KORA organization</a>. Form permissions allow users to create, edit, and delete fields as well as records, depending on the permissions given to them. <a href="content/additional_form_administrators">Users added as administrators</a> will automatically have all of these permissions, but Kora allows you to create different permission groups for different users. Limiting the amount of form permissions granted to other users is useful in cases where you only want users to be able to enter data and create records.</p>
 <h2 id="adding-users-to-forms_1">Adding Users to Forms</h2>
-<p>Before adding users to a form, you will have to <a href="content/navigating_to_a_form.md">navigate to the project home page</a> and select the <strong>edit form info</strong> button.</p>
-<p><img alt="edit form info button" src="files/adding_users_to_forms_1_annotated.png" /></p>
-<p>The <strong>edit form info</strong> button will take you to the <a href="content/navigating_to_a_form.md">Edit Form</a> page where you can press <strong>Go to Form Permissions Page</strong> to add additional users and adjust their permissions.</p>
-<p><img alt="go to form permissions page" src="files/adding_users_to_forms_2_annotated.png" /></p>
-<p>Follow these steps to create and organize new pages:
-1. Below the default page, press the <strong>Create New Form Page Here</strong> button
-<img alt="click the create new form page button" src="files/creating_a_multipage_form_2_annotated.png" />
-2. The first new page will appear below the default page, but you can add as many pages as you need for your data entry, including in between existing pages. A new Page will appear wherever you click to add a new page
-<img alt="add new pages wherever you want!" src="files/creating_a_multipage_form_3_annotated.png" />
-3. You may also reorganize where your pages appear by clicking on the <strong>navigation arrow</strong> in the top left corner of each page. Clicking on the top arrow will switch that page with the page above it, and the bottom arrow it will likewise switch the selected page with the page below it.</p>
+<p>Before adding users to a form, you will have to <a href="content/navigating_to_a_form.md">navigate to the project home page</a> and select the <strong>edit form info</strong> button located in the form block you want to edit. <p align="center"> <img src="../forms-img/adding_users_to_forms_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p></p>
+<p>The <strong>edit form info</strong> button will take you to the <a href="content/navigating_to_a_form.md">Edit Form</a> page where you can press <strong>Go to Form Permissions Page</strong> add additional users to a form and create new permission groups. <p align="center"> <img src="../forms-img/adding_users_to_forms_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p></p>
+<p>From the <em>Form Permissions</em> page, you can follow these steps to add new users to a permissions group for a form:</p>
+<ol>
+<li>
+<p>The <strong>Admin Group</strong> will be the first block in the <em>Form Permissions</em> page. If you want a fuller explanation on how to handle admins, then check out the <a href="content/additional_form_administrators.md">documentation on form administrators</a>. Below the admin block is the <strong>Default Group</strong> block where new users with new permissions can be added. Click on <strong>Default Group</strong> to open it up. <p align="center"> <img src="../forms-img/adding_users_to_forms_3_annotated.png" width="100%" style="align:center" title="Step 3"> </p></p>
+</li>
+<li>
+<p>Once the block is open, click <strong>Add New User(s) to Group</strong> to add new users to this group. <p align="center"> <img src="../forms-img/adding_users_to_forms_4_annotated.png" width="100%" style="align:center" title="Step 4"> </p></p>
+</li>
+<li>
+<p>A box will appear prompting you to <em>Select User(s) to Add to Permissions Group</em>. Click on the <strong>Search and Select Users to be Added to the Permission Group</strong> drop-down list. <p align="center"> <img src="../forms-img/adding_users_to_forms_5_annotated.png" width="100%" style="align:center" title="Step 5"> </p></p>
+</li>
+<li>
+<p>Select the users you wanted added to this group from the list that appears below the box. You may also remove accidently selected users by clicking on the <strong>x</strong> next to their name. <p align="center"> <img src="../forms-img/adding_users_to_forms_6_annotated.png" width="100%" style="align:center" title="Step 6"> </p></p>
+</li>
+<li>
+<p>Finish adding users to the group by clicking the <strong>Add User(s) to Group</strong> Button. <p align="center"> <img src="../forms-img/adding_users_to_forms_7_annotated.png" width="100%" style="align:center" title="Step 7"> </p></p>
+</li>
+</ol>
+<h2 id="creating-a-new-permission-group">Creating a New Permission group</h2>
+<p>You may also create new permission groups to further customize the types of permissions that form users use.</p>
+<ol>
+<li>
+<p>From the <em>Form Permissions</em> page (see previous section), you may select <strong>Create a New Permissions Group</strong> located just above the admin group. <p align="center"> <img src="../forms-img/adding_users_to_forms_8_annotated.png" width="100%" style="align:center" title="Step 8"> </p></p>
+</li>
+<li>
+<p>Kora will prompt you for information on the new permissions group. Fill out a new name for the group. <p align="center"> <img src="../forms-img/adding_users_to_forms_9_annotated.png" width="100%" style="align:center" title="Step 9"> </p></p>
+</li>
+<li>
+<p>Select the particular form permissions that you want the new group to have by checking the boxes next to the particular permissions you want to give.  <p align="center"> <img src="../forms-img/adding_users_to_forms_10_annotated.png" width="100%" style="align:center" title="Step 10"> </p></p>
+</li>
+<li>
+<p>Then select the particular users that you want included in this permission group, and finish the group by selecting <strong>Create New Permission Group</strong>. <p align="center"> <img src="../forms-img/adding_users_to_forms_11_annotated.png" width="100%" style="align:center" title="Step 11"> </p></p>
+</li>
+<li>
+<p>Your new permission group will appear as the bottom block on the <em>Form Permissions</em> page. <p align="center"> <img src="../forms-img/adding_users_to_forms_12_annotated.png" width="100%" style="align:center" title="Step 12"> </p></p>
+</li>
+</ol>
+<h2 id="editing-permissions-for-users">Editing Permissions for users</h2>
+<p>You are able to select particular form permissions for users by checking the boxes next to the permissions located in permissions groups. The options allow you to stop certain users from <a href="content/creating_fields.md">creating</a>, <a href="content/editing_fields.md">editing</a>, or deleting fields while still giving them the ability to <a href="content/creating_a_record.md">create</a>, <a href="content/editing_a_record.md">edit</a> or delete records. Any combination of these permissions are available. <p align="center"> <img src="../forms-img/adding_users_to_forms_13_annotated.png" width="100%" style="align:center" title="Step 13"> </p></p>
               
             </div>
           </div>
