@@ -19,7 +19,7 @@ Follow the steps below to edit your user preferences.
 4. You also have the option to reply the *Kora Introduction*, by pressing the **Replay Kora Introduction* option at the bottom of the page. <p align="center"> <img src="../user-accounts-img/edit_user_preferences_4_annotated.png" width="100%" style="align:center" title="Step 4"> </p>
 
 
-5. When you have finished making changes to your kora user preferences, click the **Update Preferences* blue button at the bottom of the page to save the changes. <p align="center"> <img src="../user-accounts-img/https://chi-initiative.github.io/kora-documentation/_5_annotated.png" width="100%" style="align:center" title="Step 5"> </p>
+5. When you have finished making changes to your kora user preferences, click the **Update Preferences* blue button at the bottom of the page to save the changes. <p align="center"> <img src="../user-accounts-img/edit_user_preferences_5_annotated.png" width="100%" style="align:center" title="Step 5"> </p>
 
 
 
