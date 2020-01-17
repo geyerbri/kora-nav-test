@@ -32,5 +32,6 @@ nav:
         - 'Importing a Record': 'records/importing_a_record.md'
     - 'User & Account Management':
         - 'Adding Users to Projects': 'user-accounts/adding_users_to_projects.md'
+        - 'Viewing Your Project Permissions': 'user-accounts/view_your_project_permissions.md'
     - 'Managing a Kora Installation':
         - 'Updating a Kora 3 Installation': 'management/update-kora.md'
