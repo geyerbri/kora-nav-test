@@ -50,3 +50,4 @@ A pop-up will appear on the top right corner of your screen notifying you that t
 
 <p align="center"> <img src="../forms-img/additional_form_administrators_13_annotated.png" width="100%" style="align:center" title="Notification of successfully removing user"> </p>
 
+Users will *not* be notified when removed from being a form administrator. 
