@@ -19,6 +19,7 @@ nav:
         - 'Creating a Project': 'projects/create-project.md'
     - 'Forms':
         - 'Creating a Form': 'forms/creating_a_form.md'
+        - 'Understanding Field Types': 'forms/understanding _field_types.md'
         - 'Batch Assigning Field Values': 'forms/batch_assigning_field_values.md'
         - 'Adding Users to a Form': 'forms/adding_users_to_forms.md'
         - 'Adding Additional Form Administrators': 'forms/additional_form_administrators.md'
