@@ -20,7 +20,6 @@ nav:
     - 'Forms':
         - 'Creating a Form': 'forms/creating_a_form.md'
         - 'Batch Assigning Field Values': 'forms/batch_assigning_field_values.md'
-        - 'Understanding Field Types': 'forms/understanding_field_types.md'
         - 'Adding Users to a Form': 'forms/adding_users_to_forms.md'
         - 'Adding Additional Form Administrators': 'forms/additional_form_administrators.md'
         - 'Creating a Multipage Form': 'forms/creating_a_multipage_form.md'
