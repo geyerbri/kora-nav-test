@@ -37,5 +37,6 @@ nav:
         - 'Adding Users to Projects': 'user-accounts/adding_users_to_projects.md'
         - 'Viewing Your Project Permissions': 'user-accounts/view_your_project_permissions.md'
         - 'Editing User Preferences': 'user-accounts/edit_user_preferences.md'
+        - 'Editing Your User Account': 'user-accounts/edit_user_account.md'
     - 'Managing a Kora Installation':
         - 'Updating a Kora 3 Installation': 'management/update-kora.md'
