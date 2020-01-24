@@ -1,8 +1,16 @@
-#Adding Users to Projects
+#Understanding and Working with Project Permission Groups
+
+
 
 Project administrators have the ability to create forms, edit forms, and delete forms. 
 
-If you are interested in learning how to add users to specific forms within a project, visit the [Additional Form Administrators](/forms/additional_form_admistrators.md) guide. 
+If you are interested in learning how to add/edit/remove users in specific forms within a project, visit the [Adding Users to Forms](/forms/adding__users_to_forms.md) guide. 
+
+If you are interested in learning how to add/edit/remove form administrators within a project, visit the [Additional Form Administrators](/forms/additional_form_administrators.md) guide.
+
+
+
+If you are interested in learning how to 
 
 Follow the steps below to add users to your projects.
 
