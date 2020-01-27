@@ -1,7 +1,7 @@
 #Understanding and Working with Permission Groups
 
 
-Permission groups allow you to control who has access to [projects](../project/creating_a_project.md), [forms](../forms/creating_a_form.md), and [records](../records/creating_a_record.md). 
+Permission groups allow you to control who has access to [projects](../projects/creating_a_project.md), [forms](../forms/creating_a_form.md), and [records](../records/creating_a_record.md). 
 
 You are able to control access to your Kora project in two areas: **project permissions** and **form permissions**. 
 
@@ -28,11 +28,11 @@ You can create groups within a project that have specific permissions such as on
 ##Form Permission Groups
 Adding a user to a form gives certain form permissions to [users already in your Kora organization](../user-accounts/managing_users_in_a_kora_installation.md). Form permissions allow users to create, edit, and delete fields as well as records, depending on the permissions given to them. 
 
-[Users added as form administrators](../forms/additional_form_administrators) will automatically have all of these permissions, but Kora allows you to create different permission groups for different users. Limiting the amount of form permissions granted to other users is useful in cases where you only want users to be able to enter data and create records.
+[Users added as form administrators](../forms/additional_form_administrators.md) will automatically have all of these permissions, but Kora allows you to create different permission groups for different users. Limiting the amount of form permissions granted to other users is useful in cases where you only want users to be able to enter data and create records.
 
 Users will *not* be notified when removed from a form permissions group. 
 
-Need to learn how to add/remove users in specific forms within a project? Visit the [Adding Users to Forms](../forms/adding__users_to_forms.md) guide. 
+Need to learn how to add/remove users in specific forms within a project? Visit the [Adding Users to Forms](../forms/adding_users_to_forms.md) guide. 
 
 ###Form Admin Group
 Form administrators are individuals that are able to modify a form, including the ability to create, edit, and delete both forms and records. 
