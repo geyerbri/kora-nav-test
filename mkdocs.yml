@@ -36,6 +36,7 @@ nav:
         - 'Importing a Record': 'records/importing_a_record.md'
     - 'User & Account Management':
         - 'Viewing Your Project Permissions': 'user-accounts/view_your_project_permissions.md'
+        - 'Understanding and Working with Permission Groups': 'user-accounts/understanding_and_working_with_permission_groups.md'
         - 'Editing User Preferences': 'user-accounts/edit_user_preferences.md'
         - 'Editing Your User Account': 'user-accounts/edit_user_account.md'
     - 'Managing a Kora Installation':
