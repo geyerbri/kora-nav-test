@@ -17,6 +17,7 @@ nav:
         - 'Understanding Core Concepts': 'getting-started/core-concepts.md'
     - 'Projects':
         - 'Creating a Project': 'projects/create-project.md'
+        - 'Adding Users to Projects': 'projects/adding_users_to_projects.md'
     - 'Forms':
         - 'Creating a Form': 'forms/creating_a_form.md'
         - 'Understanding Field Types': 'forms/understanding _field_types.md'
@@ -34,7 +35,6 @@ nav:
         - 'Viewing and Managing Record Revisions': 'records/viewing_and_managing_record_revisions.md'
         - 'Importing a Record': 'records/importing_a_record.md'
     - 'User & Account Management':
-        - 'Adding Users to Projects': 'user-accounts/adding_users_to_projects.md'
         - 'Viewing Your Project Permissions': 'user-accounts/view_your_project_permissions.md'
         - 'Editing User Preferences': 'user-accounts/edit_user_preferences.md'
         - 'Editing Your User Account': 'user-accounts/edit_user_account.md'
