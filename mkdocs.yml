@@ -27,6 +27,7 @@ nav:
         - 'Creating a Multipage Form': 'forms/creating_a_multipage_form.md'
         - 'Creating Fields': 'forms/creating_fields.md'
         - 'Editing a Form': 'forms/editing_a_form.md'
+        - 'Editing Fields': 'forms/editing_fields.md'
         - 'Exporting a Form': 'forms/exporting_a_form.md'
         - 'Navigating to a Form': 'forms/navigating_to_a_form.md'
         - 'Importing a Form': 'forms/importing_a_form.md'
