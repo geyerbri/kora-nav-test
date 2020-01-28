@@ -123,6 +123,26 @@
                     
     <a class="" href="../editing_a_form/">Editing a Form</a>
                 </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Editing Fields</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#editing-fields">Editing Fields</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#editing-fields-from-the-form-home-page">Editing Fields from the Form Home Page</a></li>
+        
+            <li><a class="toctree-l4" href="#editing-in-the-field-options-page">Editing in the Field Options Page</a></li>
+        
+            <li><a class="toctree-l4" href="#field-options-descriptions">Field Options Descriptions</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
                 <li class="">
                     
     <a class="" href="../exporting_a_form/">Exporting a Form</a>
@@ -212,6 +232,10 @@
     <li><a href="../..">Docs</a> &raquo;</li>
     
       
+        
+          <li>Forms &raquo;</li>
+        
+      
     
     <li>Editing Fields</li>
     <li class="wy-breadcrumbs-aside">
@@ -227,47 +251,78 @@
             <div class="section">
               
                 <h1 id="editing-fields">Editing Fields</h1>
-<p>A <a href="content/creating_a_form.md">form</a> allows you to determine how data is entered into <a href="content/understanding_core_concepts.md">KORA</a> as a record. In some instances you may want to split your data entry into multiple sections. For instance, you may want information about the dimensions of an object entered in one section and cultural information associated with that object in another. Separating <a href="content/creating_fields.md">fields</a> into multiple pages allows you to organize your form with these concepts in mind.</p>
-<h2 id="editing-field-options-from-the-form-page">Editing Field options from the Form Page</h2>
-<p>You can open up a field by clicking anywhere on the field box, except for on the actual field name. Here you will see more options in the checkmarked boxes. You may also delete a field from here. </p>
-<h2 id="editing-field-options-in-the-field-page">Editing Field Options in the Field Page</h2>
-<p>You can edit additional information about the field by clicking on the name of the field or the <strong>field options</strong> button.</p>
-<p>Any field can be edited by:
-1. Clicking on the name of the field or the <strong>field options</strong> button.
-2. editing the options within the field page. There are three types of information that can be edited on the field page:
-    * Basic field Information
-      * You will be able to edit the field title, description, alternative text. You can edit these text by clicking on the text box and editing the text into your desired content.
-    * Specific Field types
-      * There will be different options for editing different types of fields. These will appear under the field description. For a more in depth understanding of the options for each specific field, check out the page on <a href="content/understanding_field_types.md">understanding field types</a>
-    * Standard Options
-      * There are some options in every type of text field that will be the same. These are discussed here. A description of these options are found above, or in step 4 of <a href="content/creating_fields.md">creating fields</a>. These are options that you can also select on the form page.
-3. Clicking the <strong>update fields</strong> button at the bottom of the page.
-    * After you have finished your edits for the field, click on the <strong>update field</strong> button at the bottom of the page.</p>
-<h2 id="deleting-your-field">Deleting your field</h2>
-<p>If you wish to delete your field, click on the trash can icon located at the bottom of your field page.</p>
-<p><img alt="default page in a new form" src="files/creating_a_multipage_form_1_annotated.png" /></p>
-<p>The default page will initially contain no <a href="content/creating_fields.md">fields</a>, but you may soon find yourself overwhelmed in an attempt to get the most amount of data possible. In many cases, it may be better for the readability of your form to separate these fields into multiple pages.</p>
-<p>Follow these steps to create and organize new pages:
-1. Below the default page, press the <strong>Create New Form Page Here</strong> button
-<img alt="click the create new form page button" src="files/creating_a_multipage_form_2_annotated.png" />
-2. The first new page will appear below the default page, but you can add as many pages as you need for your data entry, including in between existing pages. A new Page will appear wherever you click to add a new page
-<img alt="add new pages wherever you want!" src="files/creating_a_multipage_form_3_annotated.png" />
-3. You may also reorganize where your pages appear by clicking on the <strong>navigation arrow</strong> in the top left corner of each page. Clicking on the top arrow will switch that page with the page above it, and the bottom arrow it will likewise switch the selected page with the page below it.
-<img alt="reorganize pages by pressing up or down on the arrows" src="files/creating_a_multipage_form_4_annotated.png" />
-4. You can rename pages by clicking on the <strong>title</strong> located at the top-center of the page, and typing in the new title.
-<img alt="edit the page title by clicking on the title" src="files/creating_a_multipage_form_5_annotated.png" /></p>
-<h2 id="moving-fields-between-pages">Moving Fields Between Pages</h2>
-<p>You may create new <a href="content/creating_fields.md">fields</a> within each page, or move a field from one page to another. You move fields between pages by clicking on the field and dragging it to the desired page:
-1. Click on the field you want to move.
-<img alt="click on the field you want to move" src="files/creating_a_multipage_form_6_annotated.png" />
-2. Drag the field with your mouse.
-<img alt="drag the field" src="files/creating_a_multipage_form_7_annotated.png" />
-3. Place the field in the desired page.
-<img alt="place the field in the desired page" src="files/creating_a_multipage_form_8_annotated.png" /></p>
+<p>A <a href="../creating_a_form/">form</a> can contain a number of different <a href="../forms/understanding_field_types.md">field types</a> which allow you to customize how data is entered into a <a href="../forms/creating_a_record.md">record</a>. In addition to field types, however, there are further customizations to fields that can be made in order to manipulate how data is entered. This documentation will cover how and were to edit your fields, and what options are available during this editing.</p>
+<h2 id="editing-fields-from-the-form-home-page">Editing Fields from the Form Home Page</h2>
+<p>There are a two ways to edit the <a href="../creating_fields/">fields that you've created</a>: from the form page, and within the field page. This section will cover how to edit your fields from the <a href="../navigating_to_a_form/">form home</a>.</p>
+<ol>
+<li>
+<p>From the form home, open up a field box by pressing the <strong>arrow</strong> button located in the right of all field boxes. The first field within your form <a href="../creating_a_multipage_form/">pages</a> should already be open. <p align="center"> <img src="../forms-img/editing_fields_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p></p>
+</li>
+<li>
+<p>Once you have opened up a field, there are seven boxes that you are able to check that will give your field certain attributes. Which boxes you check should be automatically saved by Kora. See the section on "Field Options Descriptions" below for a better understanding of what these options do. <p align="center"> <img src="../forms-img/editing_fields_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p></p>
+</li>
+<li>
+<p>The last option that you are able to take advantage of from the <em>Form Home</em> page is the ability to delete fields. Simply press the <strong>red trash can</strong> to delete any unwanted fields. You will be asked if you are sure if you want to delete this field. <p align="center"> <img src="../forms-img/editing_fields_3_annotated.png" width="100%" style="align:center" title="Step 3"> </p></p>
+</li>
+</ol>
+<h2 id="editing-in-the-field-options-page">Editing in the Field Options Page</h2>
+<p>You can edit additional information about the field by clicking on the name of the field or the <strong>field options</strong> button from the <em>Form Home</em> page. <p align="center"> <img src="../forms-img/editing_fields_4_annotated.png" width="100%" style="align:center" title="Step 4"> </p></p>
+<p>There are three sections available to edit from the <em>Field Page</em>:</p>
+<ol>
+<li>
+<p>The <em>Field Name</em>, <em>Alternative Name</em> and <em>Description</em> can all be modified from whatever values were put in when <a href="../creating_fields/">creating the field</a>. Clicking on the name of the field or the <strong>field options</strong> button. <p align="center"> <img src="../forms-img/editing_fields_5_annotated.png" width="100%" style="align:center" title="Step 5"> </p></p>
+</li>
+<li>
+<p>Each field type will then have its own specialized set of advanced options available in the next section. Go to the <a href="../forms/understanding_field_types.md">Understanding Field Types</a> documentation to get a better understanding of how these advanced options work.</p>
+</li>
+<li>
+<p>The last section available when editing a form will be the same options available in step 2 of "Editing Fields from the Form Home Page". These are seven options which can be checked to give your field certain attributes. See the section on "Field Options Descriptions" below for a better understanding of what these options do. <p align="center"> <img src="../forms-img/editing_fields_6_annotated.png" width="100%" style="align:center" title="Step 6"> </p></p>
+</li>
+<li>
+<p>Click <strong>Update Field</strong> at the bottom of the page to save any changes that you've made while editing your fields. <p align="center"> <img src="../forms-img/editing_fields_7_annotated.png" width="100%" style="align:center" title="Step 7"> </p></p>
+</li>
+<li>
+<p>If you wish to delete the field, click on the <strong>red trash can</strong> at the very bottom of the page. You will be asked if you are sure if you want to delete this field. <p align="center"> <img src="../forms-img/editing_fields_8_annotated.png" width="100%" style="align:center" title="Step 8"> </p></p>
+</li>
+</ol>
+<h2 id="field-options-descriptions">Field Options Descriptions</h2>
+<p>There are seven options which can be edited from both the <em>Form Home</em> page, and the <em>Field Options</em> page. These are labeled as: <strong>Required</strong>, <strong>Searchable</strong>, <strong>Advanced Searchable</strong>, <strong>Externally Searchable</strong>, <strong>Viewable</strong>, <strong>Viewable in Results</strong>, and <strong>Externally Viewable</strong>.</p>
+<ul>
+<li>
+<p><strong>Required</strong>: checking the <em>Required</em> option will force anybody creating a record for this form to fill out this field. A value will have to be entered in order for Kora to accept the record, or a new value will have to be entered if a default value is deleted.</p>
+</li>
+<li>
+<p><strong>Searchable</strong>: checking the <em>Searchable</em> option will allow Kora to see any data that is entered into this field when conducting any <a href="../forms/searching_and_browsing_records.md">searches</a>.</p>
+</li>
+<li>
+<p><strong>Advanced Searchable</strong>: checking the <em>Advanced Searchable</em>* option will allow Kora to search for any data entered into this field when conducting advanced searches.</p>
+</li>
+<li>
+<p><strong>Externally Searchable</strong>: checking the <em>Externally Searchable</em> option will allow programs which have access to Kora's API to search for data located within this field in records. This is especially useful when you have a website that you want to be able to pull data from KORA.</p>
+</li>
+<li>
+<p><strong>Viewable</strong>: checking the <em>Viewable</em> option will make this field appear when you are creating or viewing a record with this field. This may come in use if you are unsure of a particular field you have created. You may make it unviewable to those creating records until you have time to come back to it in the future.</p>
+</li>
+<li>
+<p><strong>Viewable in Results</strong>: Checking this box affects only how the data from this field shows up when <a href="../forms/searching_and_browsing_records.md">browsing or searching records</a>. This option is incredibly useful for managing the readability of your records in Kora. Instead of having 20 fields of data show up for each record you search for, you are able to narrow it down to fields such as name, id, or whatever is useful to you. It is important to note that this option will not affect whether or not this field is searchable, and all fields will be viewable from the full record page.</p>
+</li>
+<li>
+<p><strong>Externally Viewable</strong>: checking the <em>Externally Viewable</em> option will allow programs which have access to Kora's API to view the data located within this field in your Kora records. This is especially useful when you have a website that you want to be able to pull data from KORA.</p>
+</li>
+</ul>
               
             </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../exporting_a_form/" class="btn btn-neutral float-right" title="Exporting a Form">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../editing_a_form/" class="btn btn-neutral" title="Editing a Form"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
@@ -293,6 +348,10 @@
           <a href="https://github.com/chi-initiative/kora-documentation/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
+        <span><a href="../editing_a_form/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../exporting_a_form/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

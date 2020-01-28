@@ -147,6 +147,10 @@
                 </li>
                 <li class="">
                     
+    <a class="" href="../editing_fields/">Editing Fields</a>
+                </li>
+                <li class="">
+                    
     <a class="" href="../exporting_a_form/">Exporting a Form</a>
                 </li>
                 <li class="">
@@ -253,8 +257,8 @@
             <div class="section">
               
                 <h1 id="understanding-field-types">Understanding Field Types</h1>
-<p>Each <a href="content/creating_a_form.md">form</a> has to ability to add any number of different fields across <a href="../creating_a_multipage_form/">multiple pages</a>. This includes text, number, list, data, file and specialty fields. Understanding what these field types bring to the table will allow you to create spaces for data entry that are relevant to your digital repository. <a href="content/creating_fields.md">Creating a field</a> is the first step towards understanding field types. <p align="center"> <img src="../forms-img/understanding_field_types_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p></p>
-<p>After choosing to create a field and selecting the <em>Field Type</em> drop-down menu, you'll find the field type options available. These options will determine what types of data are entered into a <a href="content/creating_a_record.md">record</a>. The headings below will discuss the field types by their category: text, number, list, data, file and specialty. <p align="center"> <img src="../forms-img/understanding_field_types_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p></p>
+<p>Each <a href="../creating_a_form/">form</a> has to ability to add any number of different fields across <a href="../creating_a_multipage_form/">multiple pages</a>. This includes text, number, list, data, file and specialty fields. Understanding what these field types bring to the table will allow you to create spaces for data entry that are relevant to your digital repository. <a href="../creating_fields/">Creating a field</a> is the first step towards understanding field types. <p align="center"> <img src="../forms-img/understanding_field_types_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p></p>
+<p>After choosing to create a field and selecting the <em>Field Type</em> drop-down menu, you'll find the field type options available. These options will determine what types of data are entered into a <a href="../forms/creating_a_record.md">record</a>. The headings below will discuss the field types by their category: text, number, list, data, file and specialty. <p align="center"> <img src="../forms-img/understanding_field_types_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p></p>
 <p>After selecting your field type, you can click on <strong>Show Advanced Field Options</strong>. This is where you will be able to view many of the options for customizing your fields discussed below. <p align="center"> <img src="../forms-img/understanding_field_types_3_annotated.png" width="100%" style="align:center" title="Step 3"> </p></p>
 <h2 id="text-fields">Text Fields</h2>
 <p>Text field are fields in which you enter text. There are two types of text field: <em>text field</em> and <em>rich text field</em>. <p align="center"> <img src="../forms-img/understanding_field_types_4_annotated.png" width="100%" style="align:center" title="Step 4"> </p></p>
@@ -479,14 +483,71 @@
 <p><strong>Background Color One</strong>: allows you to choose the first background color of the model environment</p>
 </li>
 <li>
-<p><strong>Background Color Two</strong>: allows you to choose the second background color of the model environmetn. <p align="center"> <img src="../forms-img/understanding_field_types_31_annotated.png" width="100%" style="align:center" title="Step 31"> </p></p>
+<p><strong>Background Color Two</strong>: allows you to choose the second background color of the model environment. <p align="center"> <img src="../forms-img/understanding_field_types_31_annotated.png" width="100%" style="align:center" title="Step 31"> </p></p>
 </li>
 </ul>
 <h2 id="specialty-fields">Specialty Fields</h2>
-<p>These fields serve special purposes
-  * <strong>Boolean</strong> true or false
-  * <strong>Geolocator</strong> location
-  * *<em>Associator</em> associate with stuff</p>
+<p>There are a number of different Specialty fields which serve specific functions for form creators. These functions allow users to create true or false options, describe geographic location and associate records with other records. These field types are referred to respectively as:<em>Boolean</em>; <em>Geolocator</em>; and <em>Associator</em> fields. <p align="center"> <img src="../forms-img/understanding_field_types_32_annotated.png" width="100%" style="align:center" title="Step 32"> </p></p>
+<h3 id="boolean">Boolean</h3>
+<p>The <em>boolean</em> field allows. As you can see in the previous image, You are able to make a title and description for a boolean field, which the person entering data may check or uncheck by clicking on the circle. You may automatically have the boolean field selected by checking the <strong>default</strong> option in the advanced options of the boolean field you are creating or editing. <p align="center"> <img src="../forms-img/understanding_field_types_33_annotated.png" width="100%" style="align:center" title="Step 33"> </p></p>
+<h3 id="geolocator">Geolocator</h3>
+<p>The <em>geolocator</em> field allows users to enter geographic data through the use of latitude/longitude (lat/long), and address data. When entering new geolocator data, users enter the name of the new location, what type of geographic data they are entering (lat/long or address) and then the actual data. This field provides three advanced options when customizing this field: <strong>Default Locations</strong>, <strong>Map Display</strong> and <strong>Displayed Data</strong>.</p>
+<ul>
+<li>
+<p><strong>Default Locations</strong>: this advanced field option allows you to enter default locations for a geolocator field. You will enter the location name, location type and data in the same way as a new record. The image below shows the pop-up that appears for entering new locations into a geolocator field. <p align="center"> <img src="../forms-img/understanding_field_types_34_annotated.png" width="100%" style="align:center" title="Step 34"> </p></p>
+</li>
+<li>
+<p><strong>Map Display</strong>: This advanced option allows you to display a map with points using entered location data. The points will appear on an interactive map which will automatically zoom to fit all of your points. Viewing records with map display active will show this map when examining records. If map display is inactive then no interactive map will be available for locations entered using Geolocator data. Instead, the raw text for the name of the location, and it's location data will be displayed.</p>
+</li>
+<li>
+<p><strong>Displayed Data</strong>: If you choose not to display a map using the <strong>Map Display</strong> option, then Kora will display your data as text. There are two types of location data that you are able to display when viewing records: <strong>Lat Long</strong> and <strong>Address</strong>. Displaying <strong>Lat Long</strong> will display the coordinates of your location using latitude and longitude coordinates. Likewise, selecting <strong>Address</strong> will display the address of your locations. If a record provides latitude and longitude, Kora will still be able to look up an associated address to display if that is the option that is chosen. The opposite is also true. <p align="center"> <img src="../forms-img/understanding_field_types_35_annotated.png" width="100%" style="align:center" title="Step 35"> </p></p>
+</li>
+</ul>
+<h3 id="associator">Associator</h3>
+<p>An <em>associator</em> field creates connections between records. Let's say, for example, that you want to <a href="../creating_a_form/">create a form</a> that keeps track of people associated with a museum project. This could include supervisors, volunteers, archaeologists, etc. Individual records could be created with their names and roles. Now let's say you want to create another form for objects associated with this project. You could create records which include data on these objects <em>and</em> the people involved with the curation of those objects. This could potentially be a lot of data reentry, however. One solution Kora offers for this hypothetical problem is the ability to associate the object records from the one form with the people records from the other form.  </p>
+<p>When an association is created within a record, the <em>associator</em> field displays your selected, associated record as a clickable link within that original record. This link will bring you to the record page for that associated record. The possible association are extremely flexible, in that you are able to associate records with other records from the same form or even records from another project's form. In order to do this, however, you will need to give forms the ability to search each other through <em>Form association permissions</em>. What follows are directions for: creating association permissions between forms; setting up the search configurations for an associator field, and how to use an associator field.</p>
+<h5 id="associator-permissions">Associator Permissions</h5>
+<p>Follow these steps to set up associator permissions:</p>
+<ol>
+<li>
+<p>First, you will want to <a href="../creating_a_form/">navigate to the desired form</a> that you want to associate other records with. From there you will have to select <strong>Association Permissions</strong> from either dropdown menu shown below. <p align="center"> <img src="../forms-img/understanding_field_types_36_annotated.png" width="100%" style="align:center" title="Step 36"> </p></p>
+</li>
+<li>
+<p>This will bring you to the <em>Form Associations Page</em> which allows you to grant association access with other forms. If you have administrative access to the forms that you want to associate, select <strong>Create a New Form Association</strong>. <p align="center"> <img src="../forms-img/understanding_field_types_37_annotated.png" width="100%" style="align:center" title="Step 37"> </p></p>
+</li>
+<li>
+<p>A new box will appear asking you <em>Create a New Form Association</em>. The dropdown menu will initially ask you to select a form. Forms will be displayed here from any project you have access to through a "project name - form name" format. Select the form you want to create an association with and click <strong>Create a New Form Association</strong>. Forms that are allowed to be associated with will be listed at the bottom of the <em>Form Associations Page</em>. <p align="center"> <img src="../forms-img/understanding_field_types_38_annotated.png" width="100%" style="align:center" title="Step 38"> </p></p>
+</li>
+<li>
+<p>If you do not have administrative permissions to a form, you may select the <em>Request Form Access</em> tab. Clicking <strong>Request Form Access</strong> on that page will allow you to select a form, after which Kora will send an email to all administrators requesting access to form associations. <p align="center"> <img src="../forms-img/understanding_field_types_39_annotated.png" width="100%" style="align:center" title="Step 39"> </p>  </p>
+</li>
+</ol>
+<h5 id="association-search-configuration">Association Search Configuration</h5>
+<p>Now that you have the correct association permissions set up for your form, you can create an association field that will be able to search records from other forms. In the directions below, we will be creating an <em>associator</em> field that is able to search for records through another form called "Form 2". These setup steps will work for any <em>associator</em> field:</p>
+<ol>
+<li>
+<p>First go to the advanced options for the associator when <a href="../creating_a_form/">creating the field</a>. There you will find the <em>Association Search Configuration</em>, which will have the forms that you are able to search through available to be checked off. <p align="center"> <img src="../forms-img/understanding_field_types_40_annotated.png" width="100%" style="align:center" title="Step 40"> </p></p>
+</li>
+<li>
+<p>Once you have selected the form that you want this field to be able to associate with, you will have the option to select preview values. Preview values will show any values from the selected fields you choose when searching for records. If you do not select a preview value, then the internal Kora Identification (KID) will be the only value that is shown when searching for records with this associator. It is recommended that you choose a field such as "name", "id", etc. that will allow you to more easily identify what record you are looking at. <p align="center"> <img src="../forms-img/understanding_field_types_41_annotated.png" width="100%" style="align:center" title="Step 41"> </p></p>
+</li>
+<li>
+<p>After your search configuration is set up, you can create a default value for the associator field. Go to the next section for directions on how to use an associator field.</p>
+</li>
+</ol>
+<h5 id="how-to-use-an-associator-field">How to Use an Associator Field</h5>
+<p>After setting up the permissions and search configurations for an <em>associator</em> field as outlined in the previous sections, you will now be able to associate records from your form with records from other desired forms. Follow these steps to associate records using an associator field:</p>
+<ol>
+<li>
+<p>When using an associator field, the first thing you must do is search for a record to associate with. You must search for records by entering key terms or a known KID (Kora Identification number) under <em>Search Associations</em>. In the image below, we search for "Jane Doe" <p align="center"> <img src="../forms-img/understanding_field_types_42_annotated.png" width="100%" style="align:center" title="Step 42"> </p></p>
+</li>
+<li>
+<p>Results of your search will show up in the next section labeled <em>Association Results</em>. Results will show up as the KID separated from any preview values you have chosen (step 2 in search configuration). Because we selected a preview value to display a name, we are extra sure that this is the correct record for "Jane Doe". Click on the record(s) that you want to appear as associations. <p align="center"> <img src="../forms-img/understanding_field_types_43_annotated.png" width="100%" style="align:center" title="Step 43"> </p></p>
+</li>
+<li>
+<p>Selected association will then appear in the <em>Selected Associations</em> section. You may continue to search for new records to associate by repeating steps 1 &amp; 2. You may also remove selected associations by clicking on the <strong>x</strong> next to their text. <p align="center"> <img src="../forms-img/understanding_field_types_44_annotated.png" width="100%" style="align:center" title="Step 44"> </p></p>
+</li>
+</ol>
               
             </div>
           </div>
