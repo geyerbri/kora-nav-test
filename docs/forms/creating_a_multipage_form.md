@@ -3,13 +3,13 @@ title: Creating a Multipage Form
 ---
 # Creating a Multipage Form
 
-A [form](content/creating_a_form.md) allows you to organize fields in order to customize how your data is entered as a [record](content/creating_a_record.md). In some instances you may want to split your data entry into multiple sections. For instance, you may want information about the physical dimensions of an artifact entered into one section and its associated time period entered into another. Separating [fields](content/creating_fields.md) into multiple pages allows you to organize your form with these concepts in mind.
+A [form](../forms/creating_a_form.md) allows you to organize fields in order to customize how your data is entered as a [record](../forms/creating_a_record.md). In some instances you may want to split your data entry into multiple sections. For instance, you may want information about the physical dimensions of an artifact entered into one section and its associated time period entered into another. Separating [fields](../forms/creating_fields.md) into multiple pages allows you to organize your form with these concepts in mind.
 
 ## Creating multiple pages
 
-In order to create multiple pages in a form you will need to [create a form](content/create_form.md). This will initially provide you with a single page labeled *(Your Form Name) Default Page*. <p align="center"> <img src="../forms-img/creating_a_multipage_form_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
+In order to create multiple pages in a form you will need to [create a form](../forms/create_form.md). This will initially provide you with a single page labeled *(Your Form Name) Default Page*. <p align="center"> <img src="../forms-img/creating_a_multipage_form_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
 
-This default page will initially contain no fields. Soon, however, you may find yourself [creating a large number of fields](content/creating_fields.md) in an attempt to capture as much data as possible. In many cases, it may be better for the readability of your form to separate these fields into multiple pages based on their content.
+This default page will initially contain no fields. Soon, however, you may find yourself [creating a large number of fields](../forms/creating_fields.md) in an attempt to capture as much data as possible. In many cases, it may be better for the readability of your form to separate these fields into multiple pages based on their content.
 
 Follow these steps to create and organize new pages:
 
@@ -23,7 +23,7 @@ Follow these steps to create and organize new pages:
 
 ## Moving Fields Between Pages
 
-You may create a new [field](content/creating_fields.md) within any page, or move a field from one page to another. You move fields between pages by clicking on the field and dragging it to the desired page:
+You may create a new [field](../forms/creating_fields.md) within any page, or move a field from one page to another. You move fields between pages by clicking on the field and dragging it to the desired page:
 
 1. Click on the field you want to move. <p align="center"> <img src="../forms-img/creating_a_multipage_form_6_annotated.png" width="100%" style="align:center" title="Step 6"> </p>
 

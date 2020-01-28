@@ -3,9 +3,9 @@ title: Understanding Field Types
 ---
 # Understanding Field Types
 
-Each [form](content/creating_a_form.md) has to ability to add any number of different fields across [multiple pages](creating_a_multipage_form.md). This includes text, number, list, data, file and specialty fields. Understanding what these field types bring to the table will allow you to create spaces for data entry that are relevant to your digital repository. [Creating a field](content/creating_fields.md) is the first step towards understanding field types. <p align="center"> <img src="../forms-img/understanding_field_types_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
+Each [form](../forms/creating_a_form.md) has to ability to add any number of different fields across [multiple pages](../forms/creating_a_multipage_form.md). This includes text, number, list, data, file and specialty fields. Understanding what these field types bring to the table will allow you to create spaces for data entry that are relevant to your digital repository. [Creating a field](../forms/creating_fields.md) is the first step towards understanding field types. <p align="center"> <img src="../forms-img/understanding_field_types_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
 
-After choosing to create a field and selecting the *Field Type* drop-down menu, you'll find the field type options available. These options will determine what types of data are entered into a [record](content/creating_a_record.md). The headings below will discuss the field types by their category: text, number, list, data, file and specialty. <p align="center"> <img src="../forms-img/understanding_field_types_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p>
+After choosing to create a field and selecting the *Field Type* drop-down menu, you'll find the field type options available. These options will determine what types of data are entered into a [record](../forms/creating_a_record.md). The headings below will discuss the field types by their category: text, number, list, data, file and specialty. <p align="center"> <img src="../forms-img/understanding_field_types_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p>
 
 After selecting your field type, you can click on **Show Advanced Field Options**. This is where you will be able to view many of the options for customizing your fields discussed below. <p align="center"> <img src="../forms-img/understanding_field_types_3_annotated.png" width="100%" style="align:center" title="Step 3"> </p>
 
@@ -130,6 +130,7 @@ The *date time* field type provides everything that the date field type provides
 * **Default**: the *date time* field type gives the additional option to specify a default hour, minute and second. Default times are changeable, but will appear initially every time a record using that date time field is created. <p align="center"> <img src="../forms-img/understanding_field_types_24_annotated.png" width="100%" style="align:center" title="Step 24"> </p>
 
 ### Historical date
+
 A *historical date* field type provides everything that the date field type provides, plus the ability to add prefixes and calendar notation to the dates. The advanced options for this field type are similar to the *date time* field, except a few advanced options: **Select Prefix(Optional)**, **Select Calendar/Date Notation**, **Show Prefixes?** and **Show Calendar/Date Notation?**. These advanced options unique to the *historical date* field type are outlined below. Check out the section on the *date* field type above to learn more about the other advanced options.
 
 * **Select Prefix(Optional)**: prefixes are selected by clicking the circle to the left of their name. The prefixes available include circa, pre and post. Circa refers to approximate or estimated dates. Pre refers to times before the specified date. Post refers to times after the date. You may only select one prefix.
@@ -141,9 +142,11 @@ A *historical date* field type provides everything that the date field type prov
 * **Show Calendar/Date Notation?** if you want your selected notation to appear when creating and viewing  records then select 'yes' from the drop-down menu. <p align="center"> <img src="../forms-img/understanding_field_types_25_annotated.png" width="100%" style="align:center" title="Step 25"> </p>
 
 ## File Fields
+
 File Fields allow you to create fields were users can upload files to a record. This includes documents, images, audio, video and 3D models. The image below shows what a typical file field looks like. There will be a title, a space to upload your file, and a description below. The File Field Types are: *Documents*, *Gallery*, *Playlist*, *Video* and *3D-Model*. <p align="center"> <img src="../forms-img/understanding_field_types_26_annotated.png" width="100%" style="align:center" title="Step 26"> </p>
 
 ### Documents
+
 The *documents* file field creates a space for document files to be uploaded. Since there are multiple types of files that documents can come in, you must select the document file types that you want to upload. You can customize the types of files you want uploaded and how you want them uploaded with the advanced options available: **Max File Size (kb)**; **Max File Amount**; and **Allowed File Types (MIME):**.
 
 * **Max File Size (kb)**: allows you to determine the maximum size of a file that can be uploaded.
@@ -153,6 +156,7 @@ The *documents* file field creates a space for document files to be uploaded. Si
 * **Allowed File Types (MIME):**: this is were you will select the types of files that you want to accept for a document upload. You may want only .pdf or .png files to be uploaded. Due to the wide variety of formats that documents typically come in, no default values are selected for document uploads and there are a wide variety of file types available for selection. This differs from other file fields in because you must choose a document type for it to be possible to upload files. <p align="center"> <img src="../forms-img/understanding_field_types_27_annotated.png" width="100%" style="align:center" title="Step 27"> </p>
 
 ### Gallery
+
 The *gallery* file field creates a data field which allows users to upload images. Standard file formats are already selected for this field and include: jpg, gif and png and bmp image files. The advanced options available are similar to other file fields: **Max File Size (kb)**; **Max File Amount**; and **Allowed File Types**.
 
 * **Max File Size (kb)**: allows you to determine the maximum size of a file that can be uploaded.
@@ -162,6 +166,7 @@ The *gallery* file field creates a data field which allows users to upload image
 * **Allowed File Types:**: the file types provided are already optimized for typical image file formats including: jpg, gif and png and bmp image files. These are the only file types you may choose from. <p align="center"> <img src="../forms-img/understanding_field_types_28_annotated.png" width="100%" style="align:center" title="Step 28"> </p>
 
 ### Playlist
+
 The *playlist* file field creates a space for users to upload audio files when making a record. Standard file formats are already selected for this field and include: MP3 and WAV audio files. The advanced options available are similar to other file fields: **Max File Size (kb)**; **Max File Amount**; and **Allowed File Types**.
 
 * **Max File Size (kb)**: allows you to determine the maximum size of a file that can be uploaded.
@@ -171,6 +176,7 @@ The *playlist* file field creates a space for users to upload audio files when m
 * **Allowed File Types:**: the file types provided are already optimized for typical audio file formats including: MP3 and WAV audio files. These are the only file types you may choose from. <p align="center"> <img src="../forms-img/understanding_field_types_29_annotated.png" width="100%" style="align:center" title="Step 29"> </p>
 
 ### Video
+
 The *video* file field creates a space for users to upload video files when making a record. There is only one standard file formats selected for this field which is MP4. The advanced options available are similar to other file fields: **Max File Size (kb)**; **Max File Amount**; and **Allowed File Types**.
 
 * **Max File Size (kb)**: allows you to determine the maximum size of a file that can be uploaded.
@@ -180,6 +186,7 @@ The *video* file field creates a space for users to upload video files when maki
 * **Allowed File Types:**: the MP4 file type provided is the only file format available for videos. This is the only file types you may choose from. <p align="center"> <img src="../forms-img/understanding_field_types_30_annotated.png" width="100%" style="align:center" title="Step 30"> </p>
 
 ### 3D model
+
 The *3D model* file field creates a space for users to upload 3D models into a record. There are standard file formats already selected for 3D models which include: OBJ, STL, JPEG Texture, PNG Texture and other. The advanced options available are similar to other file fields, but include some notable differences: **Max File Size (kb)**; **Allowed File Types**; **Model Color**; **Background Color One**; and **Background Color Two**.
 
 * **Max File Size (kb)**: allows you to determine the maximum size of a file that can be uploaded.
@@ -190,10 +197,60 @@ The *3D model* file field creates a space for users to upload 3D models into a r
 
 * **Background Color One**: allows you to choose the first background color of the model environment
 
-* **Background Color Two**: allows you to choose the second background color of the model environmetn. <p align="center"> <img src="../forms-img/understanding_field_types_31_annotated.png" width="100%" style="align:center" title="Step 31"> </p>
+* **Background Color Two**: allows you to choose the second background color of the model environment. <p align="center"> <img src="../forms-img/understanding_field_types_31_annotated.png" width="100%" style="align:center" title="Step 31"> </p>
 
 ## Specialty Fields
-These fields serve special purposes
-  * **Boolean** true or false
-  * **Geolocator** location
-  * **Associator* associate with stuff
+
+There are a number of different Specialty fields which serve specific functions for form creators. These functions allow users to create true or false options, describe geographic location and associate records with other records. These field types are referred to respectively as:*Boolean*; *Geolocator*; and *Associator* fields. <p align="center"> <img src="../forms-img/understanding_field_types_32_annotated.png" width="100%" style="align:center" title="Step 32"> </p>
+
+### Boolean
+
+The *boolean* field allows. As you can see in the previous image, You are able to make a title and description for a boolean field, which the person entering data may check or uncheck by clicking on the circle. You may automatically have the boolean field selected by checking the **default** option in the advanced options of the boolean field you are creating or editing. <p align="center"> <img src="../forms-img/understanding_field_types_33_annotated.png" width="100%" style="align:center" title="Step 33"> </p>
+
+### Geolocator
+
+The *geolocator* field allows users to enter geographic data through the use of latitude/longitude (lat/long), and address data. When entering new geolocator data, users enter the name of the new location, what type of geographic data they are entering (lat/long or address) and then the actual data. This field provides three advanced options when customizing this field: **Default Locations**, **Map Display** and **Displayed Data**.
+
+* **Default Locations**: this advanced field option allows you to enter default locations for a geolocator field. You will enter the location name, location type and data in the same way as a new record. The image below shows the pop-up that appears for entering new locations into a geolocator field. <p align="center"> <img src="../forms-img/understanding_field_types_34_annotated.png" width="100%" style="align:center" title="Step 34"> </p>
+
+* **Map Display**: This advanced option allows you to display a map with points using entered location data. The points will appear on an interactive map which will automatically zoom to fit all of your points. Viewing records with map display active will show this map when examining records. If map display is inactive then no interactive map will be available for locations entered using Geolocator data. Instead, the raw text for the name of the location, and it's location data will be displayed.
+
+* **Displayed Data**: If you choose not to display a map using the **Map Display** option, then Kora will display your data as text. There are two types of location data that you are able to display when viewing records: **Lat Long** and **Address**. Displaying **Lat Long** will display the coordinates of your location using latitude and longitude coordinates. Likewise, selecting **Address** will display the address of your locations. If a record provides latitude and longitude, Kora will still be able to look up an associated address to display if that is the option that is chosen. The opposite is also true. <p align="center"> <img src="../forms-img/understanding_field_types_35_annotated.png" width="100%" style="align:center" title="Step 35"> </p>
+
+### Associator
+
+An *associator* field creates connections between records. Let's say, for example, that you want to [create a form](../forms/creating_a_form.md) that keeps track of people associated with a museum project. This could include supervisors, volunteers, archaeologists, etc. Individual records could be created with their names and roles. Now let's say you want to create another form for objects associated with this project. You could create records which include data on these objects *and* the people involved with the curation of those objects. This could potentially be a lot of data reentry, however. One solution Kora offers for this hypothetical problem is the ability to associate the object records from the one form with the people records from the other form.  
+
+When an association is created within a record, the *associator* field displays your selected, associated record as a clickable link within that original record. This link will bring you to the record page for that associated record. The possible association are extremely flexible, in that you are able to associate records with other records from the same form or even records from another project's form. In order to do this, however, you will need to give forms the ability to search each other through *Form association permissions*. What follows are directions for: creating association permissions between forms; setting up the search configurations for an associator field, and how to use an associator field.
+
+##### Associator Permissions
+
+Follow these steps to set up associator permissions:
+
+1.  First, you will want to [navigate to the desired form](../forms/creating_a_form.md) that you want to associate other records with. From there you will have to select **Association Permissions** from either dropdown menu shown below. <p align="center"> <img src="../forms-img/understanding_field_types_36_annotated.png" width="100%" style="align:center" title="Step 36"> </p>
+
+2. This will bring you to the *Form Associations Page* which allows you to grant association access with other forms. If you have administrative access to the forms that you want to associate, select **Create a New Form Association**. <p align="center"> <img src="../forms-img/understanding_field_types_37_annotated.png" width="100%" style="align:center" title="Step 37"> </p>
+
+3. A new box will appear asking you *Create a New Form Association*. The dropdown menu will initially ask you to select a form. Forms will be displayed here from any project you have access to through a "project name - form name" format. Select the form you want to create an association with and click **Create a New Form Association**. Forms that are allowed to be associated with will be listed at the bottom of the *Form Associations Page*. <p align="center"> <img src="../forms-img/understanding_field_types_38_annotated.png" width="100%" style="align:center" title="Step 38"> </p>
+
+4.  If you do not have administrative permissions to a form, you may select the *Request Form Access* tab. Clicking **Request Form Access** on that page will allow you to select a form, after which Kora will send an email to all administrators requesting access to form associations. <p align="center"> <img src="../forms-img/understanding_field_types_39_annotated.png" width="100%" style="align:center" title="Step 39"> </p>  
+
+##### Association Search Configuration
+
+Now that you have the correct association permissions set up for your form, you can create an association field that will be able to search records from other forms. In the directions below, we will be creating an *associator* field that is able to search for records through another form called "Form 2". These setup steps will work for any *associator* field:
+
+1. First go to the advanced options for the associator when [creating the field](../forms/creating_a_form.md). There you will find the *Association Search Configuration*, which will have the forms that you are able to search through available to be checked off. <p align="center"> <img src="../forms-img/understanding_field_types_40_annotated.png" width="100%" style="align:center" title="Step 40"> </p>
+
+2. Once you have selected the form that you want this field to be able to associate with, you will have the option to select preview values. Preview values will show any values from the selected fields you choose when searching for records. If you do not select a preview value, then the internal Kora Identification (KID) will be the only value that is shown when searching for records with this associator. It is recommended that you choose a field such as "name", "id", etc. that will allow you to more easily identify what record you are looking at. <p align="center"> <img src="../forms-img/understanding_field_types_41_annotated.png" width="100%" style="align:center" title="Step 41"> </p>
+
+3. After your search configuration is set up, you can create a default value for the associator field. Go to the next section for directions on how to use an associator field.
+
+##### How to Use an Associator Field
+
+After setting up the permissions and search configurations for an *associator* field as outlined in the previous sections, you will now be able to associate records from your form with records from other desired forms. Follow these steps to associate records using an associator field:
+
+1. When using an associator field, the first thing you must do is search for a record to associate with. You must search for records by entering key terms or a known KID (Kora Identification number) under *Search Associations*. In the image below, we search for "Jane Doe" <p align="center"> <img src="../forms-img/understanding_field_types_42_annotated.png" width="100%" style="align:center" title="Step 42"> </p>
+
+2. Results of your search will show up in the next section labeled *Association Results*. Results will show up as the KID separated from any preview values you have chosen (step 2 in search configuration). Because we selected a preview value to display a name, we are extra sure that this is the correct record for "Jane Doe". Click on the record(s) that you want to appear as associations. <p align="center"> <img src="../forms-img/understanding_field_types_43_annotated.png" width="100%" style="align:center" title="Step 43"> </p>
+
+3. Selected association will then appear in the *Selected Associations* section. You may continue to search for new records to associate by repeating steps 1 & 2. You may also remove selected associations by clicking on the **x** next to their text. <p align="center"> <img src="../forms-img/understanding_field_types_44_annotated.png" width="100%" style="align:center" title="Step 44"> </p>
