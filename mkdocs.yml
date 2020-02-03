@@ -16,7 +16,7 @@ nav:
     - 'Getting Started':
         - 'Understanding Core Concepts': 'getting-started/core-concepts.md'
     - 'Projects':
-        - 'Creating a Project': 'projects/create-project.md'
+        - 'Creating a Project': 'projects/creating_a_project.md'
         - 'Adding Users to Projects': 'projects/adding_users_to_projects.md'
     - 'Forms':
         - 'Creating a Form': 'forms/creating_a_form.md'
