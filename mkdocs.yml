@@ -12,7 +12,7 @@ theme:
 
 nav:
     - 'Home': 'index.md'
-    - 'Searching': 'search.md'
+  #  - 'Searching': 'search.md'
     - 'Getting Started':
         - 'Understanding Core Concepts': 'getting-started/core-concepts.md'
     - 'Projects':
