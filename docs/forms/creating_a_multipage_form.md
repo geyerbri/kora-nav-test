@@ -3,7 +3,7 @@ title: Creating a Multipage Form
 ---
 # Creating a Multipage Form
 
-A [form](../forms/creating_a_form.md) allows you to organize fields in order to customize how your data is entered as a [record](../forms/creating_a_record.md). In some instances you may want to split your data entry into multiple sections. For instance, you may want information about the physical dimensions of an artifact entered into one section and its associated time period entered into another. Separating [fields](../forms/creating_fields.md) into multiple pages allows you to organize your form with these concepts in mind.
+A [form](../forms/creating_a_form.md) allows you to organize fields in order to customize how your data is entered as a [record](../records/creating_a_record.md). In some instances you may want to split your data entry into multiple sections. For instance, you may want information about the physical dimensions of an artifact entered into one section and its associated time period entered into another. Separating [fields](../forms/creating_fields.md) into multiple pages allows you to organize your form with these concepts in mind.
 
 ## Creating multiple pages
 

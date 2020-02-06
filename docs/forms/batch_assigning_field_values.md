@@ -3,7 +3,7 @@ title: Batch Assigning Field Values
 ---
 # Batch Assigning Field Values
 
-When entering [records](../forms/creating_a_record.md) into a [form](../forms/creating_a_form.md), there may be times where you want to assign a value to a [field](../forms/creating_fields.md) across multiple records. For instance, you may know the name of a site for multiple artifacts within that site. You can enter the site name for each record individually, or you can save time by batch assigning field values to all the records contained within that site. This will fill in the designated field with the desired record across all records or selected records.
+When entering [records](../records/creating_a_record.md) into a [form](../forms/creating_a_form.md), there may be times where you want to assign a value to a [field](../forms/creating_fields.md) across multiple records. For instance, you may know the name of a site for multiple artifacts within that site. You can enter the site name for each record individually, or you can save time by batch assigning field values to all the records contained within that site. This will fill in the designated field with the desired record across all records or selected records.
 
 ## Batch Assigning Field Values Within A Form
 
@@ -23,7 +23,7 @@ For steps on how to batch assign fields to specific records, go to the next sect
 
  7. After selecting all the desired options for the batch assignment, select the **Batch Assigned Field Values** button at the bottom of the page to carry out the batch assignment. <p align="center"> <img src="../forms-img/batch_assigning_field_values_7_annotated.png" width="100%" style="align:center" title="Step 7"> </p>
 
- 8. This will bring you to the [Form Record & Search](../forms/searching_and_browsing_records.md) page where a notification will confirm that you have been successful at batch assigning field records to all records within your form. From this page you may also batch assign to only selection of records (start at step 3 of the next section). <p align="center"> <img src="../forms-img/batch_assigning_field_values_8_annotated.png" width="100%" style="align:center" title="Step 8"> </p>
+ 8. This will bring you to the [Form Record & Search](../records/searching_and_browsing_records.md) page where a notification will confirm that you have been successful at batch assigning field records to all records within your form. From this page you may also batch assign to only selection of records (start at step 3 of the next section). <p align="center"> <img src="../forms-img/batch_assigning_field_values_8_annotated.png" width="100%" style="align:center" title="Step 8"> </p>
 
 ## Selecting Specific Records for Batch Assigning
 Sometimes you will want to batch assign only a selection of records rather than all the records within that form. Follow these steps to do so:
@@ -32,7 +32,7 @@ Sometimes you will want to batch assign only a selection of records rather than 
 
 2.  Select the **Form Records & Search** option from either navigation menu to go to that page. Additionally, you may also get to the Form Records & Search page by clicking the **Form Records and Search ()** button at the form home. <p align="center"> <img src="../forms-img/batch_assigning_field_values_10_annotated.png" width="100%" style="align:center" title="Step 10"> </p>
 
-3. From the **Form Records & Search** page, you will be able to [browse and search through records](../forms/searching_and_browsing_records.md) that you have already entered. You may browse through all records or search for a particular subset of records that you want to work with. You may select your chosen records by using the circle option to the left of each record. <p align="center"> <img src="../forms-img/batch_assigning_field_values_11_annotated.png" width="100%" style="align:center" title="Step 11"> </p>
+3. From the **Form Records & Search** page, you will be able to [browse and search through records](../records/searching_and_browsing_records.md) that you have already entered. You may browse through all records or search for a particular subset of records that you want to work with. You may select your chosen records by using the circle option to the left of each record. <p align="center"> <img src="../forms-img/batch_assigning_field_values_11_annotated.png" width="100%" style="align:center" title="Step 11"> </p>
 
 4. Once you've selected the records that you want to batch assign field values to, click on the **batch assign ()** button that appears at the bottom of the page. <p align="center"> <img src="../forms-img/batch_assigning_field_values_12_annotated.png" width="100%" style="align:center" title="Step 12"> </p>
 

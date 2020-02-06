@@ -3,7 +3,7 @@ title: Editing Fields
 ---
 # Editing Fields
 
-A [form](../forms/creating_a_form.md) can contain a number of different [field types](../forms/understanding_field_types.md) which allow you to customize how data is entered into a [record](../forms/creating_a_record.md). In addition to field types, however, there are further customizations to fields that can be made in order to manipulate how data is entered. This documentation will cover how and were to edit your fields, and what options are available during this editing.
+A [form](../forms/creating_a_form.md) can contain a number of different [field types](../forms/understanding_field_types.md) which allow you to customize how data is entered into a [record](../records/creating_a_record.md). In addition to field types, however, there are further customizations to fields that can be made in order to manipulate how data is entered. This documentation will cover how and were to edit your fields, and what options are available during this editing.
 
 ## Editing Fields from the Form Home Page
 
@@ -36,7 +36,7 @@ There are seven options which can be edited from both the *Form Home* page, and 
 
 * **Required**: checking the *Required* option will force anybody creating a record for this form to fill out this field. A value will have to be entered in order for Kora to accept the record, or a new value will have to be entered if a default value is deleted.
 
-* **Searchable**: checking the *Searchable* option will allow Kora to see any data that is entered into this field when conducting any [searches](../forms/searching_and_browsing_records.md).
+* **Searchable**: checking the *Searchable* option will allow Kora to see any data that is entered into this field when conducting any [searches](../records/searching_and_browsing_records.md).
 
 * **Advanced Searchable**: checking the *Advanced Searchable** option will allow Kora to search for any data entered into this field when conducting advanced searches.
 
@@ -44,6 +44,6 @@ There are seven options which can be edited from both the *Form Home* page, and 
 
 * **Viewable**: checking the *Viewable* option will make this field appear when you are creating or viewing a record with this field. This may come in use if you are unsure of a particular field you have created. You may make it unviewable to those creating records until you have time to come back to it in the future.
 
-* **Viewable in Results**: Checking this box affects only how the data from this field shows up when [browsing or searching records](../forms/searching_and_browsing_records.md). This option is incredibly useful for managing the readability of your records in Kora. Instead of having 20 fields of data show up for each record you search for, you are able to narrow it down to fields such as name, id, or whatever is useful to you. It is important to note that this option will not affect whether or not this field is searchable, and all fields will be viewable from the full record page.
+* **Viewable in Results**: Checking this box affects only how the data from this field shows up when [browsing or searching records](../records/searching_and_browsing_records.md). This option is incredibly useful for managing the readability of your records in Kora. Instead of having 20 fields of data show up for each record you search for, you are able to narrow it down to fields such as name, id, or whatever is useful to you. It is important to note that this option will not affect whether or not this field is searchable, and all fields will be viewable from the full record page.
 
 * **Externally Viewable**: checking the *Externally Viewable* option will allow programs which have access to Kora's API to view the data located within this field in your Kora records. This is especially useful when you have a website that you want to be able to pull data from KORA.
