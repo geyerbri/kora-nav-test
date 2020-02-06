@@ -19,6 +19,7 @@ nav:
         - 'Creating a Project': 'projects/creating_a_project.md'
         - 'Adding Users to Projects': 'projects/adding_users_to_projects.md'
         - 'Exporting a Project': 'projects/exporting_a_project.md'
+        - 'Importing a Project': 'projects/importing_a_project.md'
     - 'Forms':
         - 'Creating a Form': 'forms/creating_a_form.md'
         - 'Understanding Field Types': 'forms/understanding _field_types.md'
