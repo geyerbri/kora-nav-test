@@ -1,3 +1,7 @@
+h1 {
+  color: green;
+}
+
 a {
     color: #A91919;
 }
@@ -19,7 +23,7 @@ a:visited {
     border-color: #404E61;
 }
 
-.wy-side-nav-search>a, 
+.wy-side-nav-search>a,
 .wy-side-nav-search .wy-dropdown>a,
 .wy-menu-vertical a:hover {
     color: #fff !important;
