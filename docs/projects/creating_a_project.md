@@ -4,17 +4,18 @@ A project is the biggest organizational structure in Kora. Each project is its o
 
 Follow the steps below to create a project.
 
-1. From your projects list, click the **Create a New Project** button. This will bring you to the *New Project* page. <br/> <p align="center"> <img src="../projects-img/creating_a_project_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p><br/>
+1. From your projects list, click the **Create a New Project** button. This will bring you to the *New Project* page. <br/> <br /><p align="center"> <img src="../projects-img/creating_a_project_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
+<br/>
 
-2. On the *New Project* page, enter the name of the your project in the white box under **Project Name**. This is a required field. <p align="center"> <img src="../projects-img/creating_a_project_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p> <br/>
+2. On the *New Project* page, enter the name of the your project in the white box under **Project Name**. This is a required field. <br /><br /><p align="center"> <img src="../projects-img/creating_a_project_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p> <br/>
 
-3. Next, fill out the project description in the white box under **Description**. This is a required field, with a maximum of 1000 characters. <p align="center"> <img src="../project-img/creating_a_projects_3_annotated.png" width="100%" style="align:center" title="Step 3"> </p> <br/>
+3. Next, fill out the project description in the white box under **Description**. This is a required field, with a maximum of 1000 characters. <br /><br /><p align="center"> <img src="../project-img/creating_a_projects_3_annotated.png" width="100%" style="align:center" title="Step 3"> </p> <br/>
 
-4. Now you have the option to choose project administrators other than yourself. As you are the creator of the project, you are automatically added as a project admin. A project admin has the ability to create, edit, and delete forms in the project. Click in the white box below **Select Project Admins** to search the list of users in your Kora installation. Choose the names of individuals you would like to add. You can add as many administrators as you would like at this time. You can also add users to your project after it is created. Visit the [Adding Users to Projects Guide](../projects/adding_users_to_projects.md) for more information. <p align="center"> <img src="../projects-img/creating_a_project_4_annotated.png" width="100%" style="align:center" title="Step 4"> </p> 
+4. Now you have the option to choose project administrators other than yourself. As you are the creator of the project, you are automatically added as a project admin. A project admin has the ability to create, edit, and delete forms in the project. Click in the white box below **Select Project Admins** to search the list of users in your Kora installation. Choose the names of individuals you would like to add. You can add as many administrators as you would like at this time. You can also add users to your project after it is created. Visit the [Adding Users to Projects Guide](../projects/adding_users_to_projects.md) for more information. <br /><br /><p align="center"> <img src="../projects-img/creating_a_project_4_annotated.png" width="100%" style="align:center" title="Step 4"> </p> 
 
 <br/>
 
-5. After you have filled out the project name and description, and selected any additional admins, you are ready to create the project by clicking the **Create Project** button at the bottom of the page. <p align="center"> <img src="../projects-img/creating_a_project_5_annotated.png" width="100%" style="align:center" title="Step 5"> </p> 
+5. After you have filled out the project name and description, and selected any additional admins, you are ready to create the project by clicking the **Create Project** button at the bottom of the page. <br /><br /><p align="center"> <img src="../projects-img/creating_a_project_5_annotated.png" width="100%" style="align:center" title="Step 5"> </p> 
 
 <br/>
 
