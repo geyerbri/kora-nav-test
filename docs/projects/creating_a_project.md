@@ -2,7 +2,7 @@
 
 A project is the biggest organizational structure in Kora. Each project is its own database, a container that houses all the information related to your individual or insitutional project. You can have multiple projects within your Kora instillation. A project can contain multiple forms customized for the types of data you would like to record. 
 
-Follow the steps below to create a project.
+To create a project:
 
 1. From your projects list, click the **Create a New Project** button. This will bring you to the *New Project* page.
 
