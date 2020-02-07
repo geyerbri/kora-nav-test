@@ -14,6 +14,8 @@ nav:
     - 'Home': 'index.md'
   #  - 'Searching': 'search.md'
     - 'Getting Started':
+        - 'System Requirements': 'getting-started/system_requirements.md'
+        - 'Installing Kora': 'getting started/installing_kora.md'
         - 'Understanding Core Concepts': 'getting-started/core-concepts.md'
         - 'Searching and Browsing in Kora': 'getting-started/searching_and_browsing.md'
         - 'Working with the Dashboard': 'getting-started/working_with_the_dashboard.md'
