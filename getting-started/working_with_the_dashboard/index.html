@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Understanding and Working with Permission Groups - Kora 3 User Manual</title>
+  <title>Working with the Dashboard - Kora 3 User Manual</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Understanding and Working with Permission Groups";
-    var mkdocs_page_input_path = "user-accounts/understanding_and_working_with_permission_groups.md";
+    var mkdocs_page_name = "Working with the Dashboard";
+    var mkdocs_page_input_path = "getting-started/working_with_the_dashboard.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -62,15 +62,18 @@
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="../../getting-started/core-concepts/">Understanding Core Concepts</a>
+    <a class="" href="../core-concepts/">Understanding Core Concepts</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../../getting-started/searching_and_browsing/">Searching and Browsing in Kora</a>
+    <a class="" href="../searching_and_browsing/">Searching and Browsing in Kora</a>
                 </li>
-                <li class="">
+                <li class=" current">
                     
-    <a class="" href="../../getting-started/working_with_the_dashboard/">Working with the Dashboard</a>
+    <a class="current" href="./">Working with the Dashboard</a>
+    <ul class="subnav">
+            
+    </ul>
                 </li>
     </ul>
 	    </li>
@@ -198,33 +201,19 @@
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="../view_your_project_permissions/">Viewing Your Project Permissions</a>
-                </li>
-                <li class=" current">
-                    
-    <a class="current" href="./">Understanding and Working with Permission Groups</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#understanding-and-working-with-permission-groups">Understanding and Working with Permission Groups</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l4" href="#project-permission-groups">Project Permission Groups</a></li>
-        
-            <li><a class="toctree-l4" href="#form-permission-groups">Form Permission Groups</a></li>
-        
-        </ul>
-    
-
-    </ul>
+    <a class="" href="../../user-accounts/view_your_project_permissions/">Viewing Your Project Permissions</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../edit_user_preferences/">Editing User Preferences</a>
+    <a class="" href="../../user-accounts/understanding_and_working_with_permission_groups/">Understanding and Working with Permission Groups</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../edit_user_account/">Editing Your User Account</a>
+    <a class="" href="../../user-accounts/edit_user_preferences/">Editing User Preferences</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../user-accounts/edit_user_account/">Editing Your User Account</a>
                 </li>
     </ul>
 	    </li>
@@ -262,14 +251,14 @@
     
       
         
-          <li>User & Account Management &raquo;</li>
+          <li>Getting Started &raquo;</li>
         
       
     
-    <li>Understanding and Working with Permission Groups</li>
+    <li>Working with the Dashboard</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/chi-initiative/kora-documentation/edit/master/docs/user-accounts/understanding_and_working_with_permission_groups.md"
+        <a href="https://github.com/chi-initiative/kora-documentation/edit/master/docs/getting-started/working_with_the_dashboard.md"
           class="icon icon-github"> Edit on GitHub</a>
       
     </li>
@@ -279,32 +268,7 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="understanding-and-working-with-permission-groups">Understanding and Working with Permission Groups</h1>
-<p>Permission groups allow you to control who has access to <a href="../../projects/creating_a_project/">projects</a>, <a href="../../forms/creating_a_form/">forms</a>, and <a href="../../records/creating_a_record/">records</a>. </p>
-<p>You are able to control access to your Kora project in two areas: <strong>project permissions</strong> and <strong>form permissions</strong>. </p>
-<h2 id="project-permission-groups">Project Permission Groups</h2>
-<p>At the project level, you can add and remove users to the project admin group and the project default group. You can also create a new permission group.</p>
-<p>It is possible to remove users from a project. The removed Kora user will be notified via email. The email notification will include which project(s) they were removed from and who made the permissions change (name, username, and email).</p>
-<p>Need to learn how to add/remove users within a project? Visit the <a href="../../projects/adding_users_to_projects/">Adding Users to Projects</a> guide.</p>
-<h3 id="project-admin-group">Project Admin Group</h3>
-<p>Users in the project <strong>Admin Group</strong> can create, edit, and delete forms. This gives the user full access to the project. </p>
-<h3 id="project-default-group">Project Default Group</h3>
-<p>You can select what permissions you would like users in the project <strong>Default Group</strong> to have. These options include: creating forms, edit forms, and deleting forms. You are able to select particular form permissions for users by checking the boxes next to the permissions located in permissions groups.</p>
-<h3 id="project-new-permissions-group">Project New Permissions Group</h3>
-<p>If you are a Kora user with installation privileges, you are able to create new permission groups at the project level. </p>
-<p>You can create groups within a project that have specific permissions such as only the ability to create forms. Limiting the amount of project permissions granted to other users is useful in cases where you want to control access. You are able to select particular form permissions for users by checking the boxes next to the permissions located in permissions groups.</p>
-<h2 id="form-permission-groups">Form Permission Groups</h2>
-<p>Adding a user to a form gives certain form permissions to <a href="../user-accounts/managing_users_in_a_kora_installation.md">users already in your Kora organization</a>. Form permissions allow users to create, edit, and delete fields as well as records, depending on the permissions given to them. </p>
-<p><a href="../../forms/additional_form_administrators/">Users added as form administrators</a> will automatically have all of these permissions, but Kora allows you to create different permission groups for different users. Limiting the amount of form permissions granted to other users is useful in cases where you only want users to be able to enter data and create records.</p>
-<p>Users will <em>not</em> be notified when removed from a form permissions group. </p>
-<p>Need to learn how to add/remove users in specific forms within a project? Visit the <a href="../../forms/adding_users_to_forms/">Adding Users to Forms</a> guide. </p>
-<h3 id="form-admin-group">Form Admin Group</h3>
-<p>Form administrators are individuals that are able to modify a form, including the ability to create, edit, and delete both forms and records. </p>
-<h3 id="form-default-group">Form Default Group</h3>
-<p>You can select what permissions you would like users in the form <strong>Default Group</strong> to have. These options include: creating fields and records, editing fields and records, and deleting forms and records. You are able to select particular form permissions for users by checking the boxes next to the permissions located in permissions groups.</p>
-<h3 id="form-new-permissions-group">Form New Permissions Group</h3>
-<p>You may also create new permission groups to further customize the types of permissions that form users use.
-You are able to select particular form permissions for users by checking the boxes next to the permissions located in permissions groups. The options allow you to stop certain users from creating, editing, or deleting fields while still giving them the ability to create, edit, or delete records.</p>
+                
               
             </div>
           </div>
@@ -312,10 +276,10 @@ You are able to select particular form permissions for users by checking the box
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../edit_user_preferences/" class="btn btn-neutral float-right" title="Editing User Preferences">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../../projects/creating_a_project/" class="btn btn-neutral float-right" title="Creating a Project">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../view_your_project_permissions/" class="btn btn-neutral" title="Viewing Your Project Permissions"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../searching_and_browsing/" class="btn btn-neutral" title="Searching and Browsing in Kora"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -343,10 +307,10 @@ You are able to select particular form permissions for users by checking the box
           <a href="https://github.com/chi-initiative/kora-documentation/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href="../view_your_project_permissions/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../searching_and_browsing/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../edit_user_preferences/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../../projects/creating_a_project/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
