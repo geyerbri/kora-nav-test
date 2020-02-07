@@ -37,6 +37,10 @@ nav:
         - 'Creating a Record': 'records/creating_a_record.md'
         - 'Viewing and Managing Record Revisions': 'records/viewing_and_managing_record_revisions.md'
         - 'Importing a Record': 'records/importing_a_record.md'
+        - 'Using Record Presets': 'records/using_record_presets.md'
+        - 'Searching and Browsing Records': 'records/searching_and_browsing_records.md'
+        - 'Editing a Record': 'records/editing_a_record.md'
+        - 'Exporting a Record': 'records/exporting_a_record.md'
     - 'User & Account Management':
         - 'Viewing Your Project Permissions': 'user-accounts/view_your_project_permissions.md'
         - 'Understanding and Working with Permission Groups': 'user-accounts/understanding_and_working_with_permission_groups.md'
