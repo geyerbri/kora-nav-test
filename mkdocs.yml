@@ -16,6 +16,7 @@ nav:
     - 'Getting Started':
         - 'Understanding Core Concepts': 'getting-started/core-concepts.md'
         - 'Searching and Browsing in Kora': 'getting-started/searching_and_browsing.md'
+        - 'Working with the Dashboard': 'getting-started/working_with_the_dashboard.md'
     - 'Projects':
         - 'Creating a Project': 'projects/creating_a_project.md'
         - 'Adding Users to Projects': 'projects/adding_users_to_projects.md'
