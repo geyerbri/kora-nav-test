@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Editing a Form - Kora 3 User Manual</title>
+  <title>Archiving a Project - Kora 3 User Manual</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Editing a Form";
-    var mkdocs_page_input_path = "forms/editing_a_form.md";
+    var mkdocs_page_name = "Archiving a Project";
+    var mkdocs_page_input_path = "projects/archiving_a_project.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -73,23 +73,35 @@
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="../../projects/creating_a_project/">Creating a Project</a>
+    <a class="" href="../creating_a_project/">Creating a Project</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../../projects/adding_users_to_projects/">Adding Users to Projects</a>
+    <a class="" href="../adding_users_to_projects/">Adding Users to Projects</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../../projects/exporting_a_project/">Exporting a Project</a>
+    <a class="" href="../exporting_a_project/">Exporting a Project</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../../projects/importing_a_project/">Importing a Project</a>
+    <a class="" href="../importing_a_project/">Importing a Project</a>
                 </li>
-                <li class="">
+                <li class=" current">
                     
-    <a class="" href="../../projects/archiving_a_project/">Archiving a Project</a>
+    <a class="current" href="./">Archiving a Project</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#archiving-a-project">Archiving a Project</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#unarchive-a-project">Unarchive a Project</a></li>
+        
+        </ul>
+    
+
+    </ul>
                 </li>
     </ul>
 	    </li>
@@ -100,63 +112,51 @@
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="../creating_a_form/">Creating a Form</a>
+    <a class="" href="../../forms/creating_a_form/">Creating a Form</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../understanding _field_types/">Understanding Field Types</a>
+    <a class="" href="../../forms/understanding _field_types/">Understanding Field Types</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../batch_assigning_field_values/">Batch Assigning Field Values</a>
+    <a class="" href="../../forms/batch_assigning_field_values/">Batch Assigning Field Values</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../adding_users_to_forms/">Adding Users to a Form</a>
+    <a class="" href="../../forms/adding_users_to_forms/">Adding Users to a Form</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../additional_form_administrators/">Adding Additional Form Administrators</a>
+    <a class="" href="../../forms/additional_form_administrators/">Adding Additional Form Administrators</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../creating_a_multipage_form/">Creating a Multipage Form</a>
+    <a class="" href="../../forms/creating_a_multipage_form/">Creating a Multipage Form</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../creating_fields/">Creating Fields</a>
-                </li>
-                <li class=" current">
-                    
-    <a class="current" href="./">Editing a Form</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#editing-a-form">Editing a Form</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l4" href="#deleting-a-form">Deleting a Form</a></li>
-        
-        </ul>
-    
-
-    </ul>
+    <a class="" href="../../forms/creating_fields/">Creating Fields</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../editing_fields/">Editing Fields</a>
+    <a class="" href="../../forms/editing_a_form/">Editing a Form</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../exporting_a_form/">Exporting a Form</a>
+    <a class="" href="../../forms/editing_fields/">Editing Fields</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../navigating_to_a_form/">Navigating to a Form</a>
+    <a class="" href="../../forms/exporting_a_form/">Exporting a Form</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../importing_a_form/">Importing a Form</a>
+    <a class="" href="../../forms/navigating_to_a_form/">Navigating to a Form</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../forms/importing_a_form/">Importing a Form</a>
                 </li>
     </ul>
 	    </li>
@@ -252,14 +252,14 @@
     
       
         
-          <li>Forms &raquo;</li>
+          <li>Projects &raquo;</li>
         
       
     
-    <li>Editing a Form</li>
+    <li>Archiving a Project</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/chi-initiative/kora-documentation/edit/master/docs/forms/editing_a_form.md"
+        <a href="https://github.com/chi-initiative/kora-documentation/edit/master/docs/projects/archiving_a_project.md"
           class="icon icon-github"> Edit on GitHub</a>
       
     </li>
@@ -269,45 +269,29 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="editing-a-form">Editing a Form</h1>
-<p>A <strong>form</strong> is the mechanism by which you are able to generate records. It is similar to a form that you would fill out to catalog an artifact or object. It can contain multiple pages and various input fields. A form will determine the types of metadata that is generated for a project. Each project can have multiple forms depending on the types of objects you are recording or who your target audience(s) are. </p>
-<p>You may want to edit a form you have previously created, either to change the name of the form, edit the description, make the form a preset, edit users and administrators of the form, or to delete the form. </p>
-<p>Follow the steps below to edit a form. </p>
+                <h1 id="archiving-a-project">Archiving a Project</h1>
+<p>Follow the steps below to archive a project.</p>
 <ol>
 <li>
-<p>Open your current project (You can find the list of your projects by clicking on the <em>Projects</em> button on the top menu). <p align="center"> <img src="../forms-img/editing_a_form_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p></p>
+<p>From your projects list, click the project you would like to archive. At the top of your project page, click the <strong>edit button</strong> or you can click on the name of the project in the menu bar and select <strong>Edit Project Information</strong>. This will bring you to the <em>Edit Project</em> page. <p align="center"> <img src="../projects-img/creating_a_project_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p>  <p align="center"> <img src="../projects-img/creating_a_project_2_annotated.png" width="100%" style="align:center" title="Step 1"> </p></p>
 </li>
 <li>
-<p>Scroll and choose the form you would like to edit, then click the button <strong>Edit Form Info</strong>. <p align="center"> <img src="../forms-img/editing_a_form_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p></p>
+<p>Scroll to the bottom of the <em>Edit Project</em> page. Click the black <strong>archive button</strong>, it looks like a file box within a circle.  <p align="center"> <img src="../projects-img/creating_a_project_3_annotated.png" width="100%" style="align:center" title="Step 2"> </p></p>
 </li>
 <li>
-<p>This will bring you to the <em>Edit Form</em> page. Here you can edit the <strong>Form Name</strong> and <strong>Description</strong>. You also have the option of setting this form as a <strong>Preset</strong>, which will allow you to apply this forms information and layout structure to a new form. <p align="center"> <img src="../forms-img/editing_a_form_3_annotated.png" width="100%" style="align:center" title="Step 3"> </p></p>
-</li>
-<li>
-<p>Here you also have the option of editing form permissions. This is where you can add new administrators and users to your form. For more information, visit the <a href="../additional_form_administrators/">Additional Form Administrators Guide</a> and <a href="../adding_users_to_forms/">Adding Users to Forms Guide</a>. <p align="center"> <img src="../forms-img/editing_a_form_4_annotated.png" width="100%" style="align:center" title="Step 4"> </p></p>
-</li>
-<li>
-<p>Once you are done editing your form, click the <strong>Update Form</strong> button at the bottom of the page. <p align="center"> <img src="../forms-img/editing_a_form_5_annotated.png" width="100%" style="align:center" title="Step 5"> </p></p>
+<p>A popup will appear asking you to confirm if you would like to archive the project. Click the <strong>Archive Project</strong> button. This will move your project from your projects list to the archived projects list.  <p align="center"> <img src="../projects-img/creating_a_project_4_annotated.png" width="100%" style="align:center" title="Step 3"> </p></p>
 </li>
 </ol>
-<h2 id="deleting-a-form">Deleting a Form</h2>
-<p>If you wish to delete a form follow the step-by-step instructions below.</p>
+<h2 id="unarchive-a-project">Unarchive a Project</h2>
 <ol>
 <li>
-<p>Open your current project (You can find the list of your projects by clicking on the <em>Projects</em> button on the top menu). <p align="center"> <img src="../forms-img/editing_a_form_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p></p>
+<p>From your project list page, click on the <strong>Archived</strong> tab option, located above the <em>Create New Project</em> button. <p align="center"> <img src="../projects-img/creating_a_project_5_annotated.png" width="100%" style="align:center" title="Step 1"> </p></p>
 </li>
 <li>
-<p>Scroll and choose the form you would like to edit, then click the button: <strong>Edit Form Info</strong>. <p align="center"> <img src="../forms-img/editing_a_form_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p></p>
-</li>
-<li>
-<p>This will bring you to the <em>Edit Form</em> page. Scroll to the bottom of this page until you see the <strong>red trashcan</strong> button (located below the blue <em>Update Form</em> button). Click the <strong>trashcan</strong> button. <p align="center"> <img src="../forms-img/editing_a_form_6_annotated.png" width="100%" style="align:center" title="Step 3"> </p></p>
-</li>
-<li>
-<p>A popup will appear asking you to confirm that you would like to delete the form. Click the red <strong>Delete Form</strong> button. <p align="center"> <img src="../forms-img/editing_a_form_7_annotated.png" width="100%" style="align:center" title="Step 4"> </p></p>
+<p>This will bring you to a page listing all of your archived projects. Find the project you would like to <em>Unarchive</em> and click the <strong>Unarchive</strong> button located in the bottom right corner of the project box. <p align="center"> <img src="../projects-img/creating_a_project_6_annotated.png" width="100%" style="align:center" title="Step 2"> </p></p>
 </li>
 </ol>
-<p>A pop-up will appear on the top right corner of your screen notifying you that the form was successfully deleted. </p>
-<p align="center"> <img src="../forms-img/editing_a_form_8_annotated.png" width="100%" style="align:center" title="Notification of Successfully Deleting Form"> </p>
+<p>This will automatically remove the project from the Archived list, and move it back to your <em>Custom</em> and <em>Alphabetical</em> active project lists. You will recieve a pop-up notification in the top-right corner of your webpage informing you that your project was successfully unarchived. </p>
               
             </div>
           </div>
@@ -315,10 +299,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../editing_fields/" class="btn btn-neutral float-right" title="Editing Fields">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../../forms/creating_a_form/" class="btn btn-neutral float-right" title="Creating a Form">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../creating_fields/" class="btn btn-neutral" title="Creating Fields"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../importing_a_project/" class="btn btn-neutral" title="Importing a Project"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -346,10 +330,10 @@
           <a href="https://github.com/chi-initiative/kora-documentation/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href="../creating_fields/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../importing_a_project/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../editing_fields/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../../forms/creating_a_form/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
