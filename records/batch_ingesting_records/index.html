@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Batch Ingesting Records - Kora 3 User Manual</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../../css/extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Batch Ingesting Records";
+    var mkdocs_page_input_path = "records/batch_ingesting_records.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/django.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Kora 3 User Manual</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Getting Started</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../getting-started/core-concepts/">Understanding Core Concepts</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Projects</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../projects/creating_a_project/">Creating a Project</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../projects/adding_users_to_projects/">Adding Users to Projects</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../projects/exporting_a_project/">Exporting a Project</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../projects/importing_a_project/">Importing a Project</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Forms</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../forms/creating_a_form/">Creating a Form</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../forms/understanding _field_types/">Understanding Field Types</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../forms/batch_assigning_field_values/">Batch Assigning Field Values</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../forms/adding_users_to_forms/">Adding Users to a Form</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../forms/additional_form_administrators/">Adding Additional Form Administrators</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../forms/creating_a_multipage_form/">Creating a Multipage Form</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../forms/creating_fields/">Creating Fields</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../forms/editing_a_form/">Editing a Form</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../forms/editing_fields/">Editing Fields</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../forms/exporting_a_form/">Exporting a Form</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../forms/navigating_to_a_form/">Navigating to a Form</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../forms/importing_a_form/">Importing a Form</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Records</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../creating_a_record/">Creating a Record</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../viewing_and_managing_record_revisions/">Viewing and Managing Record Revisions</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../importing_a_record/">Importing a Record</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../using_record_presets/">Using Record Presets</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../searching_and_browsing_records/">Searching and Browsing Records</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../editing_a_record/">Editing a Record</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../exporting_a_record/">Exporting a Record</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">User & Account Management</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../user-accounts/view_your_project_permissions/">Viewing Your Project Permissions</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../user-accounts/understanding_and_working_with_permission_groups/">Understanding and Working with Permission Groups</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../user-accounts/edit_user_preferences/">Editing User Preferences</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../user-accounts/edit_user_account/">Editing Your User Account</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Managing a Kora Installation</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../management/update-kora/">Updating a Kora 3 Installation</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Kora 3 User Manual</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Batch Ingesting Records</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/chi-initiative/kora-documentation/edit/master/docs/records/batch_ingesting_records.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="batch-ingesting-records">Batch Ingesting Records</h1>
+<p>To get records into Kora, check out <a href="/records/importing_a_record.md">the documentation on importing records</a>
+(Taken from https://www.alooma.com/blog/what-is-data-ingestion)
+Data ingestion is a process by which data is moved from one or more sources to a destination where it can be stored and further analyzed. The data might be in different formats and come from various sources, including RDBMS, other types of databases, S3 buckets, CSVs, or from streams. Since the data comes from different places, it needs to be cleansed and transformed in a way that allows you to analyze it together with data from other sources. Otherwise, your data is like a bunch of puzzle pieces that don't fit together.</p>
+<p>Batch data is an efficient way of processing large volumes of data where a large set of transactions collect over time. Data is collected, entered, and processed and then batch results are produced with tools like Hadoop.</p>
+<p>This batch ingestion stuff may be a bit too much for me. I am not sure how to do it in Kora.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/chi-initiative/kora-documentation/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>
