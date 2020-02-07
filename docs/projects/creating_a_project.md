@@ -7,10 +7,10 @@ Follow the steps below to create a project.
 1. From your projects list, click the **Create a New Project** button. This will bring you to the *New Project* page. 
 <br/>
 <p align="center"> <img src="../projects-img/creating_a_project_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
-<br/> 
-<br/>
-<br/> 
-<br/>
+<br /> 
+<br />
+<br /> 
+<br />
 2. On the *New Project* page, enter the name of the your project in the white box under **Project Name**. This is a required field. 
 <br />
 <p align="center"> <img src="../projects-img/creating_a_project_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p>
