@@ -25,6 +25,10 @@ nav:
         - 'Exporting a Project': 'projects/exporting_a_project.md'
         - 'Importing a Project': 'projects/importing_a_project.md'
         - 'Archiving a Project': 'projects/archiving_a_project.md'
+        - 'Customizing Project List View': 'projects/customizing_project_list_view.md'
+        - 'Deleting a Project': 'projects/deleting_a_project.md'
+        - 'Managing Projects from the Dashboard': 'projects/managing_projects_from_the_dashboard.md'
+        - 'Editing a Project': 'projects/editing_a_project.md'
     - 'Forms':
         - 'Creating a Form': 'forms/creating_a_form.md'
         - 'Understanding Field Types': 'forms/understanding _field_types.md'
@@ -51,6 +55,10 @@ nav:
         - 'Understanding and Working with Permission Groups': 'user-accounts/understanding_and_working_with_permission_groups.md'
         - 'Editing User Preferences': 'user-accounts/edit_user_preferences.md'
         - 'Editing Your User Account': 'user-accounts/edit_user_account.md'
+        - 'Customizing Your Project View': 'user-accounts/customizing_your_project_view.md'
+        - 'Managing Users in a Kora Installation': 'user-accounts/managing_users_in_a_kora_installation.md'
+        - 'Resetting your Kora Password': 'user-accounts/resetting_your_password.md'
+        - 'Signing up for a User Account': 'user-accounts/signing_up_for_a_user_account.md'
     - 'Managing a Kora Installation':
         - 'Updating a Kora 3 Installation': 'management/update-kora.md'
         - 'Managing API Tokens': 'management/managing_api_tokens.md'
