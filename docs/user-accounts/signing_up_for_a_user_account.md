@@ -11,8 +11,8 @@ After [being invited to a Kora installation by an administrator](../user-account
 
 3. When you're finished entering your information click **Sign Up**. <p align="center"> <img src="../user-accounts-img/managing_users_in_a_kora_installation_3_annotated.png" width="100%" style="align:center" title="Step 3"> </p>
 
-4. This will open up a new page thanking you for signing up with Kora. We will also send you a new email providing a link for final confirmation of your account creation. Alternatively you may also activate your account using a token provided in the email. <p align="center"> <img src="../user-accounts-img/managing_users_in_a_kora_installation_4_annotated.png" width="100%" style="align:center" title="Step 4"> </p>
+4. This will open up a new page thanking you for signing up with Kora. Welcome by the way! We have sent you a new email which provides a final link for activating your account. Alternatively you may activate your account by entering the token which is also provided in the email. <p align="center"> <img src="../user-accounts-img/managing_users_in_a_kora_installation_4_annotated.png" width="100%" style="align:center" title="Step 4"> </p>
 
 5. Once you've activated your account you'll be directed to a page welcoming you to Kora. If this is your first time using Kora, then we highly recommend going through our introduction. <p align="center"> <img src="../user-accounts-img/managing_users_in_a_kora_installation_5_annotated.png" width="100%" style="align:center" title="Step 5"> </p>
 
-The introduction will walk you through [the basics of Kora](../getting-started/kora_core_concepts.md), and end by asking you to specify which [projects you would like to request permissions for](../projects/adding_users_to_projects.md).
+The introduction will walk you through [the basics of Kora](../getting-started/kora_core_concepts.md), and end by asking you which [projects you would like permissions for](../projects/adding_users_to_projects.md).
