@@ -1,0 +1,45 @@
+---
+title: Managing Users in a Kora Installation
+---
+# Managing Users in a Kora installation
+
+Administrators can manage who is part of a Kora installation. This includes the ability to invite, edit and view users. Follow these steps to get to the *User Management* page.
+
+1. Management of users can start from anywhere in the Kora site by going to the main menu at the top right of the page.  <p align="center"> <img src="../user-accounts-img/managing_users_in_a_kora_installation_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
+
+2. Select **Management** from the bottom of the page. <p align="center"> <img src="../user-accounts-img/managing_users_in_a_kora_installation_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p>
+
+3. After opening up the management menu, select **User Management** to bring you to the page for user management. <p align="center"> <img src="../user-accounts-img/managing_users_in_a_kora_installation_3_annotated.png" width="100%" style="align:center" title="Step 3"> </p>
+
+4. You may search for users by using the **Find a User** search bar. <p align="center"> <img src="../user-accounts-img/managing_users_in_a_kora_installation_4_annotated.png" width="100%" style="align:center" title="Step 4"> </p>
+
+5. You may also organize your users alphabetically or by the date they joined your Kora installation. <p align="center"> <img src="../user-accounts-img/managing_users_in_a_kora_installation_5_annotated.png" width="100%" style="align:center" title="Step 5"> </p>
+
+## Inviting New Users to a Kora installation
+
+Any number of new users can be added to the Kora installation. All that is required for new users is a valid email address to [sign up for a new user account](../user-accounts/signing_up_for_a_user_account.md). Follow these steps from the *User Management* page to add a new user to your Kora Installation:
+
+1. Select the **Invite New User(s)** button at the top of the page. <p align="center"> <img src="../user-accounts-img/managing_users_in_a_kora_installation_6_annotated.png" width="100%" style="align:center" title="Step 6"> </p>
+
+2. An *Invite User(s)* pop-up will appear. Enter any number of emails for your users into the **Enter Email(s) to Invite User(s)** field. Emails must be separated by either a space or a comma. <p align="center"> <img src="../user-accounts-img/managing_users_in_a_kora_installation_7_annotated.png" width="100%" style="align:center" title="Step 7"> </p>
+
+3. You have the option to include a personal message with your invite. <p align="center"> <img src="../user-accounts-img/managing_users_in_a_kora_installation_8_annotated.png" width="100%" style="align:center" title="Step 8"> </p>
+
+4. Click **Invite User(s)** at the bottom of the pop-up. <p align="center"> <img src="../user-accounts-img/managing_users_in_a_kora_installation_9_annotated.png" width="100%" style="align:center" title="Step 9"> </p>
+
+New users will receive an email invitation to join Kora. For directions on how to sign up for a new user account, check out the [new user account](../user-accounts/signing_up_for_a_user_account.md).
+
+## Managing Permissions
+
+Administrators are able to give or take admin access to other users within your Kora installation. Admins have the ability to manage users, create projects, manage API tokens, and other high level actions. Care should be taken with who is given administrative action since administrators have a lot of power to change the organization of data within a Kora installation. <p align="center"> <img src="../user-accounts-img/managing_users_in_a_kora_installation_10_annotated.png" width="100%" style="align:center" title="Step 10"> </p>
+
+You are also able to mark users as active or inactive. Active users will be able to login and work on your Kora installation, while inactive users will no longer be able to sign into their Kora accounts. <p align="center"> <img src="../user-accounts-img/managing_users_in_a_kora_installation_11_annotated.png" width="100%" style="align:center" title="Step 11"> </p>
+
+If you need to manage [form](../forms/adding_users_to_forms.md) or [project](../projects/adding_users_to_projects.md) permissions then you will have to go to the appropriate permissions page.
+
+## Viewing User Profiles
+
+Administrators are able to view the profiles of any user within a Kora installation by selecting **View User Profile**. Administrators are able to [view the same account information as the users](../user-accounts/viewing_your_user_account.md). This includes their profile information, permissions and record history. <p align="center"> <img src="../user-accounts-img/managing_users_in_a_kora_installation_12_annotated.png" width="100%" style="align:center" title="Step 12"> </p>
+
+## Editing User Profiles
+As an administrator, you have the ability to update any user's profile information by selecting **Edit User Profile** for a user. This allows you to [edit the same profile information as a user](../user-accounts/edit_user_account.md). This includes their username, email and password. <p align="center"> <img src="../user-accounts-img/managing_users_in_a_kora_installation_13_annotated.png" width="100%" style="align:center" title="Step 13"> </p>
