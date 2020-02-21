@@ -3,7 +3,7 @@ title: Customizing the Project List View
 ---
 # Customizing the Project List View
 
-From the *Projects* page, you may view all of the projects that you have access to in a list. this list of projects can be organized alphabetically or in a customized view. You may also view [archived projects](../projects/archiving_a_project.md).
+From the *Projects* page, you may view all of the projects that you have access to in a list. This list of projects can be organized alphabetically or in a customized view. You may also view [archived projects](../projects/archiving_a_project.md).
 
 ## Customizing your Project View
 
