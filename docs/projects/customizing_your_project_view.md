@@ -1,9 +1,9 @@
 ---
-title: Customizing your Project View
+title: Customizing the View within a Project
 ---
-# Customizing your Project View
+# Customizing the View within a Project
 
-When you view an individual project, you can chose to have the forms within that project displayed alphabetically or in a custom order. This documentation outlines how to organize how the forms in your project are viewed.
+When you are within an individual project, you can chose to have the forms within that project displayed alphabetically or in a custom order. This documentation outlines how to organize how the forms in your project are viewed.
 
 ## Customizing your Project View
 
