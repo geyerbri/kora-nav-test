@@ -3,13 +3,16 @@ title: Customizing the Project List View
 ---
 # Customizing the Project List View
 
-From the *Projects* page, you may view all of the projects that you have access to in a list. This list of projects can be organized alphabetically or in a customized view. You may also view [archived projects](../projects/archiving_a_project.md).
+The projects list view refers to your view of projects from the *Projects* page. The *Projects* page displays all of the projects that you have access to in a list. This list of projects can then be organized alphabetically or in a customized view. A custom view allows you to place projects you more frequently use at the top of the page. You may also view [archived projects](../projects/archiving_a_project.md) from the *Projects* page.
 
 ## Customizing your Project View
 
-When you first navigate to your *Projects* page, you will always see an alphabetical view first unless you change the initial default view to custom. To change how you view your projects, go to [your preferences page](../user-accounts/edit_user_preferences.md) and do the following:
+When you first navigate to your *Projects* page, you will always see your projects organized alphabetically from a-z unless you change the initial default view in your preferences. To change how you view your projects, go to [your preferences page](../user-accounts/edit_user_preferences.md) and perform the following actions:
 
-* Scroll down to the section for *Projects Page Tab Selection* and select either a custom or alphabetical view of your projects. Don't confuse this with the *Single Project Page Tab Selection* section, which changes the default view of forms within projects. <p align="center"> <img src="../projects-img/customizing_project_list_view_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
+* Scroll down to the section for *Projects Page Tab Selection*
+* Select either a custom or alphabetical view of your projects. <p align="center"> <img src="../projects-img/customizing_project_list_view_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
+
+Don't confuse this process with the *Single Project Page Tab Selection* section, which changes the default view of forms within your projects.
 
 ## Alphabetical Project List View
 
@@ -17,7 +20,7 @@ In your *Projects* page, the alphabetical view will list your projects in order 
 
 ## Custom Project List View
 
-In your *Projects* page, it is also possible to customize the order in which your projects are viewed. Follow these steps to create a custom view of your projects.
+In your *Projects* page, it is also possible to customize the order in which your projects are viewed. Follow these steps to create a custom view of your projects:
 
 1. Make sure that you are in the **Custom** option on your *Projects* page. <p align="center"> <img src="../projects-img/customizing_project_list_view_3_annotated.png" width="100%" style="align:center" title="Step 3"> </p>
 
