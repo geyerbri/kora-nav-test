@@ -36,4 +36,19 @@ The availability of field value presets is characterized in the following ways:
 
   * **US States**: Provides a list of all states located within the United States of America. <p align="center"> <img src="../projects-img/field_value_presets_5_annotated.png" width="100%" style="align:center" title="Step 5"> </p>
 
-  
+## Creating Field Value Presets
+There are two types of field value presets you can create: a [regex](https://en.wikipedia.org/wiki/Regular_expression) preset or a list preset. Regex presets allow fields to check for a pattern that will accept certain types of field entries. List presets, on the other hand, allow predetermined list options to be used as field options. To create a field value preset, follow these steps:
+
+1. Click the **Create a New Preset** on the *Field Value Presets* page. <p align="center"> <img src="../projects-img/field_value_presets_6_annotated.png" width="100%" style="align:center" title="Step 6"> </p>
+
+2. This will bring you to the page for creating field value presets. You may start by entering a name for your new preset. <p align="center"> <img src="../projects-img/field_value_presets_7_annotated.png" width="100%" style="align:center" title="Step 7"> </p>
+
+3. Next select the **Field Value Preset Type**. You may select either a regex or list preset. <p align="center"> <img src="../projects-img/field_value_presets_8_annotated.png" width="100%" style="align:center" title="Step 8"> </p>
+
+4. If you are building a regex preset, then a text box will appear asking you to provide the necessary text pattern you are looking to search for. <p align="center"> <img src="../projects-img/field_value_presets_9_annotated.png" width="100%" style="align:center" title="Step 9"> </p>
+
+5. If you are building a list preset, then a box will appear asking you to enter the options that you want to be available for this preset option. <p align="center"> <img src="../projects-img/field_value_presets_10_annotated.png" width="100%" style="align:center" title="Step 10"> </p>
+
+6. Once you have created the desired characteristics for your field value presets, you have the option to make this preset available to all other projects within your kora installation. To do so, select the **Select to share with all projects** checkbox. <p align="center"> <img src="../projects-img/field_value_presets_11_annotated.png" width="100%" style="align:center" title="Step 11"> </p>
+
+7. Click **Create Field Value Preset** to create your field Value Preset! <p align="center"> <img src="../projects-img/field_value_presets_12_annotated.png" width="100%" style="align:center" title="Step 12"> </p>
