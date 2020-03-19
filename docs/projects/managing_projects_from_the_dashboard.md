@@ -5,11 +5,11 @@ title: Accessing and Managing Projects from the Dashboard
 
 Your [dashboard](../getting-started/working_with_the_dashboard.md) is a versatile hub that can be customized to contain important interactive blocks for your projects, forms and records. The project block, in particular, makes it easy to access the main page of projects that you work with regularly. It also makes the performing of certain kora actions for projects, just one click away. What follows is a description of how to use project blocks from your dashboard to manage a project.
 
-## Project Block Anatomy
+## The Project Block
 
 A project block within your dashboard will contain the name of a project and its description. Click on your project name to access that project's main *Project* page <p align="center"> <img src="../projects-img/managing_projects_from_the_dashboard_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
 
-Below the project name and description are the **Quick Action** icons. The functions of these **Quick Action** icons are summarized below then linked to relevant documentation. For instructions on how to reorder your *Quick Actions**, see the documentation on[working with the dashboard](../getting-started/working_with_the_dashboard.md). <p align="center"> <img src="../projects-img/managing_projects_from_the_dashboard_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p>
+Below the project name and description are the **Quick Action** icons. The functions of these **Quick Action** icons are summarized below then linked to relevant documentation. For instructions on how to reorder your *Quick Actions**, see the documentation on [working with the dashboard](../getting-started/working_with_the_dashboard.md). <p align="center"> <img src="../projects-img/managing_projects_from_the_dashboard_2_annotated.png" width="100%" style="align:center" title="Step 2"> </p>
 
 ## Project Quick Actions
 
@@ -25,7 +25,7 @@ This section lists the types of Quick Actions available to the project block, gi
 
 5. **Project Permissions**: Allows administrators to give Kora users the ability to create, edit and delete forms. See section on [editing project permissions](../projects/editing_a_project.md) in the editing projects documentation. <p align="center"> <img src="../projects-img/managing_projects_from_the_dashboard_7_annotated.png" width="100%" style="align:center" title="Step 7"> </p>
 
-6. **Field Value Presets**: these allow you to create predefined field options using lists or regex. For more information, see the documentation on [field value presets](../forms/field_value_presets.md). <p align="center"> <img src="../projects-img/managing_projects_from_the_dashboard_8_annotated.png" width="100%" style="align:center" title="Step 8"> </p>
+6. **Field Value Presets**: these allow you to create predefined field options using lists or regex. For more information, see the documentation on [field value presets](../projects/field_value_presets.md). <p align="center"> <img src="../projects-img/managing_projects_from_the_dashboard_8_annotated.png" width="100%" style="align:center" title="Step 8"> </p>
 
 7. **Import Multi-Form Records Setup**: Allows you to import records into multiple forms within a project. See the documentation on [importing multi form records](../records/importing_multi_form_records.md). <p align="center"> <img src="../projects-img/managing_projects_from_the_dashboard_9_annotated.png" width="100%" style="align:center" title="Step 9"> </p>
 

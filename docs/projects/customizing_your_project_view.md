@@ -5,7 +5,7 @@ title: Customizing the View within a Project
 
 When you are within an individual project, you can chose to have the forms within that project displayed alphabetically or in a custom order. This documentation outlines how to organize how the forms in your project are viewed.
 
-## Customizing your Project View
+## Editing Preferences for how Forms are Viewed in a Project
 
 When you first navigate to the page for your project, you will always see an alphabetical view of your forms first unless you change the initial default view to custom. To change how you view your forms, go to [your preferences page](../user-accounts/edit_user_preferences.md) and do the following:
 

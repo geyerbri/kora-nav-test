@@ -5,7 +5,7 @@ title: Customizing the Project List View
 
 The projects list view refers to your view of projects from the *Projects* page. The *Projects* page displays all of the projects that you have access to in a list. This list of projects can then be organized alphabetically or in a customized view. A custom view allows you to place projects you more frequently use at the top of the page. You may also view [archived projects](../projects/archiving_a_project.md) from the *Projects* page.
 
-## Customizing your Project View
+## Editing Preferences for How Projects are Viewed
 
 When you first navigate to your *Projects* page, you will always see your projects organized alphabetically from a-z unless you change the initial default view in your preferences. To change how you view your projects, go to [your preferences page](../user-accounts/edit_user_preferences.md) and perform the following actions:
 
