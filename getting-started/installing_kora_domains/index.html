@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Installing Kora - Kora 3 User Manual</title>
+  <title>Installing Kora on Domain of Ones Own & Reclaim Hosting - Kora 3 User Manual</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Installing Kora";
-    var mkdocs_page_input_path = "getting-started/installing_kora.md";
+    var mkdocs_page_name = "Installing Kora on Domain of Ones Own & Reclaim Hosting";
+    var mkdocs_page_input_path = "getting-started/installing_kora_domains.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -66,9 +66,22 @@
                 </li>
                 <li class=" current">
                     
-    <a class="current" href="./">Installing Kora</a>
+    <a class="current" href="./">Installing Kora on Domain of Ones Own & Reclaim Hosting</a>
     <ul class="subnav">
             
+    <li class="toctree-l3"><a href="#installing-kora-domain-of-ones-own-reclaim-hosting">Installing Kora - Domain of One's Own (Reclaim Hosting)</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#logging-in-to-cpanel">Logging In to cPanel</a></li>
+        
+            <li><a class="toctree-l4" href="#set-up-mysql-database">Set up MySQL Database</a></li>
+        
+            <li><a class="toctree-l4" href="#file-manager-uploading-and-preparing-kora-application-files">File Manager: Uploading and Preparing Kora Application Files</a></li>
+        
+        </ul>
+    
+
     </ul>
                 </li>
                 <li class="">
@@ -319,10 +332,10 @@
         
       
     
-    <li>Installing Kora</li>
+    <li>Installing Kora on Domain of Ones Own & Reclaim Hosting</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/chi-initiative/kora-documentation/edit/master/docs/getting-started/installing_kora.md"
+        <a href="https://github.com/chi-initiative/kora-documentation/edit/master/docs/getting-started/installing_kora_domains.md"
           class="icon icon-github"> Edit on GitHub</a>
       
     </li>
@@ -332,7 +345,65 @@
           <div role="main">
             <div class="section">
               
-                
+                <h1 id="installing-kora-domain-of-ones-own-reclaim-hosting">Installing Kora - Domain of One's Own (Reclaim Hosting)</h1>
+<p>This is a basic guide for installing Kora in a <a href="https://reclaimhosting.com">Reclaim Hosting</a>{:_target="blank"}-based server environment, which includes any Domain of One's Own services offered by institutions. A few things about this guide. First, in many cases of naming something or writing Terminal commands, things will be case sensitive, so unless the specific instance requires uppercase for something, I will always use lowercase and I strongly suggest you do the same. Keeping things all lowercase is a good thing to follow for best practices because it removes any doubt or confusion over whether some file, directory, or URL should have uppercase letters in it.</p>
+<p>Second, a note about terminology. To keep things consistent, I will be using the word "directory" and its derivatives throughout this guide, rather than "folder" in order to better illuminate the link between URL and file structure throughout this process.</p>
+<h2 id="logging-in-to-cpanel">Logging In to cPanel</h2>
+<p>Begin all of this by logging into your account to reach your cPanel. Most cPanels look something like this:</p>
+<p align="center"> <img src="../getting-started-img/installing_kora_domains_1_annotated.png" width="100%" style="align:center" title="cPanel Main View"> </p>
+
+<h2 id="set-up-mysql-database">Set up MySQL Database</h2>
+<ol>
+<li>After reaching the cPanel for your server environment, begin by setting up the necessary MySQL Database for your Kora installation. Start by finding the section called "Databases" and clicking on "MySQL Databases".</li>
+</ol>
+<p align="center"> <img src="../getting-started-img/installing_kora_domains_2_annotated.png" width="100%" style="align:center" title="MySQL Databases"> </p>
+
+<ol>
+<li>Under "Create new Database," enter "kora" or some other name in the text field and click "Create Database."</li>
+</ol>
+<p align="center"> <img src="../getting-started-img/installing_kora_domains_3_annotated.png" width="100%" style="align:center" title="New MySQL Database"> </p>
+
+<ol>
+<li>Take note of the auto-generated prefix, which, when combined with whatever you just provided, will be the name of your MySQL database. In my case it is called <code>geyerbri_kora</code>. Once you've noted this database name, click on the link to take you back to the previous page.</li>
+</ol>
+<p align="center"> <img src="../getting-started-img/installing_kora_domains_4_annotated.png" width="100%" style="align:center" title="New MySQL Database"> </p>
+
+<ol>
+<li>Next, scroll down to "MySQL Users" and provide the username "kora" in the text box under "Add New User". This is a common practice - the database and the default user for that database having the same name - which will make it easier to update configurations elsewhere. After this, click on the button "Password Generator."</li>
+</ol>
+<p align="center"> <img src="../getting-started-img/installing_kora_domains_5_annotated.png" width="100%" style="align:center" title="Database New User"> </p>
+
+<ol>
+<li>The Password Generator modal will open and generate a random string of characters (blocked out in the image below).</li>
+</ol>
+<p align="center"> <img src="../getting-started-img/installing_kora_domains_6_annotated.png" width="100%" style="align:center" title="Database User Password Generator"> </p>
+
+<p><strong>IMPORTANT</strong>: Copy this password to somewhere for safe-keeping. You will need it later for configuration of your Kora installation. After copying this password to somewhere, click "Use Password."</p>
+<ol>
+<li>When the modal closes, the generated password will auto-fill into the "Add New User" section and it should rate the password as "Very Strong." Click on "Create User" to complete this process.</li>
+</ol>
+<p align="center"> <img src="../getting-started-img/installing_kora_domains_7_annotated.png" width="100%" style="align:center" title="Completing New User"> </p>
+
+<p>Just as you did with the database name, take note of this username, as you will need it for Kora configuration elsewhere. Click the back link to get back to the previous page.</p>
+<ol>
+<li>The final step in setting up the required MySQL database is to assign the newly-created user to the newly-created database and give that user full permissions. Do this by first scrolling down to "Add User To Database", confirming that the names are correctly chosen, and clicking on "Add."</li>
+</ol>
+<p align="center"> <img src="../getting-started-img/installing_kora_domains_8_annotated.png" width="100%" style="align:center" title="Add User to Database"> </p>
+
+<ol>
+<li>The page that opens will provide a list of permissions that can be assigned to the chosen user for the specified database. Click the checkbox for "ALL PRIVILEGES."</li>
+</ol>
+<p align="center"> <img src="../getting-started-img/installing_kora_domains_9_annotated.png" width="100%" style="align:center" title="Provide All Permissions"> </p>
+
+<p>Scroll down if needed to find the "Make Changes" box. Clicking on it will generate an in-page notification that it was successful. Click on the "Go Back" link to get back to the main "MySQL Databases" page.</p>
+<p align="center"> <img src="../getting-started-img/installing_kora_domains_10_annotated.png" width="100%" style="align:center" title="Confirm Permissions and Return"> </p>
+
+<ol>
+<li>To confirm that you have successfully created the database, created the user, and added the user to the database, find the section "Current Databases" and check that there is an entry for your new database, with your new user listed as a privileged user.</li>
+</ol>
+<p align="center"> <img src="../getting-started-img/installing_kora_domains_11_annotated.png" width="100%" style="align:center" title="Confirm Database and Privileged User"> </p>
+
+<h2 id="file-manager-uploading-and-preparing-kora-application-files">File Manager: Uploading and Preparing Kora Application Files</h2>
               
             </div>
           </div>
