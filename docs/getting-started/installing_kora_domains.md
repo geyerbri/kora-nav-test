@@ -18,103 +18,262 @@ Begin all of this by logging into your account to reach your cPanel. Most cPanel
 
 ## Set up MySQL Database
 
-1. After reaching the cPanel for your server environment, begin by setting up the necessary MySQL Database for your Kora installation. Start by finding the section called "Databases" and clicking on "MySQL Databases". <p align="center"> <img src="../getting-started-img/installing_kora_domains_2_annotated.png" style="max-width:100%" title="cPanel's MySQL Databases"> </p>
+1. After reaching the cPanel for your server environment, begin by setting up the necessary MySQL Database for your Kora installation. Start by finding the section called "Databases" and clicking on "MySQL Databases".
 
-2. Under "Create new Database," enter "kora" or some other name in the text field and click "Create Database." <p align="center"> <img src="../getting-started-img/installing_kora_domains_3_annotated.png" style="max-width:100%" title="New MySQL Database"> </p>
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_2_annotated.png" style="max-width:100%" title="cPanel's MySQL Databases"> </p>
 
-3. Take note of the auto-generated prefix, which, when combined with whatever you just provided, will be the name of your MySQL database. In my case it is called `geyerbri_kora`. Once you've noted this database name, click on the link to take you back to the previous page. <p align="center"> <img src="../getting-started-img/installing_kora_domains_4_annotated.png" style="max-width:100%" title="New MySQL Database"> </p>
+2. Under "Create new Database," enter "kora" or some other name in the text field and click "Create Database."
 
-4. Next, scroll down to "MySQL Users" and provide the username "kora" in the text box under "Add New User". This is a common practice - the database and the default user for that database having the same name - which will make it easier to update configurations elsewhere. After this, click on the button "Password Generator." <p align="center"> <img src="../getting-started-img/installing_kora_domains_5_annotated.png" style="max-width:100%" title="Database New User"> </p>
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_3_annotated.png" style="max-width:100%" title="New MySQL Database"> </p>
 
-5. The Password Generator modal will open and generate a random string of characters (blocked out in the image below). <p align="center"> <img src="../getting-started-img/installing_kora_domains_6_annotated.png" style="max-width:100%" title="Database User Password Generator"> </p><br>**IMPORTANT**: Copy this password to somewhere for safe-keeping. You will need it later for configuration of your Kora installation. After copying this password to somewhere, click "Use Password."
+3. Take note of the auto-generated prefix, which, when combined with whatever you just provided, will be the name of your MySQL database. In my case it is called `geyerbri_kora`. Once you've noted this database name, click on the link to take you back to the previous page.
 
-6. When the modal closes, the generated password will auto-fill into the "Add New User" section and it should rate the password as "Very Strong." Click on "Create User" to complete this process. <p align="center"> <img src="../getting-started-img/installing_kora_domains_7_annotated.png" style="max-width:100%" title="Completing New User"> </p><br>Just as you did with the database name, take note of this username, as you will need it for Kora configuration elsewhere. Click the back link to get back to the previous page.
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_4_annotated.png" style="max-width:100%" title="New MySQL Database"> </p>
 
-7. The final step in setting up the required MySQL database is to assign the newly-created user to the newly-created database and give that user full permissions. Do this by first scrolling down to "Add User To Database", confirming that the names are correctly chosen, and clicking on "Add." <p align="center"> <img src="../getting-started-img/installing_kora_domains_8_annotated.png" style="max-width:100%" title="Add User to Database"> </p>
+4. Next, scroll down to "MySQL Users" and provide the username "kora" in the text box under "Add New User". This is a common practice - the database and the default user for that database having the same name - which will make it easier to update configurations elsewhere. After this, click on the button "Password Generator."
 
-8. The page that opens will provide a list of permissions that can be assigned to the chosen user for the specified database. Click the checkbox for "ALL PRIVILEGES." <p align="center"> <img src="../getting-started-img/installing_kora_domains_9_annotated.png" style="max-width:100%" title="Provide All Permissions"> </p><br>Scroll down if needed to find the "Make Changes" box. Clicking on it will generate an in-page notification that it was successful. Click on the "Go Back" link to get back to the main "MySQL Databases" page. <p align="center"> <img src="../getting-started-img/installing_kora_domains_10_annotated.png" style="max-width:100%" title="Confirm Permissions and Return"> </p>
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_5_annotated.png" style="max-width:100%" title="Database New User"> </p>
 
-9. To confirm that you have successfully created the database, created the user, and added the user to the database, find the section "Current Databases" and check that there is an entry for your new database, with your new user listed as a privileged user.  <p align="center"> <img src="../getting-started-img/installing_kora_domains_11_annotated.png" style="max-width:100%" title="Confirm Database and Privileged User"> </p>
+5. The Password Generator modal will open and generate a random string of characters (blocked out in the image below).
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_6_annotated.png" style="max-width:100%" title="Database User Password Generator"> </p>
+
+    **IMPORTANT**: Copy this password to somewhere for safe-keeping. You will need it later for configuration of your Kora installation. After copying this password to somewhere, click "Use Password."
+
+6. When the modal closes, the generated password will auto-fill into the "Add New User" section and it should rate the password as "Very Strong." Click on "Create User" to complete this process.
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_7_annotated.png" style="max-width:100%" title="Completing New User"> </p>
+
+    Just as you did with the database name, take note of this username, as you will need it for Kora configuration elsewhere. Because this guide follows the common practice of using the same name for the database and user, in my example the username is also `geyerbri_kora`.
+
+    Click the back link to get back to the previous page.
+
+7. The final step in setting up the required MySQL database is to assign the newly-created user to the newly-created database and give that user full permissions. Do this by first scrolling down to "Add User To Database", confirming that the names are correctly chosen, and clicking on "Add."
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_8_annotated.png" style="max-width:100%" title="Add User to Database"> </p>
+
+8. The page that opens will provide a list of permissions that can be assigned to the chosen user for the specified database. Click the checkbox for "ALL PRIVILEGES."
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_9_annotated.png" style="max-width:100%" title="Provide All Permissions"> </p>
+
+    Scroll down if needed to find the "Make Changes" box. Clicking on it will generate an in-page notification that it was successful. Click on the "Go Back" link to get back to the main "MySQL Databases" page.
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_10_annotated.png" style="max-width:100%" title="Confirm Permissions and Return"> </p>
+
+9. To confirm that you have successfully created the database, created the user, and added the user to the database, find the section "Current Databases" and check that there is an entry for your new database, with your new user listed as a privileged user.
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_11_annotated.png" style="max-width:100%" title="Confirm Database and Privileged User"> </p>
 
 ## Return to cPanel Main
 
-To return from nearly any part of cPanel to the Main interface (shown in the screenshot at the beginning of this guide), you can click on the grid icon in the upper-left. <p align="center"> <img src="../getting-started-img/installing_kora_domains_12_annotated.png" style="max-width:100%" title="Return to cPanel Main"> </p>
+To return from nearly any part of cPanel to the Main interface (shown in the screenshot at the beginning of this guide), you can click on the grid icon in the upper-left.
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_12_annotated.png" style="max-width:100%" title="Return to cPanel Main"> </p>
 
 ## Upload and Prepare Kora Application Files via cPanel File Manager
 
-1. From cPanel Main, find the section "Files" and click on "File Manager." <p align="center"> <img src="../getting-started-img/installing_kora_domains_13_annotated.png" style="max-width:100%" title="cPanel's File Manager"> </p>
+1. From cPanel Main, find the section "Files" and click on "File Manager."
 
-2. Take a note of which directory is your main URL directory (the one that provides all the files available via your main URL). In this screenshot you can see the globe icon being used for the URL directory "public_html," which is the common icon in this version of cPanel and used in MSU's Domain of One's Own. <p align="center"> <img src="../getting-started-img/installing_kora_domains_14.1_annotated.png" style="max-width:100%" title="URL Directory"> </p><br>You will also notice the same globe icon, but with a black chain-link icon over it, used for "www". <p align="center"> <img src="../getting-started-img/installing_kora_domains_14.2_annotated.png" style="max-width:100%" title="'Linked' Directory"> </p><br>This is something different, which will be explained in one of the sections about setting up the installation URL below. But for now just know that the directory with the globe and without the chain-link is the one you need to make note of.
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_13_annotated.png" style="max-width:100%" title="cPanel's File Manager"> </p>
 
-3. In order to properly view all the relevant Kora installation files once they have been created, it is important for you to make all the hidden files visible. To do this, go to the File Manager's "Settings" by clicking on the gear icon in the upper-right.  <p align="center"> <img src="../getting-started-img/installing_kora_domains_14.3_annotated.png" style="max-width:100%" title="Open File Manager Settings"> </p><br>Click the checkbox for "Show Hidden Files (dotfiles)" and then click "Save".  <p align="center"> <img src="../getting-started-img/installing_kora_domains_15_annotated.png" style="max-width:100%" title="Enable Viewing Hidden Files"> </p>
+2. Take a note of which directory is your main URL directory (the one that provides all the files available via your main URL). In this screenshot you can see the globe icon being used for the URL directory "public_html," which is the common icon in this version of cPanel and used in MSU's Domain of One's Own.
 
-4. Next, you'll upload the kora installation .zip file you downloaded earlier from [Kora's GitHub repo releases](https://github.com/matrix-msu/kora/releases) page. Kora is intended to be installed *outside* of the main URL directory you noted in Step 2 of this section; the easiest is to install it into the same directory alongside your main URL directory. If you have never changed the default directory that loads when opening File Manager, you are more than likely already viewing the correct location.<br>While at this location, click on "Upload" in the menu at the top. <p align="center"> <img src="../getting-started-img/installing_kora_domains_16_annotated.png" style="max-width:100%" title="Upload Files"> </p><br>In the page that opens, just drag-and-drop the .zip file to upload it. You may also click on "Select File" to find it via your computer's file management windows. When the .zip file finishes uploading, click on the link leading back to File Manager. <p align="center"> <img src="../getting-started-img/installing_kora_domains_17_annotated.png" style="max-width:100%" title="Back to File Manager"> </p>
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_14.1_annotated.png" style="max-width:100%" title="URL Directory"> </p>
 
-5. Locate the uploaded .zip file in this directory, right-click it to bring up the context menu, and select "Extract." <p align="center"> <img src="../getting-started-img/installing_kora_domains_18_annotated.png" style="max-width:100%" title="Selecting Extract in the Context Menu"> </p><br>In the Extract modal that opens, leave the default location alone (the text box is likely blank) and click "Extract File(s)." <p align="center"> <img src="../getting-started-img/installing_kora_domains_19_annotated.png" style="max-width:100%" title="Extract Files"> </p><br>In the follow-up modal called "Extraction Results," click "Close."
+    You will also notice the same globe icon, but with a black chain-link icon over it, used for "www".
 
-6. Extracting the .zip file will create a new directory, which is likely called "kora-XXX," with the version number in the placeholder. Locate this directory, right-click on it, and select "Rename." <p align="center"> <img src="../getting-started-img/installing_kora_domains_20.1_annotated.png" style="max-width:100%" title="Selecting Rename in the Context Menu"> </p><br>In the Rename modal that opens, change the text in the box to "kora" (without quotations) and click "Rename File." <p align="center"> <img src="../getting-started-img/installing_kora_domains_21_annotated.png" style="max-width:100%" title="Rename Directory"> </p>
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_14.2_annotated.png" style="max-width:100%" title="'Linked' Directory"> </p>
 
-7. Next, it's time to initially set up the .env file that manages some of the configuration settings for your Kora install. Many of the settings in this file will be adjustable once the installation is complete, but a few are not and require configuration now.<br>Enter your renamed "kora" directory, right-click on the ".env.example" file, and select "Copy." <p align="center"> <img src="../getting-started-img/installing_kora_domains_22_annotated.png" style="max-width:100%" title="Selecting Copy in the Context Menu"> </p><br>In the Copy modal that opens, add "/.env" without quotations to whatever is already in the text box and click "Copy File(s)."  <p align="center"> <img src="../getting-started-img/installing_kora_domains_23_annotated.png" style="max-width:100%" title="Create file copy with '.env' name"> </p>
+    This is something different, which will be explained in one of the sections about setting up the installation URL below. But for now just know that the directory with the globe and without the chain-link is the one you need to make note of.
 
-8. Once the file has been renamed, select it and then click on "Edit" in the menu at the top.  <p align="center"> <img src="../getting-started-img/installing_kora_domains_24_annotated.png" style="max-width:100%" title="Open File Editor"> </p><br>The Edit modal that opens provides a warning to back up the file you are about to edit before making any changes. This is always a good practice to follow, so that any mistakes can be quickly and easily rectified. Luckily, since the file you are about to edit is a direct copy of ".env.example," you already *have* a backed-up copy of its current state, so in this case making an additonal backup is not necessary. So go ahead and click on "Edit."  <p align="center"> <img src="../getting-started-img/installing_kora_domains_25_annotated.png" style="max-width:100%" title="Confirm opening File Editor"> </p><br>A new tab will open with the editor. Here, change lines 6, 7, and 8 to match the info you saved about your MySQL database. For example, given the info I saved from when I set up my databases, my specific code will look like:
-```
-DB_DATABASE=geyerbri_kora
-DB_USERNAME=geyerbri_kora
-DB_PASSWORD={saved database user password}
-```
-Notice, this is where you will paste in the database password you saved in Step 5 of [Set Up MySQL Database](#Set_Up_MySQL_Database) above. Remove the curl brackets from the example code and make sure there are no spaces before or after the password. <p align="center"> <img src="../getting-started-img/installing_kora_domains_26_annotated.png" style="max-width:100%" title="Editing .env File"> </p><br>After finishing this, click "Save Changes". Once that's done you can either close the tab or click "Close" (which does the same thing) and go back to the File Manager tab.
+3. In order to properly view all the relevant Kora installation files once they have been created, it is important for you to make all the hidden files visible. To do this, go to the File Manager's "Settings" by clicking on the gear icon in the upper-right.
 
-9. Finally, there is one more example file to copy as a configuration file. Enter the directory "public" and also copy the file ".htaccess.example". Add "/.htaccess" after the defaulted location, the same way you did for ".env" in the previous step. The default settings in this file will work for basic installations of Kora, but should you want to adjust settings such as more complex URLs than what this guide presents (see [](#) below), or to change the advanced settings such as acceptable file sizes, memory limits, timeout lengths, etc., they are controlled in this file.<br>Once copied, you're finished with the initial file setup. Navigate back to cPanel Main.
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_24.2_annotated.png" style="max-width:100%" title="Open File Manager Settings"> </p>
+
+    Click the checkbox for "Show Hidden Files (dotfiles)" and then click "Save".
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_15_annotated.png" style="max-width:100%" title="Enable Viewing Hidden Files"> </p>
+
+4. Next, you'll upload the kora installation .zip file you downloaded earlier from [Kora's GitHub repo releases](https://github.com/matrix-msu/kora/releases) page. Kora is intended to be installed *outside* of the main URL directory you noted in Step 2 of this section; the easiest is to install it into the same directory alongside your main URL directory. If you have never changed the default directory that loads when opening File Manager, you are more than likely already viewing the correct location.
+
+    While at this location, click on "Upload" in the menu at the top.
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_16.1_annotated.png" style="max-width:100%" title="Upload Files"> </p>
+
+    In the page that opens, just drag-and-drop the .zip file to upload it. You may also click on "Select File" to find it via your computer's file management windows. When the .zip file finishes uploading, click on the link leading back to File Manager.
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_17_annotated.png" style="max-width:100%" title="Back to File Manager"> </p>
+
+5. Locate the uploaded .zip file in this directory, right-click it to bring up the context menu, and select "Extract."
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_18_annotated.png" style="max-width:100%" title="Selecting Extract in the Context Menu"> </p>
+
+    In the Extract modal that opens, leave the default location alone (the text box is likely blank) and click "Extract File(s)."
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_19_annotated.png" style="max-width:100%" title="Extract Files"> </p>
+
+    In the follow-up modal called "Extraction Results," click "Close."
+
+6. Extracting the .zip file will create a new directory, which is likely called "kora-XXX," with the version number in the placeholder. Locate this directory, right-click on it, and select "Rename."
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_20.1_annotated.png" style="max-width:100%" title="Selecting Rename in the Context Menu"> </p>
+
+    In the Rename modal that opens, change the text in the box to "kora" (without quotations) and click "Rename File."
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_21_annotated.png" style="max-width:100%" title="Rename Directory"> </p>
+
+7. Next, it's time to initially set up the .env file that manages some of the configuration settings for your Kora install. Many of the settings in this file will be adjustable once the installation is complete, but a few are not and require configuration now.
+
+    Enter your renamed "kora" directory, right-click on the ".env.example" file, and select "Copy."
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_22_annotated.png" style="max-width:100%" title="Selecting Copy in the Context Menu"> </p>
+    In the Copy modal that opens, add "/.env" without quotations to whatever is already in the text box and click "Copy File(s)."
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_23_annotated.png" style="max-width:100%" title="Create file copy with '.env' name"> </p>
+
+8. Once the file has been renamed, select it and then click on "Edit" in the menu at the top.
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_24.1_annotated.png" style="max-width:100%" title="Open File Editor"> </p>
+
+    The Edit modal that opens provides a warning to back up the file you are about to edit before making any changes. This is always a good practice to follow, so that any mistakes can be quickly and easily rectified. Luckily, since the file you are about to edit is a direct copy of ".env.example," you already *have* a backed-up copy of its current state, so in this case making an additional backup is not necessary. So go ahead and click on "Edit."
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_25_annotated.png" style="max-width:100%" title="Confirm opening File Editor"> </p>
+
+    A new tab will open with the editor. Here, change lines 6, 7, and 8 to match the info you saved about your MySQL database. For example, given the info I saved from when I set up my databases, my specific code will look like:
+
+        DB_DATABASE=geyerbri_kora
+        DB_USERNAME=geyerbri_kora
+        DB_PASSWORD={saved database user password}
+
+    Notice, this is where you will paste in the database password you saved in Step 5 of [Set Up MySQL Database](.#set-up-mysql-database) above. Remove the curl brackets from the example code and make sure there are no spaces before or after the password.
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_26_annotated.png" style="max-width:100%" title="Editing .env File"> </p>
+
+    After finishing this, click "Save Changes". Once that's done you can either close the tab or click "Close" (which does the same thing) and go back to the File Manager tab.
+
+9. Finally, there is one more example file to copy as a configuration file. Enter the directory "public" and also copy the file ".htaccess.example". Add "/.htaccess" after the defaulted location, the same way you did for ".env" in the previous step. The default settings in this file will work for basic installations of Kora, but should you want to adjust settings such as more complex URLs than what this guide presents (see [](#) below), or to change the advanced settings such as acceptable file sizes, memory limits, timeout lengths, etc., they are controlled in this file.
+
+    Once copied, you're finished with the initial file setup. Navigate back to cPanel Main.
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_16.2_annotated.png" style="max-width:100%" title="Return to cPanel Main from File Manager"> </p>
 
 ## Kora Installation and Further Configuration via cPanel Terminal
 
-1. In cPanel Main, scroll down to the section called "Advanced" and open "Terminal." <p align="center"> <img src="../getting-started-img/installing_kora_domains_27_annotated.png" style="max-width:100%" title="cPanel's Terminal"> </p><br>Read and (hopefully) accept the terms to reach the in-cPanel terminal interface. It will look like this: <p align="center"> <img src="../getting-started-img/installing_kora_domains_28_annotated.png" style="max-width:100%" title="Terminal Window"> </p>
+1. In cPanel Main, scroll down to the section called "Advanced" and open "Terminal."
 
-2. In Terminal, you will be using some basic commands to move around and change a few things. The first one is `cd`, which just changes your location in the file system. Change your directory to whichever directory you just renamed the extracted zip file to. If you've been using the suggested names above, this will be "kora":<br>`cd kora`<br>Next, run the installation process:<br>`php artisan kora:install`<br>Before running this last command, the window will look like this: <p align="center"> <img src="../getting-started-img/installing_kora_domains_29_annotated.png" style="max-width:100%" title="First Set of Terminal Commands"> </p><br>After running, if it is successful, the window will look like this, with the successful installation message (in green): <p align="center"> <img src="../getting-started-img/installing_kora_domains_30_annotated.png" style="max-width:100%" title="Successful Installation Message"> </p><br>**INCREDIBLY IMPORTANT**: You *must* copy the last line generated here in the successful installation message (outlined above), which has your password for the generated username of "admin". To copy things in cPanel's Terminal, first use your mouse to select the line, then right-click and and select "Copy." Paste this somewhere safe, where you will not lose it! *I cannot stress how important this step is, because losing this password means losing access to your installation.*
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_27_annotated.png" style="max-width:100%" title="cPanel's Terminal"> </p>
 
-3. Notice that, in the successful installation message, you are directed to "give READ access to the web user," as well as "WRITE access" for specific directories, to ensure that Kora continues functioning properly after users start contributing. What these directions require could be different for different Domain of One's Own environments, because different system administrators may have set up the default permissions for the environment differently. For now, to ensure that things are set up for the most likely scenario for most Domain of One's Own or Reclaim Hosting environments, you will be setting file permissions for the entire "kora" directory and its contents.<br>Because these commands have to be applied to all the files and directories within, you will have to do this here, via Terminal, using the `chmod` command and the `-R` flag.<br>`chmod` stands for "change mode," which is how the server's operating system refers to changing permissions. The `-R` flag tells the command to run recursively, i.e. change them for this directory and everything it contains. Finally, the `.` is the short-hand for "my current location."<br>This first command is to make sure that any new files and directories created in Kora are assigned the correct permissions in the future. It may not be needed for most cases, but in the few cases where it is, it will be useful. So run the following code:<br>`chmod -R g+s .`<br>When successful, Terminal will just re-display the command prompt without a message: <p align="center"> <img src="../getting-started-img/installing_kora_domains_31_annotated.png" style="max-width:100%" title="Successful g+s Command"> </p>
+    Read and (hopefully) accept the terms to reach the in-cPanel terminal interface. It will look like this:
 
-4. Next, it is important to confirm that the directories and files in this installation are all set to the `755` permissions level. In the operating system your server is running, this number represents the permissions levels for three different attributes related to a file or directory's ownership in the system. The first number represents the level set for "Owner," the second for "Group," and the third for "Other/World." Setting `7` is full access - aka read, write, and execute - whereas setting `5` is read and execute access only. For the purposes of this basic installation, the level for "Owner" should always be set to `7` so that you will always be able to make changes to things if needed. However the amount of access given to "Group" and "Other/World" attributes will affect the security of your server environment, so it is important to set these to `5` or some other non-write setting whenever possible.<br>So, to confirm that the installation's permissions are set at the appropriate levels for the appropriate attributes, run this command to set all of this directory and its contents to "READ" (and execute, which is missing from the successful installation message). Again, in many cases it isn't strictly needed, but in the few where it is this will ensure the settings are set correctly:<br>`chmod -R 755 .`<br>And just as before, when successful, it will just re-display the command prompt without a message. If you intend to set the "Write" privileges because you are sure your specific server environment's defaults will prevent Kora from working properly, then you can prepare for the commands in the next section by changing your location to be one directory above "Kora". As before, use `cd`, but this time use `..`, which just means 'move up one directory':<br>`cd ..`<br>Now your terminal will look like this: <p align="center"> <img src="../getting-started-img/installing_kora_domains_32_annotated.png" style="max-width:100%" title="Moving Up One Directory"> </p>
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_28_annotated.png" style="max-width:100%" title="Terminal Window"> </p>
+
+2. In Terminal, you will be using some basic commands to move around and change a few things. The first one is `cd`, which just changes your location in the file system. Change your directory to whichever directory you just renamed the extracted zip file to. If you've been using the suggested names above, this will be "kora":
+
+        cd kora
+
+    Next, run the installation process:
+
+        php artisan kora:install
+
+    Before running this last command, the window will look like this:
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_29_annotated.png" style="max-width:100%" title="First Set of Terminal Commands"> </p>
+
+    After running, if it is successful, the window will look like this, with the successful installation message (in green):
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_30_annotated.png" style="max-width:100%" title="Successful Installation Message"> </p>
+
+3. **INCREDIBLY IMPORTANT**: You *must* copy the last line generated here in the successful installation message (outlined above), which has your password for the generated username of "admin". To copy things in cPanel's Terminal, first use your mouse to select the line, then right-click and and select "Copy." Paste this somewhere safe, where you will not lose it! **_I cannot stress how important this step is, because losing this password means losing access to your installation._**
+
+4. Notice that, in the successful installation message, you are directed to "give READ access to the web user," as well as "WRITE access" for specific directories, to ensure that Kora continues functioning properly after users start contributing. What these directions require could be different for different Domain of One's Own environments, because different system administrators may have set up the default permissions for the environment differently. For now, to ensure that things are set up for the most likely scenario for most Domain of One's Own or Reclaim Hosting environments, you will be setting file permissions for the entire "kora" directory and its contents.
+
+    Because these commands have to be applied to all the files and directories within, you will have to do this here, via Terminal, using the `chmod` command and the `-R` flag.
+
+    `chmod` stands for "change mode," which is how the server's operating system refers to changing permissions. The `-R` flag tells the command to run recursively, i.e. change them for this directory and everything it contains. Finally, the `.` is the short-hand for "my current location."
+
+    This first command is to make sure that any new files and directories created in Kora are assigned the correct permissions in the future. It may not be needed for most cases, but in the few cases where it is, it will be useful. So run the following code:
+
+        chmod -R g+s .
+
+    When successful, Terminal will just re-display the command prompt without a message:
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_31_annotated.png" style="max-width:100%" title="Successful g+s Command"> </p>
+
+5. Next, it is important to confirm that the directories and files in this installation are all set to the `755` permissions level. In the operating system your server is running, this number represents the permissions levels for three different attributes related to a file or directory's ownership in the system. The first number represents the level set for "Owner," the second for "Group," and the third for "Other/World." Setting `7` is full access - aka read, write, and execute - whereas setting `5` is read and execute access only. For the purposes of this basic installation, the level for "Owner" should always be set to `7` so that you will always be able to make changes to things if needed. However the amount of access given to "Group" and "Other/World" attributes will affect the security of your server environment, so it is important to set these to `5` or some other non-write setting whenever possible.
+
+    So, to confirm that the installation's permissions are set at the appropriate levels for the appropriate attributes, run this command to set all of this directory and its contents to "READ" (and execute, which is missing from the successful installation message). Again, in many cases it isn't strictly needed, but in the few where it is this will ensure the settings are set correctly:
+
+        chmod -R 755 .
+
+    And just as before, when successful, it will just re-display the command prompt without a message. If you intend to set the "Write" privileges because you are sure your specific server environment's defaults will prevent Kora from working properly, then you can prepare for the commands in the next section by changing your location to be one directory above "Kora". As before, use `cd`, but this time use `..`, which just means 'move up one directory':
+
+        cd ..
+
+    Now your terminal will look like this:
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_32_annotated.png" style="max-width:100%" title="Moving Up One Directory"> </p>
 
 ## Set Write and Execute Privileges On Certain Directories if Needed via cPanel Terminal
 
 For some (such as those installing on MSU's Domain of One's Own at the time this documentation was written), the previous commands will have been enough to complete the required permissions setup for their installation. However for others, it will be necessary to specifically change the permissions on the three directory trees noted in the successful installation message. These settings are different because each server environment may have been set up differently by the systems administrator. The install message's reference to "web user" is in a way referring to this difference: in some cases, things will be set up such that new files that Kora creates will be attempted to be created with the "Owner" attribute/level. In others, the new files will be attempted with the "Group" or (in rare cases) "Other/World" attribute/level. The specific way your installation works can be tested by quickly creating a record that has a file attached to it, and then uploading that file. If the file upload works, then your current installation does not need any further permissions adjustments. If it does not work, you will need to re-enter cPanel and re-enter Terminal, which should default to the correct location (the directory directly above "kora").
 
-Run the following three commands, using the exact locations described in the successful installation message (reproduced below in case you are coming back to Terminal after learning that your installation requires these settings to work), to set the "WRITE" (and execute) permissions correctly. Hit "Enter" after each command (i.e. run each on its own).
+Run the following three commands, using the exact locations described in the successful installation message (reproduced here in case you are coming back to Terminal after learning that your installation requires these settings to work), to set the "WRITE" (and execute) permissions correctly. Hit "Enter" after each command (i.e. run each on its own).
 
 `chmod -R 775 kora/bootstrap/cache/`
+
 `chmod -R 775 kora/storage/`
+
 `chmod -R 775 kora/public/assets/javascripts/production/`
 
-Just as before, when successful, each of these will just re-display the command prompt without a message. After you've run all three, your terminal will look something like this: <p align="center"> <img src="../getting-started-img/installing_kora_domains_33_annotated.png" style="max-width:100%" title="Setting Write/Execute for 'Group' and 'Others'"> </p>
+Just as before, when successful, each of these will just re-display the command prompt without a message. After you've run all three, your terminal will look something like this:
+
+<p align="center"> <img src="../getting-started-img/installing_kora_domains_33_annotated.png" style="max-width:100%" title="Setting Write/Execute for 'Group' and 'Others'"> </p>
 
 ## Create Kora Installation URLs
 
-Next, it is important to have your Kora installation accessible via a web browser and URL. There are two options for doing this: a subdomain or a subdirectory. A subdirectory URL looks like https\://example.org/subdirectory, whereas a subdomain looks like https\://subdomain.example.org. Find the directions for each below.
+Next, it is important to have your Kora installation accessible via a web browser and URL. There are two options for doing this: a subdomain or a subdirectory. A subdirectory URL looks like https://example.org/subdirectory, whereas a subdomain looks like https://subdomain.example.org. Find the directions for each below.
 
 ### Subdirectory URL Setup Via cPanel Terminal
 
-1. To set up a subdirectory URL for your Kora installation, you will just have to do a couple more things in Terminal. First you will change your location to be inside of the directory that your main URL is accessible from: in my case, this is a directory called `public_html`, but another common case is `www`. Use:<br>`cd public_html`
+1. To set up a subdirectory URL for your Kora installation, you will just have to do a couple more things in Terminal. First you will change your location to be inside of the directory that your main URL is accessible from: in my case, this is a directory called `public_html`, but another common case is `www`. Use:
 
-2. Setting up the subdirectory for your URL requires using the command `ln` with the `-s` flag. `ln` stands for "link" and the `-s` flag tells the system that the link being created is "symbolic". The next part of the command is the location of the Kora installation public directory, relative to your current location. And then the final part is the location of the desired subdirectory that will appear at the end of your site's URL. So in the case of a `public_html` example, the public directory of the installation files is located one directory up, and then inside of `kora`. So the command is:<br>`ln -s ../kora/public kora`<br>After both of these steps, your terminal window will look something like this: <p align="center"> <img src="../getting-started-img/installing_kora_domains_34_annotated.png" style="max-width:100%" title="Set up Subdirectory Symbolic Link"> </p><br>This was the last bit of Terminal required for setup, so you may now close Terminal and return to cPanel Main.
+        cd public_html
+
+2. Setting up the subdirectory for your URL requires using the command `ln` with the `-s` flag. `ln` stands for "link" and the `-s` flag tells the system that the link being created is "symbolic". The next part of the command is the location of the Kora installation public directory, relative to your current location. And then the final part is the location of the desired subdirectory that will appear at the end of your site's URL. So in the case of a `public_html` example, the public directory of the installation files is located one directory up, and then inside of `kora`. So the command is:
+
+        ln -s ../kora/public kora
+
+    After both of these steps, your terminal window will look something like this:
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_34_annotated.png" style="max-width:100%" title="Set up Subdirectory Symbolic Link"> </p>
+
+    This was the last bit of Terminal required for setup, so you may now close Terminal and return to cPanel Main.
 
 3. To confirm that the symbolic link process worked, you may go back into File Manager and navigate into your publicly-accessible directory. There, you should find the directory "kora" with the black chain-link icon over the folder icon.
 
 ### Subdomain URLs
 
-If going this route, you can now close Terminal and return to cPanel Main.
+If going this route for your URL, you can now close Terminal and return to cPanel Main.
 
-1. Setting up the subdomain option for your URL requires using the "Subdomains" tool in cPanel, under the "Domains" section. <p align="center"> <img src="../getting-started-img/installing_kora_domains_35.1_annotated.png" style="max-width:100%" title="cPanel's Subdomains"> </p>
+1. Setting up the subdomain option for your URL requires using the "Subdomains" tool in cPanel, under the "Domains" section.
 
-2. In the Subdomain text box, type what you would like for your URL to begin with, before your site's main URL (remember the example above: https\://subdomain.example.org). The selected "Domain" will likely default to your main URL, which is correct (in the case where you have multiple URLs available, choose the appropriate one). And the tool will autogenerate content in the "Document Root" box after you enter something in the "Subdomain" box; delete this and instead enter the directory tree for the public folder of your Kora installation. If you have been using all the same directory names and locations that I have presented throughout this guide, then you will enter "kora/public". Then hit create. You can see all of this in this screenshot: <p align="center"> <img src="../getting-started-img/installing_kora_domains_36_annotated.png" style="max-width:100%" title="Create New Subdomain"> </p>
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_35.1_annotated.png" style="max-width:100%" title="cPanel's Subdomains"> </p>
+
+2. In the Subdomain text box, type what you would like for your URL to begin with, before your site's main URL (remember the example above: https://subdomain.example.org). The selected "Domain" will likely default to your main URL, which is correct (in the case where you have multiple URLs available, choose the appropriate one). And the tool will autogenerate content in the "Document Root" box after you enter something in the "Subdomain" box; delete this and instead enter the directory tree for the public folder of your Kora installation. If you have been using all the same directory names and locations that I have presented throughout this guide, then you will enter "kora/public". Then hit create. You can see all of this in this screenshot:
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_36_annotated.png" style="max-width:100%" title="Create New Subdomain"> </p>
 
 ### Enable Force HTTPS for URL
 
 Once you have implemented one of the two methods above, your Kora installation is now reachable via a web browser!
 
-1. The final task before accessing the Kora installation via your browser is to enable a Force HTTPS Redirect for your domain, and for the subdomain as well if you have gone that route for your URL. To do this, go to "Domains" under "Domains" in cPanel. <p align="center"> <img src="../getting-started-img/installing_kora_domains_35.2_annotated.png" style="max-width:100%" title="cPanel's Domains"> </p>
+1. The final task before accessing the Kora installation via your browser is to enable a Force HTTPS Redirect for your domain, and for the subdomain as well if you have gone that route for your URL. To do this, go to "Domains" under "Domains" in cPanel.
 
-2. For your main domain entry and subdomain entry on the list, click the toggle to turn it on (or ensure it is already toggled on for each). <p align="center"> <img src="../getting-started-img/installing_kora_domains_37_annotated.png" style="max-width:100%" title="Force HTTPS Toggled On for Domain and Subdomain (if applicable)"> </p>
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_35.2_annotated.png" style="max-width:100%" title="cPanel's Domains"> </p>
+
+2. For your main domain entry and subdomain entry on the list, click the toggle to turn it on (or ensure it is already toggled on for each).
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_37_annotated.png" style="max-width:100%" title="Force HTTPS Toggled On for Domain and Subdomain (if applicable)"> </p>
 
 Once completed, return to cPanel Main.
 
@@ -124,16 +283,33 @@ In a new tab, navigate to your Kora application's URL. If everything has been do
 
 If you successfully reached the Kora login page, **Congratulations!** Your install is at least partially working!
 
-1. From here you will log into the admin account in order to configure your installation properly, but also to test that your directory permissions settings are working properly. <p align="center"> <img src="../getting-started-img/installing_kora_domains_38_annotated.png" style="max-width:100%" title="Kora Login Page"> </p><br>The username is "admin" and the password is the one that you copied from Terminal, from the successful installation message. Put in that password to log in and you will land on a page that looks like this: <p align="center"> <img src="../getting-started-img/installing_kora_domains_39_annotated.png" style="max-width:100%" title="Successful Login to Kora"> </p>
+1. From here you will log into the admin account in order to configure your installation properly, but also to test that your directory permissions settings are working properly.
 
-2. I highly recommend you at some point click through the introduction to get a quick tutorial on the basics of using Kora. Once done, click on the menu icon in the top-right to bring out the side-bar menu. <p align="center"> <img src="../getting-started-img/installing_kora_domains_40.1_annotated.png" style="max-width:100%" title="Open Kora Menu"> </p><br>Then click on "Management" at the bottom and select "Kora Configuration File" from the options that appear. <p align="center"> <img src="../getting-started-img/installing_kora_domains_41_annotated.png" style="max-width:100%" title="Kora Configuration File Menu Item"> </p><br>This page provides text fields to update much of the information saved in that .env file you briefly edited back in Step 8 of [Uploading and Preparing Kora Application Files via cPanel File Manager](#Uploade_and_Prepare_Kora_Application_Files_Via_cPanel_File_Manager). <p align="center"> <img src="../getting-started-img/installing_kora_domains_42_annotated.png" style="max-width:100%" title="Configuration File Page"> </p>
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_38_annotated.png" style="max-width:100%" title="Kora Login Page"> </p>
+
+    The username is "admin" and the password is the one that you copied from Terminal, from the successful installation message. Put in that password to log in and you will land on a page that looks like this:
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_39_annotated.png" style="max-width:100%" title="Successful Login to Kora"> </p>
+
+2. I highly recommend you at some point click through the introduction to get a quick tutorial on the basics of using Kora. Once done, click on the menu icon in the top-right to bring out the side-bar menu.
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_40.1_annotated.png" style="max-width:100%" title="Open Kora Menu"> </p>
+
+    Then click on "Management" at the bottom and select "Kora Configuration File" from the options that appear.
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_41_annotated.png" style="max-width:100%" title="Kora Configuration File Menu Item"> </p>
+
+    This page provides text fields to update much of the information saved in that .env file you briefly edited back in Step 8 of [Upload and Prepare Kora Application Files via cPanel File Manager](#upload-and-prepare-kora-application-files-via-cpanel-file-manager).
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_42_annotated.png" style="max-width:100%" title="Configuration File Page"> </p>
 
 ### Configure reCAPTCHA
+
 *NOTE*: Because this subsection regards setting up an external service, there are no screenshots provided.
 
 **Kora currently uses reCAPTCHA v2 Checkbox**
 
-1. Kora uses Google's reCAPTCHA service for anti-robot protections. As you can see on the screenshot above, the configuration file is asking for a "Recaptcha Private Key" and "Recaptcha Public Key", which you will get from that service. The reCAPTCHA documentation can be found at https://developers.google.com/recaptcha, but to create the keys needed for your site, you will go to https://www.google.com/u/0/recaptcha/admin/site/349954737. Google will ask you to log in with a Gmail account. Many academic institutions have contracts with Google for using their tools via an educational arrangement; in the case of MSU, it is possible to give Google's login page an MSU email address, which then redirects to an MSU-related login page. Successfully logging in redirects back to reCAPTCHA under the MSU account. If this option is not available to you, unfortunately you will need a Gmail account to gain access to reCAPTCHA, which is required for completing a Kora installation setup.
+1. Kora uses Google's reCAPTCHA service for anti-robot protections. As you can see on the screenshot above, the configuration file is asking for a "Recaptcha Private Key" and "Recaptcha Public Key", which you will get from that service. The reCAPTCHA documentation can be found at [https://developers.google.com/recaptcha](https://developers.google.com/recaptcha), but to create the keys needed for your site, you will go to [https://www.google.com/u/0/recaptcha/admin/](https://www.google.com/u/0/recaptcha/admin/). Google will ask you to log in with a Gmail account. Many academic institutions have contracts with Google for using their tools via an educational arrangement; in the case of MSU, it is possible to give Google's login page an MSU email address, which then redirects to an MSU-related login page. Successfully logging in redirects back to reCAPTCHA under the MSU account. If this option is not available to you, unfortunately you will need a Gmail account to gain access to reCAPTCHA, which is required for completing a Kora installation setup.
 
 2. Once logged in, click on the plus icon in the upper-right to register a new site. Give it any label you prefer (a suggestion would be to use your Kora installation URL). As noted above, Kora currently uses reCAPTCHA v2 "I'm not a robot" Checkbox version, so pick those options. Under "Domains", write your main domain (do not include the subdomain or subdirectory) and either hit Enter or click the plus sign to add it to the list of approved domains for the set of keys that are about to be generated. As an aside: this functionality means you could conceivably have multiple Kora installations, or even multiple sites that use reCAPTCHA v2 Checkbox, all using the same keys.
 
@@ -147,21 +323,49 @@ If you successfully reached the Kora login page, **Congratulations!** Your insta
 
 To set up mail for your Kora install, this guide will explain how to use the email client available through cPanel for your Domain of One's Own account. It is possible to set this up with other email clients, however this basic option is easiest for keeping the installation and email all under the one environment.
 
-1. Return to your tab with cPanel main. Find "Email Accounts" under the "Email" section. <p align="center"> <img src="../getting-started-img/installing_kora_domains_43_annotated.png" style="max-width:100%" title="cPane's Email Account"> </p><br>To set up a kora-specific email address, click on "Create". <p align="center"> <img src="../getting-started-img/installing_kora_domains_44_annotated.png" style="max-width:100%" title="Create a New Email"> </p><br>(You could also use the default email address that has already been generated if you like; if using the default email, skip to Step XX below.)
+1. Return to your tab with cPanel main. Find "Email Accounts" under the "Email" section.
 
-2. In the "Create an Email Account" box, look at the options available in the "Domain" dropdown menu. This will be the portion of the email address *after* the @ symbol. If using a subdomain URL, you can specify this subdomain here, otherwise your option will be limited to your main URL. After choosing the domain, enter a "Username", such as "admin" if you use the subdomain option, or "kora" if you use the main URL option. Finally, click on Generate in the "Password" section to receive a randomly generated password (as you did when setting up your MySQL database). <p align="center"> <img src="../getting-started-img/installing_kora_domains_45_annotated.png" style="max-width:100%" title="Add Information for Setting Up New Email Account"> </p><br>**IMPORTANT**: Just as before, ensure you copy this password and save it someplace safe, because it will be needed for email configuration in Kora.
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_43_annotated.png" style="max-width:100%" title="cPane's Email Account"> </p>
 
-3. The remaining settings should be set according to your preferences. I will not outline how to link this email account to a mail client because the option to generate an email with just such a guide is provided by cPanel. Once everything is set as you like, click "Create", which, as long as you leave the "Stay on this page..." option unchecked, will create the address and redirect you back to the list of email addresses. <p align="center"> <img src="../getting-started-img/installing_kora_domains_46_annotated.png" style="max-width:100%" title="Complete the New Email Account Setup with Default Settings"> </p>
+    To set up a kora-specific email address, click on "Create".
 
-4. To confirm that your address is working properly, click on "Check Mail" next to your new address in the list. <p align="center"> <img src="../getting-started-img/installing_kora_domains_47_annotated.png" style="max-width:100%" title="Check Mail for the New Address"> </p><br>Then click "Open" on the resulting page. As long as these pages load correctly, your server's email client is working correctly. If they do not - for instance, MSU's Domain of One's Own accounts currently are not working - you must contact the administrators of your server to rectify this.
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_44_annotated.png" style="max-width:100%" title="Create a New Email"> </p>
 
-5. Return to your Kora Configuration File page tab. Scrolling down, you will find the text boxes for your email information. Leave "Mail Host" with "localhost". For "Mail From Address", it is best to enter the email address you just created so that the emails user receive appear to come from that account; in my case, "admin@kora.geyerbri.msu.domains". Set the "Mail From Name" to your own preference, such as "Kora Admin". The "Mail User" setting is how Kora connects with your server's mail client, to actually send the email. So this one must be set to an appropriately-configured email, such as the one just created; in my case, "admin@kora.geyerbri.msu.domains" again. Finally, paste in the save email password into the last box, "Mail Password".<br>Save all of these configurations by clicking "Update Configuration File". See all of these settings in this screenshot: <p align="center"> <img src="../getting-started-img/installing_kora_domains_48_annotated.png" style="max-width:100%" title="Add Email Information to Kora Configuration"> </p>
+    (You could also use the default email address that has already been generated if you like; if using the default email, skip to Step 4 below.)
+
+2. In the "Create an Email Account" box, look at the options available in the "Domain" dropdown menu. This will be the portion of the email address *after* the @ symbol. If using a subdomain URL, you can specify this subdomain here, otherwise your option will be limited to your main URL. After choosing the domain, enter a "Username", such as "admin" if you use the subdomain option, or "kora" if you use the main URL option. Finally, click on Generate in the "Password" section to receive a randomly generated password (as you did when setting up your MySQL database).
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_45_annotated.png" style="max-width:100%" title="Add Information for Setting Up New Email Account"> </p>
+
+    **IMPORTANT**: Just as before, ensure you copy this password and save it someplace safe, because it will be needed for email configuration in Kora.
+
+3. The remaining settings should be set according to your preferences. I will not outline how to link this email account to a mail client because the option to generate an email with just such a guide is provided by cPanel. Once everything is set as you like, click "Create", which, as long as you leave the "Stay on this page..." option unchecked, will create the address and redirect you back to the list of email addresses.
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_46_annotated.png" style="max-width:100%" title="Complete the New Email Account Setup with Default Settings"> </p>
+
+4. To confirm that your address is working properly, click on "Check Mail" next to your new address in the list.
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_47_annotated.png" style="max-width:100%" title="Check Mail for the New Address"> </p>
+
+    Then click "Open" on the resulting page. As long as these pages load correctly, your server's email client is working correctly. If they do not - for instance, MSU's Domain of One's Own accounts currently are not working - you must contact the administrators of your server to rectify this.
+
+5. Return to your Kora Configuration File page tab. Scrolling down, you will find the text boxes for your email information. Leave "Mail Host" with "localhost". For "Mail From Address", it is best to enter the email address you just created so that the emails user receive appear to come from that account; in my case, "admin@kora.geyerbri.msu.domains". Set the "Mail From Name" to your own preference, such as "Kora Admin". The "Mail User" setting is how Kora connects with your server's mail client, to actually send the email. So this one must be set to an appropriately-configured email, such as the one just created; in my case, "admin@kora.geyerbri.msu.domains" again. Finally, paste in the save email password into the last box, "Mail Password".
+
+    Save all of these configurations by clicking "Update Configuration File". See all of these settings in this screenshot:
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_48_annotated.png" style="max-width:100%" title="Add Email Information to Kora Configuration"> </p>
 
 ### Admin User Profile settings
 
-The final portion of configuration is for the admin account's profile settings. This section is specific to what is a part of the initial configuration for Kora, but this documentation website also has a more complete [guide for user profile settings](../user-accounts/edit_user_preferences/).
+The final portion of configuration is for the admin account's profile settings. This section is specific to what is a part of the initial configuration for Kora, but this documentation website also has a more complete [guide for user profile settings](../../user-accounts/edit_user_preferences/).
 
-1. To get there, select the user icon in the upper-right. <p align="center"> <img src="../getting-started-img/installing_kora_domains_40.2_annotated.png" style="max-width:100%" title="Open User Menu"> </p><br>Then choose "Edit My Profile." <p align="center"> <img src="../getting-started-img/installing_kora_domains_49_annotated.png" style="max-width:100%" title="User Profile Settings Menu Item"> </p>
+1. To get there, select the user icon in the upper-right.
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_40.2_annotated.png" style="max-width:100%" title="Open User Menu"> </p>
+
+    Then choose "Edit My Profile."
+
+    <p align="center"> <img src="../getting-started-img/installing_kora_domains_49_annotated.png" style="max-width:100%" title="User Profile Settings Menu Item"> </p>
 
 2. On this page, you can change the username and password that were auto-generated when installing Kora in Terminal, however it is probably best to leave these alone. However, it *is* important to change the default admin email here because it is shown to users at various locations throughout Kora. Change it to either your own professional email address, or if you plan to check the server email account set up before (either through the interface you loaded before, or by forwarding it to an email client), set it to that address. You can also change the displayed admin name, if you wish, as it is also displayed to users in various locations. Finally, should you wish to change the admin account password from what was auto-generated to one you prefer, you can do that here.
 
@@ -181,4 +385,4 @@ To check whether or not your installation works properly:
 
 4. And finally, create a Record where you upload an example file.
 
-If the creation of that Record with an uploaded file succeeds, such that the uploaded file is viewable or downloadable when clicked upon, then your permissions are correct. If this fails, please go to [Set Write and Execute Privileges On Certain Directories if Needed via cPanel Terminal](#Set_Write_and_Execute_Privileges_On_Certain_Directories_if_Needed_via_cPanel_Terminal) above. Follow the instructions there for using cPanel Terminal to adjust your Kora installation's permissions on the correct directories.
+If the creation of that Record with an uploaded file succeeds, such that the uploaded file is viewable or downloadable when clicked upon, then your permissions are correct. If this fails, please go to [Set Write and Execute Privileges On Certain Directories if Needed via cPanel Terminal](#set-write-and-execute-privileges-on-certain-directories-if-needed-via-cpanel-terminal) above. Follow the instructions there for using cPanel Terminal to adjust your Kora installation's permissions on the correct directories.
