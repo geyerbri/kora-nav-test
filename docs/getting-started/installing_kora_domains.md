@@ -219,11 +219,7 @@ For some (such as those installing on MSU's Domain of One's Own at the time this
 
 Run the following three commands, using the exact locations described in the successful installation message (reproduced here in case you are coming back to Terminal after learning that your installation requires these settings to work), to set the "WRITE" (and execute) permissions correctly. Hit "Enter" after each command (i.e. run each on its own).
 
-`chmod -R 775 kora/bootstrap/cache/`
-
-`chmod -R 775 kora/storage/`
-
-`chmod -R 775 kora/public/assets/javascripts/production/`
+`chmod -R 775 kora/bootstrap/cache/`<br>`chmod -R 775 kora/storage/`<br>`chmod -R 775 kora/public/assets/javascripts/production/`
 
 Just as before, when successful, each of these will just re-display the command prompt without a message. After you've run all three, your terminal will look something like this:
 
