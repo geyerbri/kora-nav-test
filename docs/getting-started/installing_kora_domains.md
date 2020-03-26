@@ -68,7 +68,7 @@ Begin all of this by logging into your account to reach your cPanel. Most cPanel
 
 To return from nearly any part of cPanel to the Main interface (shown in the screenshot at the beginning of this guide), you can click on the grid icon in the upper-left.
 
-    <p align="center"> <img src="../getting-started-img/installing_kora_domains_12_annotated.png" style="max-width:100%" title="Return to cPanel Main"> </p>
+<p align="center"> <img src="../getting-started-img/installing_kora_domains_12_annotated.png" style="max-width:100%" title="Return to cPanel Main"> </p>
 
 ## Upload and Prepare Kora Application Files via cPanel File Manager
 
@@ -377,12 +377,12 @@ As noted above in the installation and configuration via cPanel Terminal steps, 
 
 To check whether or not your installation works properly:
 
-1. create a Project.
+1. [Create a Project](../../projects/creating_a_project/).
 
-2. Creating a Form in that project.
+2. [Create a Form](../../forms/creating_a_form/) in that project.
 
-3. Create a Field in that project *with the field type set to one of the File types* (setting it to "Documents" will give the greatest flexibility for uploading any file to test).
+3. [Create a Field](../../forms/creating_fields/) in that project *with the field type set to one of the File types* (setting it to "Documents" will give the greatest flexibility for uploading any file to test).
 
-4. And finally, create a Record where you upload an example file.
+4. And finally, [create a Record](../../records/creating_a_record/) where you upload an example file.
 
 If the creation of that Record with an uploaded file succeeds, such that the uploaded file is viewable or downloadable when clicked upon, then your permissions are correct. If this fails, please go to [Set Write and Execute Privileges On Certain Directories if Needed via cPanel Terminal](#set-write-and-execute-privileges-on-certain-directories-if-needed-via-cpanel-terminal) above. Follow the instructions there for using cPanel Terminal to adjust your Kora installation's permissions on the correct directories.
