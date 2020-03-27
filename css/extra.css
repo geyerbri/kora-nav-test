@@ -40,3 +40,7 @@ a:visited {
 .wy-menu-vertical li.current .toctree-l4 ~ ul {
     display: none;
 }
+
+ol li {
+    margin-top:12px;
+}
