@@ -9,6 +9,7 @@ theme:
     hljs_languages:
         - yaml
         - django
+    logo: 'https://images.contentful.com/q553fnlofhvs/5kTViDSohOKAokEIy48M04/7f35eec668f5c716308c9a49810820aa/GBIF-2015-mark.png'
 
 nav:
     - 'Home': 'index.md'
