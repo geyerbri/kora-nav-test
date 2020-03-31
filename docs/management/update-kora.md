@@ -1,4 +1,5 @@
 ---
-title: Creating a Record
+title: Updating your Kora Installation
 ---
 
+Coming soon.
