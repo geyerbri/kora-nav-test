@@ -3,7 +3,7 @@
 Any data that you enter into Kora can be exported to your local computer. Any records will be downloaded as a file. You are able to download the files in three different formats: a zip file, a JSON file, and an XML file.
 
 ## Exporting All Records for a Form
-If you wan to export all the available records from a form onto your computer, follow these directions:
+If you want to export all the available records from a form onto your computer, follow these directions:
 
 1. First you will have to [navigate to the form](../forms/navigating_to_a_form.md) you are attempting to export records from. From the *Form Home* page or any page within the *Form Home*, you have a couple of options to open up the menu. Click on either the **form-name** button or the **menu** button. <p align="center"> <img src="../records-img/exporting_a_record_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
 

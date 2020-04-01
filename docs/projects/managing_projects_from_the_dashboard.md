@@ -3,7 +3,7 @@ title: Accessing and Managing Projects from the Dashboard
 ---
 # Accessing and Managing Projects from the Dashboard
 
-Your [dashboard](../getting-started/working_with_the_dashboard.md) is a versatile hub that can be customized to contain important interactive blocks for your projects, forms and records. The project block, in particular, makes it easy to access the main page of projects that you work with regularly. It also makes the performing of certain kora actions for projects, just one click away. What follows is a description of how to use project blocks from your dashboard to manage a project.
+Your [dashboard](../getting-started/working_with_the_dashboard.md) is a versatile hub that can be customized to contain important interactive blocks for your projects, forms and records. The project block, in particular, makes it easy to access the main page of projects that you work with regularly. It also makes the performing of certain Kora actions for projects, just one click away. What follows is a description of how to use project blocks from your dashboard to manage a project.
 
 ## The Project Block
 

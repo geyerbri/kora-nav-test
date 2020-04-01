@@ -1,10 +1,10 @@
 # Using Record Presets
 
-Digitization is a time-consuming process, especially when you are trying to enter as [thorough and useful metadata](../getting-started/kora_core_concepts.md) as possible. Record presets become an especially useful feature in this regard, when many objects from a collection have the same pattern of metadata. Record presets allow you to create a collection of preselected entries for any number of [fields](../forms/creating_fields.md) in a [form](../forms/creating_a_form.md). You can then give these presets a name, and easily assign them to new records that they contain.
+Digitization is a time-consuming process, especially when you are trying to enter as [thorough and useful metadata](../getting-started/core-concepts.md) as possible. Record presets become an especially useful feature in this regard, when many objects from a collection have the same pattern of metadata. Record presets allow you to create a collection of preselected entries for any number of [fields](../forms/creating_fields.md) in a [form](../forms/creating_a_form.md). You can then give these presets a name, and easily assign them to new records that they contain.
 
 ## Creating a Record Preset
 
-When you finish [creating a record](../forms/creating_a_record.md), you have the option to create a record preset which records all of the data that you entered into the fields for that record. Any future records using this preset will then initially fill their fields with the same values. This is useful when you believe future records will have similar metadata as the record preset. Follow these steps to create record presets:
+When you finish [creating a record](../records/creating_a_record.md), you have the option to create a record preset which records all of the data that you entered into the fields for that record. Any future records using this preset will then initially fill their fields with the same values. This is useful when you believe future records will have similar metadata as the record preset. Follow these steps to create record presets:
 
 1. After entering data [into a record](../records/creating_a_record.md), you can create a record preset by checking the **Create New Record Preset From this Record** option at the bottom of the *new record* page.<p align="center"> <img src="../records-img/using_record_presets_1_annotated.png" width="100%" style="align:center" title="Step 1"> </p>
 
@@ -22,4 +22,4 @@ Once you have created a record preset, you can use it for any future records wit
 
 The examples below show how record presets will work. In this case, the "Example Record Preset" fills a text field with a value that was entered into a previous record ("This is how you create a Record Preset!"). <p align="center"> <img src="../records-img/using_record_presets_6_annotated.png" width="100%" style="align:center" title="Step 6"> </p>
 
-Any [field type](../forms/understanding_field_types.md) can be filled with a preset value using record presets. The "Example Record Preset" also filled a gallery field with an image. <p align="center"> <img src="../forms-img/using_record_presets_7_annotated.png" width="100%" style="align:center" title="Step 7"> </p>
+Any [field type](../forms/understanding_field_types.md) can be filled with a preset value using record presets. The "Example Record Preset" also filled a gallery field with an image. <p align="center"> <img src="../records-img/using_record_presets_7_annotated.png" width="100%" style="align:center" title="Step 7"> </p>
