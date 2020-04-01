@@ -28,7 +28,7 @@ nav:
         - 'Customizing your Project View': 'projects/customizing_your_project_view.md'
         - 'Customizing Project List View': 'projects/customizing_project_list_view.md'
         - 'Deleting a Project': 'projects/deleting_a_project.md'
-        - 'Managing Projects from the Dashboard': 'projects/managing_projects_from_the_dashboard.md'
+        - 'Accessing and Managing Projects from the Dashboard': 'projects/accessing_and_managing_projects_from_the_dashboard.md'
         - 'Editing a Project': 'projects/editing_a_project.md'
     - 'Forms':
         - 'Creating a Form': 'forms/creating_a_form.md'
