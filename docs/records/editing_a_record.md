@@ -1,6 +1,6 @@
 #Editing a Record
 
-The data for any record can be updated after the record has been [created](../records/creating_a_record.md). This means that you can fill in empty values from an initially created record, update your record if new information comes to light, or fix mistakes in data entry. Any revisions that you make to a record, however, will be logged by Kora for [you to view later](../records/viewing_and_managing_record_revisions.md). This will allow you to see a history of what that record looks like, meaning that any data you enter into Kora should not be lost.
+The data for any record can be updated after the record has been [created](../records/creating_a_record.md). This means that you can fill in empty values from an initially created record, update your record if new information comes to light, or fix mistakes in data entry. Any revisions that you make to a record, however, will be logged by Kora for [you to view later](../records/viewing_and_managing_record_revisions.md). This will allow you to see a history of record changes, meaning that any data you enter into Kora will not be lost.
 
 In order to edit a record, follow these steps:
 
