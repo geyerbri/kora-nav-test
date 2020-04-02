@@ -22,7 +22,7 @@ nav:
         - 'Working with the Dashboard': 'getting-started/working_with_the_dashboard.md'
     - 'Projects':
         - 'Creating a Project': 'projects/creating_a_project.md'
-        - 'Adding Users to Projects': 'projects/adding_users_to_projects.md'
+        - 'Adding & Removing Users on Projects': 'projects/adding_users_to_projects.md'
         - 'Exporting a Project': 'projects/exporting_a_project.md'
         - 'Importing a Project': 'projects/importing_a_project.md'
         - 'Archiving a Project': 'projects/archiving_a_project.md'
