@@ -19,7 +19,7 @@ A user's profile information will contain all of the information entered into th
 
 ## Permissions
 
-The permissions section of your profile will display the [project](../user-accounts/view_your_project_permissions.md) and [form](../forms/adding_users_to_forms/) permissions that you have been granted within a Kora installation. <p align="center"> <img src="../user-accounts-img/viewing_your_user_account_4_annotated.png" width="100%" style="align:center" title="Step 4"> </p>
+The permissions section of your profile will display the [project](../user-accounts/view_your_project_permissions.md) and [form](../forms/adding_users_to_forms.md) permissions that you have been granted within a Kora installation. <p align="center"> <img src="../user-accounts-img/viewing_your_user_account_4_annotated.png" width="100%" style="align:center" title="Step 4"> </p>
 
 ## Record History
 
