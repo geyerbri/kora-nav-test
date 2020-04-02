@@ -57,7 +57,6 @@ nav:
     - 'User & Account Management':
         - 'Viewing your User Account': 'user-accounts/viewing_your_user_account.md'
         - 'Viewing Your Project Permissions': 'user-accounts/view_your_project_permissions.md'
-        - 'Understanding and Working with Permission Groups': 'user-accounts/understanding_and_working_with_permission_groups.md'
         - 'Editing User Preferences': 'user-accounts/edit_user_preferences.md'
         - 'Editing Your User Account': 'user-accounts/edit_user_account.md'
         - 'Customizing Your Project View': 'user-accounts/customizing_your_project_view.md'
