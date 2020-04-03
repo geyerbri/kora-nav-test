@@ -16,11 +16,11 @@ Either of these options will bring you to the *Import Multi Form Records* page w
 ## File Formatting
 There are three formats that you are able to upload files in: .csv, .json, and .xml. If you follow the example formats given below, you will be able to import records into multiple forms. (Note to kora doc people: example files are on the Google drive. Do you think it would be better to just link to the example files that Anthony provided me?)
 
-* **CSV format**: This file format uses Comma Separated Values to describe the fields you are attempting to import. You can download an [example CSV file here](../records-files/import_example_csv.csv). <p align="center"> <img src="../records-img/importing_multi_form_records_4_annotated.png" width="100%" style="align:center" title="Step 4"> </p>
+* **CSV format**: This file format uses Comma Separated Values to describe the fields you are attempting to import. You can download an <a href="../records-files/import_example_csv.csv" download>example CSV file here</a>. <p align="center"> <img src="../records-img/importing_multi_form_records_4_annotated.png" width="100%" style="align:center" title="Step 4"> </p>
 
-* **JSON format**: This file format uses JavaScript Object notation to describe the fields for the records you are attempting to import. You can download an [example JSON file here](../records-files/import_example_json.json). <p align="center"> <img src="../records-img/importing_multi_form_records_5_annotated.png" width="100%" style="align:center" title="Step 5"> </p>
+* **JSON format**: This file format uses JavaScript Object notation to describe the fields for the records you are attempting to import. You can download an <a href="../records-files/import_example_json.json" download>example JSON file here</a>. <p align="center"> <img src="../records-img/importing_multi_form_records_5_annotated.png" width="100%" style="align:center" title="Step 5"> </p>
 
-* **XML format**: Extensible Markup Language is a markup language designed to encode data that is both machine and human readable. You can download an [example XML file here](../records-files/import_example_xml.xml). <p align="center"> <img src="../records-img/importing_multi_form_records_6_annotated.png" width="100%" style="align:center" title="Step 6"> </p>
+* **XML format**: Extensible Markup Language is a markup language designed to encode data that is both machine and human readable. You can download an <a href="../records-files/import_example_xml.xml" download>example XML file here</a>. <p align="center"> <img src="../records-img/importing_multi_form_records_6_annotated.png" width="100%" style="align:center" title="Step 6"> </p>
 
 One important aspect of the format to pay attention to is associators. The formatting allows you to create associations between records that do not already exist.
 
