@@ -1,6 +1,6 @@
 #Importing a Project
 
-When you import a project, you are importing a .kProj file from your computer into Kora. This brings in an existing project structure into your kora installation. In other words, this will allow you to use another projects forms and fields. Records, however, will not be imported with the project. See the documentation on importing [records](../../records/importing_a_record.md) or [multiform records](../../records/importing_multi_form_records.md) for more information on records.
+When you import a project, you are importing a .kProj file from your computer into Kora. This brings in an existing project structure into your kora installation. In other words, this will allow you to use another projects forms and fields. Records, however, will not be imported with the project. See the documentation on importing [records](../records/importing_a_record.md) or [multiform records](../records/importing_multi_form_records.md) for more information on records.
 
 Importing a project allows you to use a previously [created project](../projects/creating_a_project.md) in a new or different way without having to recreate the forms and its fields.
 
